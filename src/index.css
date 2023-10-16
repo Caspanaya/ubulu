@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
 }
 
 button {
@@ -41,6 +41,7 @@ button.outlined {
   padding: 16px 24px;
   width: fit-content;
   height: 48px;
+
   border: 1px solid #f4f5f6;
   color: #f4f5f6;
 }
@@ -53,7 +54,7 @@ button.outlined {
 }
 
 .title_content h2 {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;

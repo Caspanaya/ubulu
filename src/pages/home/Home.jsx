@@ -33,16 +33,19 @@ function Home() {
               <h2>Making Innovation Work</h2>
               <p>Centre of Excellence for end-to-end innovation activities</p>
               <div className={styles.hero_buttons}>
-                <Link to="/ci" className="outlined">
-                  Startup Boost
+                <Link to="/ci">
+                  <button className="outlined"> Startup Boost</button>
                 </Link>
 
-                <Link to="/corporateinnovation" className="outlined">
-                  Corporate Innovation
+                <Link to="/ci">
+                  <button className="outlined"> Corporate Innovation</button>
                 </Link>
 
-                <Link to="/universitycollaboration" className="outlined">
-                  University-Industry Collaboration
+                <Link to="/ci">
+                  <button className="outlined">
+                    {" "}
+                    University-Industry Collaboration
+                  </button>
                 </Link>
               </div>
             </div>
