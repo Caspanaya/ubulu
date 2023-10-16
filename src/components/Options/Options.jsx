@@ -13,6 +13,8 @@ function Options() {
   return (
     <div className={styles.appContainer}>
       <h1>Ancillary Options</h1>
+      <br />
+      <br />
       <div className={styles.buttonContainer}>
         <button
           onClick={() => renderComponent("ComponentA")}
@@ -39,7 +41,8 @@ function Options() {
           Other Events
         </button>
       </div>
-
+      <br />
+      <br />
       <div className={styles.componentContainer}>
         {activeComponent === "ComponentA" && <ComponentA />}
         {activeComponent === "ComponentB" && <ComponentB />}
