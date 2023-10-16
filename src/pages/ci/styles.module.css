@@ -106,6 +106,35 @@
   }
 }
 
+/* styles.module.css */
+.cta-section {
+  /* background-color: #191919; */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.cta-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #fbfbfb;
+  color: #191919;
+  border: none;
+  padding: 15px 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #191919;
+  color: #fff;
+}
+
 /* Hero Content */
 .hero_content {
   display: flex;

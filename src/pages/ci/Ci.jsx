@@ -2,8 +2,11 @@ import React from "react";
 import { LandingNav } from "../../components/Nav";
 import styles from "./styles.module.css";
 import { startup } from "../../assets";
+import { Footer } from "../../components/Footer";
 import Options from "../../components/Options/Options";
 const Ci = () => {
+  const ctaText =
+    "Join the Ubulu Africa community and be part of our mission to help organizations realize growth, become and remain the most relevant organization they can be, and even surpass that. Our team of hands-on entrepreneurs collaborates with industry leaders to harness their corporate influence to create successful ventures and generate new revenue streams.";
   return (
     <>
       <LandingNav />
@@ -100,8 +103,36 @@ const Ci = () => {
             <Options />
           </center>
         </section>
-        <section></section>
+        <br />
+        <br />
+
+        <div className={styles.about_us_section} id="about-us">
+          <div className={styles.video__bg_overlay}></div>
+          <video
+            className={styles}
+            src="https://res.cloudinary.com/dscuc72dw/video/upload/q_auto:good/f_auto/v1675027936/About_us_bg_video_xzcoy7.mp4"
+            autoPlay
+            loop
+            muted
+          ></video>
+          <div className={styles.wrapper}>
+            <div className={styles.about_content_section}>
+              <div className={styles.about_content}>
+                <center>
+                  <div className={styles["cta-section"]}>
+                    <h2 className={styles.ubuluhead}>
+                      Be Part of Our Community
+                    </h2>
+                    <p className={styles["cta-text"]}>{ctaText}</p>
+                    <button className={styles["cta-button"]}>Join Now</button>
+                  </div>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
+      <Footer />
     </>
   );
 };
