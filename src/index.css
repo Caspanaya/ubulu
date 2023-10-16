@@ -85,6 +85,8 @@ button.outlined {
   cursor: pointer;
 }
 
+//special button
+
 /* Responsive Styles 1124px */
 @media screen and (max-width: 1124px) {
   .title_content h3 {

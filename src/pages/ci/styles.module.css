@@ -55,7 +55,7 @@
 }
 .bginnovate {
   background-color: black;
-  background-image: url("../../assets/gnbg.jpg");
+  background-image: url("../../assets/gnbg.png");
   background-size: cover; /* Adjust as needed */
   background-position: center center; /* Adjust as needed */
   background-repeat: no-repeat;
@@ -92,7 +92,11 @@
 .rotate {
   animation: rotation 20s infinite linear;
 }
-
+.secop {
+  background-color: #fbfbfb;
+  width: 100%;
+  height: 100%;
+}
 @keyframes rotation {
   from {
     transform: rotate(0deg);

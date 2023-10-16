@@ -2,7 +2,7 @@ import React from "react";
 import { LandingNav } from "../../components/Nav";
 import styles from "./styles.module.css";
 import { startup } from "../../assets";
-
+import Options from "../../components/Options/Options";
 const Ci = () => {
   return (
     <>
@@ -91,21 +91,15 @@ const Ci = () => {
             </div>
           </div>
         </div>
-        {/* <div className={styles.bginnovate}>
-          <div className={styles.container}>
-            <div className={styles.card}>
-              <h2 className={styles.header}>Excubation</h2>
-              <p className={styles.text}>
-                Corporate partners can accelerate the development of an MVP or
-                internal team through our flagship startup development program.
-                Over three months of mentor support, events, and
-                experimentation, your product and team will develop at the speed
-                of a startup, making them better suited to make an impact in
-                your company.
-              </p>
-            </div>
-          </div>
-        </div> */}
+        <br />
+        <br />
+        <br />
+        <br />
+        <section className="secop">
+          <center>
+            <Options />
+          </center>
+        </section>
       </main>
     </>
   );
