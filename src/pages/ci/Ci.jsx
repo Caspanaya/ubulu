@@ -100,6 +100,7 @@ const Ci = () => {
             <Options />
           </center>
         </section>
+        <section></section>
       </main>
     </>
   );
