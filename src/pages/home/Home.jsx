@@ -4,8 +4,7 @@ import Title from "../../components/Title";
 import Partner1 from "../../assets/TechQuest.png";
 import Partner2 from "../../assets/Techcircle.png";
 import Partner3 from "../../assets/caspania.png";
-import { ReactComponent as Link } from "../../assets/Link-Icon.svg";
-import { ReactComponent as Mail } from "../..//assets/Mail-Icon.svg";
+import { ReactComponent as Mail } from "../../assets/Mail-Icon.svg";
 import { ReactComponent as Twitter } from "../../assets/Twitter-Icon.svg";
 import { ReactComponent as Linkedin } from "../../assets/LinkedIn-Icon.svg";
 import { ReactComponent as Instagram } from "../../assets/Instagram-Icon.svg";
@@ -15,13 +14,9 @@ import { ServicesSection } from "../../components/ServicesSection";
 import { Footer } from "../../components/Footer";
 import { ScrollButton } from "../../components/ScrolltoTopBtn";
 import { LandingNav } from "../../components/Nav";
+import { Link } from "react-router-dom";
 
 function Home() {
-  const navigateToServiceSection = () => {
-    const section = document.getElementById("our-services");
-    section && section.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
-
   return (
     <div className={styles.App}>
       <LandingNav />
@@ -38,25 +33,17 @@ function Home() {
               <h2>Making Innovation Work</h2>
               <p>Centre of Excellence for end-to-end innovation activities</p>
               <div className={styles.hero_buttons}>
-                <button
-                  className="outlined"
-                  onClick={() => (window.location.href = "/ci")}
-                >
+                <Link to="/ci" className="outlined">
                   Startup Boost
-                </button>
+                </Link>
 
-                <button
-                  className="outlined"
-                  onClick={() => (window.location.href = "/ci")}
-                >
+                <Link to="/corporateinnovation" className="outlined">
                   Corporate Innovation
-                </button>
-                <button
-                  className="outlined"
-                  onClick={() => (window.location.href = "/ci")}
-                >
+                </Link>
+
+                <Link to="/universitycollaboration" className="outlined">
                   University-Industry Collaboration
-                </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -158,30 +145,24 @@ function Home() {
           <Title title="Let’s connect" subtitle="Contact us" />
           <div className={styles.contact_content}>
             <div className={styles.social}>
-              <Link className={styles.links} />
+              <Link className={styles.links} to="/sociallinks" />
               <p>Social links</p>
               <div className={styles.social_links}>
-                <a
-                  href="https://twitter.com/UbuluAfrica"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <Link to="https://twitter.com/UbuluAfrica" target="_blank">
                   <Twitter className={styles.iconlinks} />
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/ubulu-africa"
+                </Link>
+                <Link
+                  to="https://www.linkedin.com/company/ubulu-africa"
                   target="_blank"
-                  rel="noreferrer"
                 >
                   <Linkedin />
-                </a>
-                <a
-                  href="https://www.instagram.com/Ubulu_africa/"
+                </Link>
+                <Link
+                  to="https://www.instagram.com/Ubulu_africa"
                   target="_blank"
-                  rel="noreferrer"
                 >
                   <Instagram />
-                </a>
+                </Link>
               </div>
             </div>
             <div className={styles.email}>

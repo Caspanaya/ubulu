@@ -2,7 +2,7 @@ import React from "react";
 import { LandingNav } from "../../components/Nav";
 import styles from "./styles.module.css";
 import { startup } from "../../assets";
-import Title from "../../components/Title";
+
 const Ci = () => {
   return (
     <>
