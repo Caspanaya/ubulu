@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { ReactComponent as Rotate } from "../../assets/ROTATION.svg";
 import Title from "../../components/Title";
 import Partner1 from "../../assets/TechQuest.png";
@@ -17,6 +17,14 @@ import { LandingNav } from "../../components/Nav";
 import { Link } from "react-router-dom";
 
 function Home() {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+
+  const closeDropdown = () => {
+    setIsDropdownOpen(false);
+  };
   return (
     <div className={styles.App}>
       <LandingNav />
@@ -33,14 +41,27 @@ function Home() {
               <h2>Making Innovation Work</h2>
               <p>Centre of Excellence for end-to-end innovation activities</p>
               <div className={styles.hero_buttons}>
-                <Link to="/ci">
+                <Link to="/innovation ">
                   <button className="outlined"> Startup Boost</button>
                 </Link>
-
-                <Link to="/ci">
-                  <button className="outlined"> Corporate Innovation</button>
-                </Link>
-
+                <div
+                  className="dropdown"
+                  onMouseEnter={toggleDropdown}
+                  onMouseLeave={closeDropdown}
+                >
+                  <Link to="/innovation">
+                    <button className="dropdown-button">
+                      Corporate Innovation{" "}
+                    </button>
+                  </Link>
+                  {isDropdownOpen && (
+                    <div className="dropdown-content">
+                      <a href="/what-we-offer">What We Offer</a>
+                      {/* <a href="/subpage2">Subpage 2</a>
+                      <a href="/subpage3">Subpage 3</a> */}
+                    </div>
+                  )}
+                </div>
                 <Link to="/ci">
                   <button className="outlined">
                     {" "}

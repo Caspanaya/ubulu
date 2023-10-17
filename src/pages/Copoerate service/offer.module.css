@@ -1,0 +1,14 @@
+.App {
+  margin: 0px auto;
+  scroll-behavior: smooth;
+}
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 960px;
+  background-color: #111316;
+  display: flex;
+  justify-content: center;
+  padding: 64px 120px 146px 120px;
+  padding-bottom: 266px;
+}

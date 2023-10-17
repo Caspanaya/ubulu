@@ -355,7 +355,16 @@
 .partner a .partner_icon {
   margin-left: 10px;
 }
-
+/* text for what we offer */
+.whatoffer {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  color: #111316;
+  margin-bottom: 3rem;
+}
 /* Contact Section Styles */
 .contact_section {
   background: #111316;
