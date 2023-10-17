@@ -56,7 +56,10 @@ function Home() {
                   </Link>
                   {isDropdownOpen && (
                     <div className="dropdown-content">
-                      <a href="/what-we-offer">What We Offer</a>
+                      <Link to="/what-we-offer">
+                        <a>What We Offer</a>
+                      </Link>
+
                       {/* <a href="/subpage2">Subpage 2</a>
                       <a href="/subpage3">Subpage 3</a> */}
                     </div>
