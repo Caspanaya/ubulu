@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../ci/styles.module.css";
 // import styles from "./offer.module.css";
 import { LandingNav } from "../../components/Nav";
+import { Footer } from "../../components/Footer";
 import { startup } from "../../assets";
 const WhatWeOffer = () => {
   const cardData = [
@@ -23,11 +24,47 @@ const WhatWeOffer = () => {
     },
     // Add more card data objects as needed
   ];
+  const innData = [
+    {
+      title: "Innovation North Star",
+      text: "Do you have an inspiring vision for your innovation efforts? If you don’t know where you are going, how can you be sure to be successful? We can help you link your business goals to an effective innovation strategy.",
+    },
+    {
+      title: "Innovation Roadmap ",
+      text: "We assist in transforming your Innovation North Star into a comprehensive innovation roadmap. This roadmap guides your journey towards sustainable, innovative growth over time, and it helps you build a portfolio that aligns with your innovation goals.",
+    },
+    {
+      title: "Strategy Execution",
+      text: "In today's landscape, strategy and execution are inseparable. The urgency brought about by digital disruptions emphasizes the importance of effective execution.Do you have the skills and competencies to deliver on your strategy?",
+    },
+
+    // Add more card data objects as needed
+  ];
+  const growData = [
+    {
+      title: "What’s your offering?",
+      text: "Your offering goes beyond being merely your product or core process. It encompasses more than just a comprehensive set of product or service features and benefits. It involves creating a user and buyer experience that optimally aligns with their rational and emotional needs.",
+    },
+    {
+      title: "Who is your client? ",
+      text: "It all begins with the realization of who your true client is and understanding their genuine needs. We guide you through the intricacies of today's markets, value chains, buying powers, and processes, helping you discover the often latent needs of your actual buyers and users.",
+    },
+    {
+      title: "Organisational Enhancement ",
+      text: "Enhancing your go-to-market strategy significantly involves making improvements in marketing, sales, and other front-end disciplines within your organization. These are not the easiest areas to change. We leverage all available avenues for change, a matter of critical importance in achieving successful implementation.",
+    },
+    {
+      title: " Integration ",
+      text: "Establishing and maintaining a business relationship is a complex and time-consuming psychological process. We create a customer journey roadmap that outlines interactions between your client and your offering, deploying the most effective channels and triggering influential mental processes.",
+    },
+
+    // Add more card data objects as needed
+  ];
 
   return (
     <>
       <LandingNav />
-      <main className={styles.App}>
+      <main className={styles.bodyapp}>
         <div className={styles.hero} id="home">
           <img
             src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1697541084/fixit_lpcj3w.jpg"
@@ -54,6 +91,13 @@ const WhatWeOffer = () => {
         <br />
         <section className="container">
           <h2 className={styles.whatoffer}>GROWTH STRATEGY</h2>
+          <p>
+            Embarking on the journey to growth demands a robust strategic
+            foundation. Our service, designed to help you craft and execute your
+            growth strategy, rests on four pillars
+          </p>
+          <br />
+
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             {cardData.map((card, index) => (
               <div className="col" key={index}>
@@ -84,7 +128,95 @@ const WhatWeOffer = () => {
             ))}
           </div>
         </section>
+        <br />
+        <br />
+        <br />
+        <section className="container">
+          <h2 className={styles.whatoffer}>INNOVATION STRATEGY</h2>
+          <p>
+            Innovation is the catalyst for growth, and we help organizations
+            outperform the market with a winning innovation strategy. Our
+            services to enhance your relevance and transform your organization
+            into a powerhouse of innovation are built on three fundamental
+            pillars
+          </p>
+          <br />
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            {innData.map((card, index) => (
+              <div className="col" key={index}>
+                <div className="card shadow-sm">
+                  <svg
+                    className="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  >
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                      Thumbnail
+                    </text>
+                  </svg>
+                  <div className="card-body">
+                    <h1>{card.title}</h1>
+                    <p className="card-text">{card.text}</p>
+                    <div className="d-flex justify-content-between align-items-center"></div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+        <br />
+        <br />
+        <br />
+        <section className="container">
+          <h2 className={styles.whatoffer}> GO-TO-MARKET STRATEGY</h2>
+          <p>
+            Ultimately, growth hinges on successfully bringing your products and
+            services to your customers. Our service, designed to help you craft
+            and execute an enhanced go-to-market strategy, rests on four pillars
+          </p>
+          <br />
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            {growData.map((card, index) => (
+              <div className="col" key={index}>
+                <div className="card shadow-sm">
+                  <svg
+                    className="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  >
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                      Thumbnail
+                    </text>
+                  </svg>
+                  <div className="card-body">
+                    <h1>{card.title}</h1>
+                    <p className="card-text">{card.text}</p>
+                    <div className="d-flex justify-content-between align-items-center"></div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+        <br />
+        <br />
       </main>
+
+      <Footer />
     </>
   );
 };

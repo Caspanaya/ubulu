@@ -363,7 +363,12 @@
   line-height: 64px;
   letter-spacing: -0.02em;
   color: #111316;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
+}
+.bodyapp {
+  margin: 0px auto;
+  scroll-behavior: smooth;
+  background-color: #fbfbfb;
 }
 /* Contact Section Styles */
 .contact_section {
