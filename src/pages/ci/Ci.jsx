@@ -106,7 +106,7 @@ const Ci = () => {
         <br />
         <br />
 
-        <div className={styles.about_us_section} id="about-us">
+        {/* <div className={styles.about_us_section} id="about-us">
           <div className={styles.video__bg_overlay}></div>
           <video
             className={styles}
@@ -130,7 +130,7 @@ const Ci = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </main>
       <Footer />
     </>
