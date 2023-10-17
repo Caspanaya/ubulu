@@ -49,13 +49,16 @@ function Home() {
                   onMouseEnter={toggleDropdown}
                   onMouseLeave={closeDropdown}
                 >
-                  <Link to="/innovation">
+                  <Link to="">
                     <button className="dropdown-button">
                       Corporate Innovation{" "}
                     </button>
                   </Link>
                   {isDropdownOpen && (
                     <div className="dropdown-content">
+                      <Link to="/innovation">
+                        <a>Our programs</a>
+                      </Link>
                       <Link to="/what-we-offer">
                         <a>What We Offer</a>
                       </Link>
