@@ -1,0 +1,10 @@
+.unihead {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  padding-bottom: 40px;
+  color: black;
+  text-transform: uppercase;
+}

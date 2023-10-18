@@ -68,7 +68,7 @@ function Home() {
                     </div>
                   )}
                 </div>
-                <Link to="/ci">
+                <Link to="/university">
                   <button className="outlined">
                     {" "}
                     University-Industry Collaboration
