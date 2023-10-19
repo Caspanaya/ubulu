@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../ci/styles.module.css";
 import style from "./uni.module.css";
 import { LandingNav } from "../../components/Nav";
+import { Footer } from "../../components/Footer";
 import ExpandableDiv from "../../components/Expandable/ExpandableDiv";
 const University = () => {
   return (
@@ -247,7 +248,647 @@ const University = () => {
             </div>
           </div>
         </div>
+        <br />
+        <br />
+        <div className="container">
+          {/* <h2 className={style.unihead}>
+            Our University-Industry Collaboration Services
+          </h2> */}
+          <h1>Technology Transfer and Licensing</h1>
+          <p>
+            We simplify the process of licensing cutting-edge technologies from
+            universities for your organization's use. Secure exclusive rights to
+            innovations that align with your digital transformation goals.
+          </p>
+          <br />
+          <br />
+          <div className="row mb-2">
+            <div className="col-md-6">
+              <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div className="col p-4 d-flex flex-column position-static">
+                  {/* <strong className="d-inline-block mb-2 text-primary-emphasis">
+                    World
+                  </strong> */}
+                  <h3 className="mb-0">Intellectual Property Management </h3>
+
+                  <div className="mb-1 text-body-secondary"> </div>
+                  <p className="card-text mb-auto">
+                    Our experts navigate intellectual property complexities,
+                    helping you secure and protect innovations resulting from
+                    collaborations.
+                  </p>
+                  {/* <a
+                    href="#"
+                    className="icon-link gap-1 icon-link-hover stretched-link"
+                  >
+                    Continue reading
+                    <svg className="bi">
+                      <use xlinkHref="#chevron-right"></use>
+                    </svg>
+                  </a> */}
+                </div>
+                <div className="col-auto d-none d-lg-block">
+                  <svg
+                    className="bd-placeholder-img"
+                    width="200"
+                    height="250"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  >
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                      Thumbnail
+                    </text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div className="col p-4 d-flex flex-column position-static">
+                  {/* <strong className="d-inline-block mb-2 text-success-emphasis">
+                    Design
+                  </strong> */}
+                  <h3 className="mb-0">Licensing and Commercialization</h3>
+                  <br />
+                  {/* <div className="mb-1 text-body-secondary">Nov 11</div> */}
+                  <p className="mb-auto">
+                    We facilitate the commercialization of intellectual property
+                    generated through collaborative research, optimizing your
+                    return on investment.
+                  </p>
+                  {/* <a
+                    href="#"
+                    className="icon-link gap-1 icon-link-hover stretched-link"
+                  >
+                    Continue reading
+                    <svg className="bi">
+                      <use xlinkHref="#chevron-right"></use>
+                    </svg>
+                  </a> */}
+                </div>
+                <div className="col-auto d-none d-lg-block">
+                  <svg
+                    className="bd-placeholder-img"
+                    width="200"
+                    height="250"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  >
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                      Thumbnail
+                    </text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div className="container">
+          {/* <h2 className={style.unihead}>
+            Our University-Industry Collaboration Services
+          </h2> */}
+          <h1>Research Project Management</h1>
+          {/* <p>
+            We facilitate strategic alliances between your organization and
+            leading universities. By identifying the right academic partners, we
+            lay the foundation for productive, long-term collaborations. These
+            partnerships can include research projects, knowledge sharing, and
+            joint initiatives to tackle digital innovation challenges.
+          </p> */}
+          <br />
+          <br />
+          <div className="row mb-2">
+            <div className="col-md-6">
+              <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div className="col p-4 d-flex flex-column position-static">
+                  {/* <strong className="d-inline-block mb-2 text-primary-emphasis">
+                    World
+                  </strong> */}
+                  <h3 className="mb-0">Customized Research Initiatives</h3>
+
+                  <div className="mb-1 text-body-secondary"> </div>
+                  <p className="card-text mb-auto">
+                    We match industry-specific challenges with academic
+                    expertise by facilitating collaborative research projects.
+                    These projects drive digital innovation by addressing
+                    industry needs with cutting-edge research.
+                  </p>
+                  {/* <a
+                    href="#"
+                    className="icon-link gap-1 icon-link-hover stretched-link"
+                  >
+                    Continue reading
+                    <svg className="bi">
+                      <use xlinkHref="#chevron-right"></use>
+                    </svg>
+                  </a> */}
+                </div>
+                <div className="col-auto d-none d-lg-block">
+                  <svg
+                    className="bd-placeholder-img"
+                    width="200"
+                    height="250"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  >
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                      Thumbnail
+                    </text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div className="col p-4 d-flex flex-column position-static">
+                  {/* <strong className="d-inline-block mb-2 text-success-emphasis">
+                    Design
+                  </strong> */}
+                  <h3 className="mb-0">Project Oversight</h3>
+                  <br />
+                  {/* <div className="mb-1 text-body-secondary">Nov 11</div> */}
+                  <p className="mb-auto">
+                    We manage the entire research process, ensuring timelines,
+                    deliverables, and budgets are met while providing
+                    transparency throughout.
+                  </p>
+                  {/* <a
+                    href="#"
+                    className="icon-link gap-1 icon-link-hover stretched-link"
+                  >
+                    Continue reading
+                    <svg className="bi">
+                      <use xlinkHref="#chevron-right"></use>
+                    </svg>
+                  </a> */}
+                </div>
+                <div className="col-auto d-none d-lg-block">
+                  <svg
+                    className="bd-placeholder-img"
+                    width="200"
+                    height="250"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  >
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                      Thumbnail
+                    </text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div className="container">
+          {/* <h2 className={style.unihead}>
+            Our University-Industry Collaboration Services
+          </h2> */}
+          <h1>Innovation Workshops, Seminars and Community Building</h1>
+          <p>
+            Stay at the forefront of digital innovation with our workshops and
+            seminars. Led by academic and industry experts, these events focus
+            on the latest trends and best practices in areas like AI, IoT,
+            blockchain, and more.
+          </p>
+          <br />
+          <br />
+          <div className="row mb-2">
+            <div className="col-md-6">
+              <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div className="col p-4 d-flex flex-column position-static">
+                  {/* <strong className="d-inline-block mb-2 text-primary-emphasis">
+                    World
+                  </strong> */}
+                  <h3 className="mb-0">Knowledge Sharing </h3>
+
+                  <div className="mb-1 text-body-secondary"> </div>
+                  <p className="card-text mb-auto">
+                    We organize workshops, seminars, webinars, and events that
+                    foster the exchange of knowledge, the generation of ideas,
+                    the sharing of best practices, and the exploration of
+                    emerging trends in digital innovation between universities
+                    and industries.
+                  </p>
+                  {/* <a
+                    href="#"
+                    className="icon-link gap-1 icon-link-hover stretched-link"
+                  >
+                    Continue reading
+                    <svg className="bi">
+                      <use xlinkHref="#chevron-right"></use>
+                    </svg>
+                  </a> */}
+                </div>
+                <div className="col-auto d-none d-lg-block">
+                  <svg
+                    className="bd-placeholder-img"
+                    width="200"
+                    height="250"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  >
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                      Thumbnail
+                    </text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div className="col p-4 d-flex flex-column position-static">
+                  {/* <strong className="d-inline-block mb-2 text-success-emphasis">
+                    Design
+                  </strong> */}
+                  <h3 className="mb-0">Networking Opportunities</h3>
+                  <br />
+                  {/* <div className="mb-1 text-body-secondary">Nov 11</div> */}
+                  <p className="mb-auto">
+                    Connect with thought leaders, researchers, and industry
+                    peers to nurture a culture of innovation within your
+                    organization. Participate in events, forums, and conferences
+                    to expand your digital innovation community. Access to a
+                    network of like-minded organizations, researchers, and
+                    innovators.
+                  </p>
+                  {/* <a
+                    href="#"
+                    className="icon-link gap-1 icon-link-hover stretched-link"
+                  >
+                    Continue reading
+                    <svg className="bi">
+                      <use xlinkHref="#chevron-right"></use>
+                    </svg>
+                  </a> */}
+                </div>
+                <div className="col-auto d-none d-lg-block">
+                  <svg
+                    className="bd-placeholder-img"
+                    width="200"
+                    height="250"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  >
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                      Thumbnail
+                    </text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div className="container">
+          {/* <h2 className={style.unihead}>
+            Our University-Industry Collaboration Services
+          </h2> */}
+          <h1>Talent Pipeline Development</h1>
+          <p>
+            Access to a pool of bright, young minds is invaluable. Our Student
+            Internship and Co-op Programs connect your organization with
+            students, offering them real-world experience in exchange for fresh
+            perspectives and innovative ideas.
+          </p>
+          <br />
+          <br />
+          <div className="row mb-2">
+            <div className="col-md-6">
+              <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div className="col p-4 d-flex flex-column position-static">
+                  {/* <strong className="d-inline-block mb-2 text-primary-emphasis">
+                    World
+                  </strong> */}
+                  <h3 className="mb-0">Recruitment Assistance </h3>
+
+                  <div className="mb-1 text-body-secondary"> </div>
+                  <p className="card-text mb-auto">
+                    We assist in identifying and recruiting top-tier talent from
+                    academia to complement your digital innovation teams.
+                  </p>
+                  {/* <a
+                    href="#"
+                    className="icon-link gap-1 icon-link-hover stretched-link"
+                  >
+                    Continue reading
+                    <svg className="bi">
+                      <use xlinkHref="#chevron-right"></use>
+                    </svg>
+                  </a> */}
+                </div>
+                <div className="col-auto d-none d-lg-block">
+                  <svg
+                    className="bd-placeholder-img"
+                    width="200"
+                    height="250"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  >
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                      Thumbnail
+                    </text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div className="col p-4 d-flex flex-column position-static">
+                  {/* <strong className="d-inline-block mb-2 text-success-emphasis">
+                    Design
+                  </strong> */}
+                  <h3 className="mb-0">Internship and Co-op Programs</h3>
+                  <br />
+                  {/* <div className="mb-1 text-body-secondary">Nov 11</div> */}
+                  <p className="mb-auto">
+                    We establish programs that allow students to gain real-world
+                    experience while contributing to your digital innovation
+                    initiatives.
+                  </p>
+                  {/* <a
+                    href="#"
+                    className="icon-link gap-1 icon-link-hover stretched-link"
+                  >
+                    Continue reading
+                    <svg className="bi">
+                      <use xlinkHref="#chevron-right"></use>
+                    </svg>
+                  </a> */}
+                </div>
+                <div className="col-auto d-none d-lg-block">
+                  <svg
+                    className="bd-placeholder-img"
+                    width="200"
+                    height="250"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  >
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                      Thumbnail
+                    </text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div className="container">
+          {/* <h2 className={style.unihead}>
+            Our University-Industry Collaboration Services
+          </h2> */}
+          <h1>Collaboration Metrics and Evaluation</h1>
+          {/* <p>
+            Access to a pool of bright, young minds is invaluable. Our Student
+            Internship and Co-op Programs connect your organization with
+            students, offering them real-world experience in exchange for fresh
+            perspectives and innovative ideas.
+          </p> */}
+          <br />
+          <br />
+          <div className="row mb-2">
+            <div className="col-md-6">
+              <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div className="col p-4 d-flex flex-column position-static">
+                  {/* <strong className="d-inline-block mb-2 text-primary-emphasis">
+                    World
+                  </strong> */}
+                  <h3 className="mb-0">Performance Assessment</h3>
+
+                  <div className="mb-1 text-body-secondary"> </div>
+                  <p className="card-text mb-auto">
+                    We establish KPIs and evaluation frameworks to measure the
+                    impact and effectiveness of university-industry
+                    collaborations.
+                  </p>
+                  {/* <a
+                    href="#"
+                    className="icon-link gap-1 icon-link-hover stretched-link"
+                  >
+                    Continue reading
+                    <svg className="bi">
+                      <use xlinkHref="#chevron-right"></use>
+                    </svg>
+                  </a> */}
+                </div>
+                <div className="col-auto d-none d-lg-block">
+                  <svg
+                    className="bd-placeholder-img"
+                    width="200"
+                    height="250"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  >
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                      Thumbnail
+                    </text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div className="col p-4 d-flex flex-column position-static">
+                  {/* <strong className="d-inline-block mb-2 text-success-emphasis">
+                    Design
+                  </strong> */}
+                  <h3 className="mb-0">Continuous Improvement</h3>
+                  <br />
+                  {/* <div className="mb-1 text-body-secondary">Nov 11</div> */}
+                  <p className="mb-auto">
+                    Utilize data-driven insights to refine your collaborative
+                    strategies and enhance digital innovation outcomes.
+                  </p>
+                  {/* <a
+                    href="#"
+                    className="icon-link gap-1 icon-link-hover stretched-link"
+                  >
+                    Continue reading
+                    <svg className="bi">
+                      <use xlinkHref="#chevron-right"></use>
+                    </svg>
+                  </a> */}
+                </div>
+                <div className="col-auto d-none d-lg-block">
+                  <svg
+                    className="bd-placeholder-img"
+                    width="200"
+                    height="250"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  >
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                      Thumbnail
+                    </text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div className="container">
+          {/* <h2 className={style.unihead}>
+            Our University-Industry Collaboration Services
+          </h2> */}
+          <h1>Funding and Grant Procurement</h1>
+          {/* <p>
+            Access to a pool of bright, young minds is invaluable. Our Student
+            Internship and Co-op Programs connect your organization with
+            students, offering them real-world experience in exchange for fresh
+            perspectives and innovative ideas.
+          </p> */}
+          <br />
+          <br />
+          <div className="row mb-2">
+            <div className="col-md-6">
+              <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div className="col p-4 d-flex flex-column position-static">
+                  {/* <strong className="d-inline-block mb-2 text-primary-emphasis">
+                    World
+                  </strong> */}
+                  <h3 className="mb-0">Grant Identification </h3>
+
+                  <div className="mb-1 text-body-secondary"> </div>
+                  <p className="card-text mb-auto">
+                    We help identify funding opportunities and assist in
+                    crafting compelling grant applications for collaborative
+                    digital innovation projects.
+                  </p>
+                  {/* <a
+                    href="#"
+                    className="icon-link gap-1 icon-link-hover stretched-link"
+                  >
+                    Continue reading
+                    <svg className="bi">
+                      <use xlinkHref="#chevron-right"></use>
+                    </svg>
+                  </a> */}
+                </div>
+                <div className="col-auto d-none d-lg-block">
+                  <svg
+                    className="bd-placeholder-img"
+                    width="200"
+                    height="250"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  >
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                      Thumbnail
+                    </text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div className="col p-4 d-flex flex-column position-static">
+                  {/* <strong className="d-inline-block mb-2 text-success-emphasis">
+                    Design
+                  </strong> */}
+                  <h3 className="mb-0">Financial Support</h3>
+                  <br />
+                  {/* <div className="mb-1 text-body-secondary">Nov 11</div> */}
+                  <p className="mb-auto">
+                    Access a network of grants and funding sources to support
+                    your collaborative research initiatives.
+                  </p>
+                  {/* <a
+                    href="#"
+                    className="icon-link gap-1 icon-link-hover stretched-link"
+                  >
+                    Continue reading
+                    <svg className="bi">
+                      <use xlinkHref="#chevron-right"></use>
+                    </svg>
+                  </a> */}
+                </div>
+                <div className="col-auto d-none d-lg-block">
+                  <svg
+                    className="bd-placeholder-img"
+                    width="200"
+                    height="250"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  >
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                      Thumbnail
+                    </text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
+      <Footer />
     </>
   );
 };
