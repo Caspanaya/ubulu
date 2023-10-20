@@ -2,7 +2,14 @@ import React from "react";
 import styles from "../ci/styles.module.css";
 import style from "./uni.module.css";
 import { LandingNav } from "../../components/Nav";
+import { ReactComponent as Mail } from "../../assets/Mail-Icon.svg";
+import { ReactComponent as Twitter } from "../../assets/Twitter-Icon.svg";
+import { ReactComponent as Linkedin } from "../../assets/LinkedIn-Icon.svg";
+import { ReactComponent as Instagram } from "../../assets/Instagram-Icon.svg";
+import { ReactComponent as SendMail } from "../../assets/Send-Mail-Icon.svg";
 import { Footer } from "../../components/Footer";
+import { Link } from "react-router-dom";
+import Title from "../../components/Title";
 import ExpandableDiv from "../../components/Expandable/ExpandableDiv";
 const University = () => {
   return (
@@ -883,6 +890,58 @@ const University = () => {
                     </text>
                   </svg>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div className={styles.contact_section} id="contact-us">
+          <div className={styles.wrapper}>
+            <Title title="Let’s connect" subtitle="Contact us" />
+            <div className={styles.contact_content}>
+              <div className={styles.social}>
+                <Link className={styles.links} to="/sociallinks" />
+                <p>Social links</p>
+                <div className={styles.social_links}>
+                  <Link to="https://twitter.com/UbuluAfrica" target="_blank">
+                    <Twitter className={styles.iconlinks} />
+                  </Link>
+                  <Link
+                    to="https://www.linkedin.com/company/ubulu-africa"
+                    target="_blank"
+                  >
+                    <Linkedin />
+                  </Link>
+                  <Link
+                    to="https://www.instagram.com/Ubulu_africa"
+                    target="_blank"
+                  >
+                    <Instagram />
+                  </Link>
+                </div>
+              </div>
+              <div className={styles.email}>
+                <Mail className={styles.links} />
+                <p>Email Address</p>
+                <p>hello@ubulu.africa</p>
+              </div>
+              <div className={styles.contact_form}>
+                <div className={styles.form_group}>
+                  <label htmlFor="message">message</label>
+                  <textarea placeholder="Your message" id="message"></textarea>
+                </div>
+                <div className={styles.form_group}>
+                  <label htmlFor="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email address"
+                  />
+                </div>
+                <button>
+                  {" "}
+                  <SendMail className={styles.send_mail} /> Send message{" "}
+                </button>
               </div>
             </div>
           </div>
