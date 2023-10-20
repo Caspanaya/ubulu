@@ -922,7 +922,7 @@ const University = () => {
               </div>
               <div className={styles.email}>
                 <Mail className={styles.links} />
-                <p>Email Address</p>
+                <p>Email Address:</p>
                 <p>hello@ubulu.africa</p>
               </div>
               <div className={styles.contact_form}>

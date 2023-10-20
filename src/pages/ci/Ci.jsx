@@ -32,58 +32,60 @@ const Ci = () => {
             </div>
           </div>
         </div>
-
-        <div className={styles.bginnovate}>
-          <center>
-            <h2 className={styles.ubuluhead}>
+        <br />
+        <br />
+        <br />
+        <br />
+        <center>
+          <div className="container">
+            <h2 style={{ color: "#242436" }}>
               Ubulu Africa Corporate Innovation Programs
             </h2>
-            <br />
-            <br />
-          </center>
+          </div>
+        </center>
 
-          <div className={styles.container}>
-            <div className={styles.card}>
-              <h2 className={styles.header}> Executive Insights</h2>
-              <p className={styles.text}>
-                Gain insights into the latest disruptive trends, the most
-                efficient growth methods, and tools suitable for your company.
-                This is a tailored and pragmatic session packed with actionable
-                data specially crafted for your industry. Ubulu Africa's
-                management will lead a 2-hour session and Q&A, inviting experts
-                from its global community of entrepreneurs and mentors to
-                facilitate a deep dive into the Africa Startup Ecosystem and VC
-                trends.
+        <br />
+        <br />
+        <br />
+        <br />
+        <div>
+          <div className="container">
+            <div className="row">
+              <h2 style={{ color: "#242436" }}>
+                Executive Insights That Transform
+              </h2>
+              <br />
+              <br />
+              <br />
+              <p style={{ color: "#9E9E9E" }}>
+                Discover the cutting-edge trends, powerfully efficient growth
+                strategies, and precision tools perfectly tailored for your
+                company's needs. Immerse yourself in a bespoke and
+                results-driven session brimming with practical insights curated
+                exclusively for your industry. Ubulu Africa's leadership team
+                will guide you through an intensive 2-hour session, complete
+                with an interactive Q&A. We'll also bring in experts from our
+                worldwide network of entrepreneurs and mentors for an in-depth
+                exploration of the Nigeria-African Startup Ecosystem and the
+                dynamic landscape of VC trends. Join us to supercharge your path
+                to success!
               </p>
             </div>
-            <div className={styles.card}>
-              <h2 className={styles.header}>Pilot Accelerator</h2>
-              <p className={styles.text}>
-                Are you looking to tap into world-leading innovation to address
-                your business pain points? Corporate partners can provide three
-                strategic challenges or goals to Ubulu Africa. Our team will
-                source from our global startup network a pre-vetted shortlist of
-                startups whose platform, product, or service has the potential
-                to address these issues. Finalist candidates will pitch to
-                corporate management, who can select 1-3 winners to begin
-                cooperative pilots.
-              </p>
-            </div>
-            <div className={styles.card}>
-              <h2 className={styles.header}>Corporate Venturing</h2>
-              <p className={styles.text}>
-                Corporate partners can engage startups in the Ubulu Africa
-                startup development program for corporate innovation which opens
-                up opportunities for a long-term strategic partnerships (e.g.,
-                acquisition, franchising/licensing the startup’s technology,
-                etc.). You will have the chance to engage with, learn from, and
-                provide expertise to our startup companies in a mutually
-                beneficial engagement.
-              </p>
-            </div>
-            <div className={styles.card}>
-              <h2 className={styles.header}>Excubation</h2>
-              <p className={styles.text}>
+          </div>
+        </div>
+        <br />
+        <br />
+
+        <div style={{ backgroundColor: "#F7F8F8" }}>
+          <br />
+          <div className="container">
+            <div className="row  col-lg-12">
+              <h2 style={{ color: "#242436" }}>Excubation</h2>
+              <br />
+
+              <br />
+              <br />
+              <p style={{ color: "#9E9E9E" }}>
                 Corporate partners can accelerate the development of an MVP or
                 internal team through our flagship startup development program.
                 Over three months of mentor support, events, and
@@ -93,6 +95,87 @@ const Ci = () => {
               </p>
             </div>
           </div>
+          <br />
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <div>
+          <div className="container">
+            <div className="row">
+              <h2 style={{ color: "#242436" }}>Corporate Venturing</h2>
+              <br />
+              <br />
+              <br />
+              <p style={{ color: "#9E9E9E" }}>
+                Corporate partners can engage startups in the Ubulu Africa
+                startup development program for corporate innovation which opens
+                up opportunities for a long-term strategic partnerships (e.g.,
+                acquisition, franchising/licensing the startup’s technology,
+                etc.). You will have the chance to engage with, learn from, and
+                provide expertise to our startup companies in a mutually
+                beneficial engagement.
+              </p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div style={{ backgroundColor: "#F7F8F8" }}>
+          <br />
+          <div className="container">
+            <div className="row  col-lg-12">
+              <h2 style={{ color: "#242436" }}>Pilot Acceleration </h2>
+              <br />
+
+              <br />
+              <br />
+              <p style={{ color: "#9E9E9E" }}>
+                Are you looking to tap into world-leading innovation to address
+                your business pain points? Look no further. At Ubulu Africa, we
+                empower corporate partners by addressing their strategic
+                challenges and goals in a game-changing way.
+              </p>
+              <br />
+
+              <br />
+              <br />
+              <h2 style={{ color: "#363624", fontSize: "1.3rem" }}>
+                Here's how it works:{" "}
+              </h2>
+
+              <br />
+              <br />
+              <p style={{ color: "#9E9E9E" }}>
+                Corporate partners present us with three critical challenges or
+                objectives. Our expert team leverages our extensive global
+                startup network to curate a meticulously vetted shortlist of
+                startups. These startups offer groundbreaking platforms,
+                products, or services with the potential to directly address
+                your specific issues.
+              </p>
+              <br />
+              <br />
+              <h2 style={{ color: "#363624", fontSize: "1.3rem" }}>
+                But that's just the beginning:{" "}
+              </h2>
+
+              <br />
+              <br />
+              <p style={{ color: "#9E9E9E" }}>
+                Finalist candidates have the opportunity to pitch their
+                innovative solutions directly to your corporate management. You
+                have the power to select 1-3 winners to embark on collaborative
+                pilot projects. It's time to transform your business through
+                innovation – the future is here.
+              </p>
+            </div>
+          </div>
+          <br />
         </div>
         <br />
         <br />
@@ -105,32 +188,6 @@ const Ci = () => {
         </section>
         <br />
         <br />
-
-        {/* <div className={styles.about_us_section} id="about-us">
-          <div className={styles.video__bg_overlay}></div>
-          <video
-            className={styles}
-            src="https://res.cloudinary.com/dscuc72dw/video/upload/q_auto:good/f_auto/v1675027936/About_us_bg_video_xzcoy7.mp4"
-            autoPlay
-            loop
-            muted
-          ></video>
-          <div className={styles.wrapper}>
-            <div className={styles.about_content_section}>
-              <div className={styles.about_content}>
-                <center>
-                  <div className={styles["cta-section"]}>
-                    <h2 className={styles.ubuluhead}>
-                      Be Part of Our Community
-                    </h2>
-                    <p className={styles["cta-text"]}>{ctaText}</p>
-                    <button className={styles["cta-button"]}>Join Now</button>
-                  </div>
-                </center>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </main>
       <Footer />
     </>
