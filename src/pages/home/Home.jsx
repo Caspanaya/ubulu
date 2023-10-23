@@ -41,7 +41,7 @@ function Home() {
               <h2>Making Innovation Work</h2>
               <p>Centre of Excellence for end-to-end innovation activities</p>
               <div className={styles.hero_buttons}>
-                <Link to="/innovation ">
+                <Link to="/startup ">
                   <button className="outlined"> Startup Boost</button>
                 </Link>
                 <div

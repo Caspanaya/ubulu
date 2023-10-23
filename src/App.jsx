@@ -4,6 +4,7 @@ import Ci from "./pages/ci/Ci";
 import React from "react";
 import WhatWeOffer from "./pages/Copoerate service/WhatWeOffer";
 import University from "./pages/university/University";
+import Startup from "./pages/Startup/Startup";
 const App = () => {
   return (
     <Router>
@@ -12,6 +13,7 @@ const App = () => {
         <Route path="/innovation" element={<Ci />} />
         <Route path="/what-we-offer" element={<WhatWeOffer />} />
         <Route path="/university" element={<University />} />
+        <Route path="/startup" element={<Startup />} />
       </Routes>
     </Router>
   );
