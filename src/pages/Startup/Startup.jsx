@@ -92,7 +92,7 @@ const Startup = () => {
                 <img
                   width={500}
                   height={300}
-                  src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698061017/Desktop_-_15_zhwqtj.png"
+                  src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698064593/Desktop_-_15_1_vua2zi.png"
                 />
               </div>
             </div>
