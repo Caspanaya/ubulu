@@ -70,6 +70,34 @@ const Startup = () => {
             </div>
           </div>
         </section>
+        <br />
+        <br />
+        <br />
+        <br />
+        <section>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6">
+                <h2>Build with Precision</h2>
+                <br />
+                <p>
+                  We seamlessly integrate dedicated resources, fast-tracking
+                  your journey to achieving product-market fit. Our strategic
+                  approach to design sets you apart across brand, product, and
+                  experience, propelling founders to reach their goals with
+                  greater speed and agility.
+                </p>
+              </div>
+              <div className="col-lg-6">
+                <img
+                  width={500}
+                  height={300}
+                  src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698061017/Desktop_-_15_zhwqtj.png"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );
