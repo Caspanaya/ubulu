@@ -98,6 +98,33 @@ const Startup = () => {
             </div>
           </div>
         </section>
+        <br />
+        <br />
+        <br />
+        <br />
+        <section>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6">
+                <img
+                  width={500}
+                  height={300}
+                  src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698143211/Desktop_-_15_3_effd6m.png"
+                />
+              </div>
+              <div className="col-lg-6">
+                <h2>Scale for Success</h2>
+                <br />
+                <p>
+                  Our unwavering support, platform services, and carefully
+                  designed programs are dedicated to assisting founders in
+                  expanding their teams, growing their businesses, and securing
+                  vital capital at pivotal stages of the company lifecycle.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );
