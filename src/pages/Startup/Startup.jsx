@@ -125,6 +125,21 @@ const Startup = () => {
             </div>
           </div>
         </section>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className="container">
+          <h2 style={{ fontSize: "45px", fontWeight: "700" }}>
+            How Ubulu Africa Venture Building Works
+          </h2>
+          <p style={{ fontSize: "1.2rem" }}>
+            At Ubulu Africa, we believe in the people behind great ideas. We're
+            the leading venture studio and technology provider for accelerating
+            the world's digital transformation. We build new companies or scale
+            existing ones using platform capabilities.
+          </p>
+        </div>
       </main>
     </>
   );
