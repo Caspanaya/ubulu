@@ -153,7 +153,7 @@ const Startup = () => {
               </div>
               <div className="col-lg-6">
                 <h2>We Drive the Process Forward</h2>
-                <br />
+
                 <p>
                   We possess a deep understanding of building solutions, and we
                   know precisely when the right time is to initiate one. Mindful
@@ -162,7 +162,7 @@ const Startup = () => {
                 </p>
                 <br />
                 <h2>Our In-House Venture Building Team</h2>
-                <br />
+
                 <p>
                   We're fully invested in your success, which is why we've
                   assembled our own team of experienced experts to provide
@@ -171,6 +171,71 @@ const Startup = () => {
                   share your vision, drawing from the expertise of our other
                   teams. Let's drive your venture forward together!
                 </p>
+                <br />
+                <h2>A New, Disruptive Business Model</h2>
+
+                <p>
+                  Let's co-create a groundbreaking business, either as one of
+                  our business units or as a spin-off company that you'll lead
+                  to success. We're dedicated to consumerizing the enterprise by
+                  delivering an easy-to-use, affordable, and automated product
+                  that consistently delivers value.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <br />
+        <br />
+        <br />
+        <br />
+        <section>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6">
+                <h2>Embracing Entrepreneurship and Intrapreneurship</h2>
+
+                <p>
+                  Whether you have conceptualized ideas or need to birth them
+                  from your vision and prototypes, we possess the versatility to
+                  construct the ideal team. We can either tap into our in-house
+                  HR resources or craft one from the ground up to fulfill your
+                  unique needs.
+                </p>
+                <br />
+                <h2>We Are Your Co-Founders</h2>
+
+                <p>
+                  In the world of business, a visionary entrepreneur requires a
+                  tech-savvy co-founder, and vice versa. We step into the role
+                  of your co-founders, steering you through the journey with
+                  unwavering inspiration and empowerment. With us, you're never
+                  alone.
+                </p>
+                <br />
+                <h2>Seed and Growth Capital</h2>
+
+                <p>
+                  While consolidating your business model, you won't need to
+                  juggle multiple investors. We significantly reduce the noise
+                  and overhead associated with seeking funding. We'll finance
+                  your efforts as you create value for customers and develop a
+                  business around it, all while adhering to our capital
+                  efficiency framework.
+                </p>
+                <br />
+                <h2>From Idea to Execution</h2>
+
+                <p>
+                  Building a company is a formidable challenge. There are
+                  various aspects of the business that will demand your
+                  attention. We can manage most of that complexity for you while
+                  you maintain control, allowing you to concentrate on
+                  developing your product.
+                </p>
+              </div>
+              <div className="col-lg-6">
+                <img width={510} height={500} src={ubulucircle} />
               </div>
             </div>
           </div>
