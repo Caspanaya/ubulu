@@ -240,6 +240,22 @@ const Startup = () => {
             </div>
           </div>
         </section>
+        <br />
+        <br />
+        <section className="container">
+          <h2 style={{ fontSize: "45px", fontWeight: "700" }}>
+            We equip founders with a competitive advantage
+          </h2>
+          <br />
+          <p style={{ fontSize: "1.2rem" }}>
+            At Ubulu Africa, we partner as co-founders with like-minded
+            entrepreneurs, and we provide financial resources, infrastructure, a
+            vast and dedicated team of highly skilled and specialized
+            professionals, as well as our focus, know-how, energy, and
+            entrepreneurial drive in order to travel the journey from inception
+            to scaling-up.
+          </p>
+        </section>
       </main>
     </>
   );
