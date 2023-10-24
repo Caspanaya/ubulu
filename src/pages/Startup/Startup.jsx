@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../ci/styles.module.css";
 import { LandingNav } from "../../components/Nav";
+import ubulucircle from "../../assets/ubulucircle.png";
 const Startup = () => {
   return (
     <>
@@ -140,6 +141,40 @@ const Startup = () => {
             existing ones using platform capabilities.
           </p>
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <section>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6">
+                <img width={510} height={500} src={ubulucircle} />
+              </div>
+              <div className="col-lg-6">
+                <h2>We Drive the Process Forward</h2>
+                <br />
+                <p>
+                  We possess a deep understanding of building solutions, and we
+                  know precisely when the right time is to initiate one. Mindful
+                  of realistic timeframes, we actively drive the process to
+                  significantly enhance your chances of success.
+                </p>
+                <br />
+                <h2>Our In-House Venture Building Team</h2>
+                <br />
+                <p>
+                  We're fully invested in your success, which is why we've
+                  assembled our own team of experienced experts to provide
+                  guidance during those critical initial stages of building your
+                  business. We enhance your skill-set when you need it most and
+                  share your vision, drawing from the expertise of our other
+                  teams. Let's drive your venture forward together!
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );
