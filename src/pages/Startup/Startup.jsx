@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../ci/styles.module.css";
+import "./Startup.css";
 import { LandingNav } from "../../components/Nav";
 import ubulucircle from "../../assets/ubulucircle.png";
 const Startup = () => {
@@ -193,7 +194,7 @@ const Startup = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-6">
-                <h2>Embracing Entrepreneurship and Intrapreneurship</h2>
+                <h2>Entrepreneurship and Intrapreneurship</h2>
 
                 <p>
                   Whether you have conceptualized ideas or need to birth them
@@ -234,8 +235,8 @@ const Startup = () => {
                   developing your product.
                 </p>
               </div>
-              <div className="col-lg-6">
-                <img width={510} height={500} src={ubulucircle} />
+              <div className="col-lg-6 ubuSpace">
+                <img className="" width={510} height={500} src={ubulucircle} />
               </div>
             </div>
           </div>
