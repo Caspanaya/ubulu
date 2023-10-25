@@ -3,6 +3,7 @@ import styles from "../ci/styles.module.css";
 import "./Startup.css";
 import { LandingNav } from "../../components/Nav";
 import ubulucircle from "../../assets/ubulucircle.png";
+import { Footer } from "../../components/Footer";
 const Startup = () => {
   return (
     <>
@@ -407,7 +408,32 @@ const Startup = () => {
             </div>
           </div>
         </section>
+        <br />
+        <br />
+        <div className="ctajoin">
+          <div className="container">
+            <br />
+            <br />
+            <center>
+              <h2 className="text-white">Work With Us, Become a Co-Founder</h2>
+
+              <p className="text-white">
+                We are inquisitive, driven by efficiency, and deeply passionate
+                about startups. We’re constantly on the lookout for our next
+                <br />
+                hires. If you are passionate about building new ventures, new
+                business models, products, and leaving your mark on the
+                <br />
+                industry, it is time to continue writing your entrepreneurial
+                story with Ubulu Africa.
+              </p>
+              <br />
+              <button className="talentbtn ">Join the Community</button>
+            </center>
+          </div>
+        </div>
       </main>
+      <Footer />
     </>
   );
 };
