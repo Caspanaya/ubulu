@@ -481,7 +481,17 @@
 .send_mail {
   margin-right: 13px;
 }
-
+/* talent */
+.bgtalent {
+  background-color: #2f242d;
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698324391/ubulutalent_obbuhb.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.spaceup {
+  margin-top: 250px;
+}
 /* Responsive Styles 1400px */
 @media screen and (max-width: 1400px) {
   .about_content_section img {

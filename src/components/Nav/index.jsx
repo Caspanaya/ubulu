@@ -23,8 +23,8 @@ const LandingNav = () => {
   const NAV_ITEMS = useMemo(
     () =>
       !isMobile
-        ? ["Home", "Home", "About us", "Our Services", "Contact Us"]
-        : ["Home", "About us", "Our Services", "Contact Us"],
+        ? ["Home", "Home", "About us", "Programs", "Contact Us"]
+        : ["Home", "About us", "Programs", "Contact Us"],
     [isMobile]
   );
 

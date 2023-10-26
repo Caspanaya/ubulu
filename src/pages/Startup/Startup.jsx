@@ -4,6 +4,7 @@ import "./Startup.css";
 import { LandingNav } from "../../components/Nav";
 import ubulucircle from "../../assets/ubulucircle.png";
 import { Footer } from "../../components/Footer";
+import { Link } from "react-router-dom";
 const Startup = () => {
   return (
     <>
@@ -30,6 +31,9 @@ const Startup = () => {
                   we shall work for you, and we shall be by your side at every
                   step of the way until you make a scale-up.
                 </p>
+                <div>
+                  <button className="talentbtn">Build with us</button>
+                </div>
               </div>
             </div>
           </div>
@@ -434,7 +438,9 @@ const Startup = () => {
                 story with Ubulu Africa.
               </p>
               <br />
-              <button className="talentbtn ">Join the Community</button>
+              <Link to="/talent">
+                <button className="talentbtn ">Join Our Talent Pool</button>
+              </Link>
             </center>
           </div>
         </div>
