@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../ci/styles.module.css";
 import { startup } from "../../assets";
+import ContactForm from "../../components/ContactForm/ContactForm";
 import { LandingNav } from "../../components/Nav";
 const Talent = () => {
   return (
@@ -30,7 +31,24 @@ const Talent = () => {
             </div>
           </div>
         </div>
-        <div></div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className="container">
+          <center>
+            {" "}
+            <h2 style={{ fontSize: "45px", fontWeight: "700" }}>
+              Want to Join Our Talent Pool?
+            </h2>
+            <p>Fill the Form , and you’ll be the first to know!</p>
+          </center>
+          <br />
+          <br />
+        </div>
+        <div>
+          <ContactForm />
+        </div>
       </main>
     </>
   );
