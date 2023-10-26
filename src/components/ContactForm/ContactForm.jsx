@@ -86,16 +86,40 @@ const ContactForm = () => {
           />
         </div>
         <div className="form-group">
-          <textarea
-            id="message"
-            name="message"
-            placeholder="Message"
-            value={message}
+          <input
+            type="url"
+            id="subject"
+            name="Linkedin"
+            placeholder="Linkedin Profile Link"
+            value={subject}
             onChange={(e) => {
-              setMessage(e.target.value);
+              setSubject(e.target.value);
             }}
             required
-          />
+          ></input>
+        </div>
+
+        <div className="form-group">
+          <div>
+            <label htmlFor="jobInterest" style={{ color: "1b1b1b" }}>
+              What type of jobs you want?
+            </label>
+
+            <select
+              id="mySelect"
+              style={{
+                padding: "5px",
+                fontSize: "14px",
+                backgroundColor: "",
+              }}
+            >
+              <option>Backend Engineer</option>
+              <option>Frontend Engineer</option>
+              <option> Web Developer </option>
+              <option>Marketing</option>
+              <option>UI/UX designer</option>
+            </select>
+          </div>
         </div>
 
         <button type="submit">Submit</button>

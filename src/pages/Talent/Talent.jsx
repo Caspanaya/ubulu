@@ -3,6 +3,7 @@ import styles from "../ci/styles.module.css";
 import { startup } from "../../assets";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import { LandingNav } from "../../components/Nav";
+import { Footer } from "../../components/Footer";
 const Talent = () => {
   return (
     <>
@@ -49,7 +50,12 @@ const Talent = () => {
         <div>
           <ContactForm />
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
       </main>
+      <Footer />
     </>
   );
 };
