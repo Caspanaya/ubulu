@@ -143,7 +143,7 @@ const Community = ({ closeModal }) => {
         <div className="form-group">
           <div>
             <label htmlFor="jobInterest" style={{ color: "1b1b1b" }}>
-              What type of jobs you want?
+              Why would you like to join the Ubulu Africa community ?
             </label>
 
             <select
@@ -152,18 +152,64 @@ const Community = ({ closeModal }) => {
                 padding: "5px",
                 fontSize: "14px",
                 backgroundColor: "",
+                width: "100%",
               }}
             >
               <option>Select</option>
-              <option>Backend Engineer</option>
-              <option>Frontend Engineer</option>
-              <option> Web Developer </option>
-              <option>Marketing</option>
-              <option>UI/UX designer</option>
+              <option>Corporate Innovation</option>
+              <option>Investments</option>
+              <option>Networking</option>
+              <option>Events </option>
+              <option>Partnerships</option>
+              <option>Contents and Learning </option>
+              <option>Broadcasting Your Work </option>
+              <option>Fundraising</option>
+              <option>Event Speaker</option>
+              <option>Acceleration Program</option>
+              <option>Fundraising</option>
+              <option>Office Space</option>
+              <option>Recruitment Support</option>
+              <option> Other</option>
             </select>
           </div>
         </div>
+        <div className="form-group">
+          <div>
+            <label htmlFor="jobInterest" style={{ color: "1b1b1b" }}>
+              How did you hear about us?
+            </label>
 
+            <select
+              id="mySelect"
+              style={{
+                padding: "5px",
+                fontSize: "14px",
+                backgroundColor: "",
+                width: "100%",
+              }}
+            >
+              <option>Select</option>
+              <option> Google </option>
+              <option>LinkedIn</option>
+              <option>Instagram</option>
+              <option>X (formerly Twitter) </option>
+              <option>Ubulu Africa member / ambassador </option>
+              <option>Other (Type your answer)</option>
+            </select>
+          </div>
+        </div>
+        <div className="form-group">
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Anything else you want to tell us?"
+            value={message}
+            onChange={(e) => {
+              setMessage(e.target.value);
+            }}
+            required
+          />
+        </div>
         <button onClick={closeModal} type="submit">
           Submit
         </button>
