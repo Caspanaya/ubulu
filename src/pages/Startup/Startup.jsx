@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../ci/styles.module.css";
 import "./Startup.css";
 import { LandingNav } from "../../components/Nav";
 import ubulucircle from "../../assets/ubulucircle.png";
 import { Footer } from "../../components/Footer";
 import { Link } from "react-router-dom";
+import Modal from "react-modal";
+import ContactForm from "../../components/ContactForm/ContactForm";
+Modal.setAppElement("#root");
 const Startup = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const openModal = () => {
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
   return (
     <>
       <LandingNav />
@@ -438,9 +450,27 @@ const Startup = () => {
                 story with Ubulu Africa.
               </p>
               <br />
-              <Link to="/talent">
-                <button className="talentbtn ">Join Our Talent Pool</button>
-              </Link>
+              <div>
+                <button onClick={openModal} className="talentbtn ">
+                  Join Our Talent Pool
+                </button>
+                <br />
+                <Modal
+                  isOpen={modalIsOpen}
+                  onRequestClose={closeModal}
+                  contentLabel="Example Modal"
+                  className={{
+                    base: "ReactModal__Content",
+                    afterOpen: "ReactModal__Content_after-open",
+                  }}
+                  overlayClassName={{
+                    base: "ReactModal__Overlay",
+                    afterOpen: "ReactModal__Overlay_after-open",
+                  }}
+                >
+                  <ContactForm closeModal={closeModal} />
+                </Modal>
+              </div>
             </center>
           </div>
         </div>

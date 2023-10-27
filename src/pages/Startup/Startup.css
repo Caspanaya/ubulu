@@ -18,3 +18,16 @@
 .talentbtn {
   border-radius: 8px;
 }
+/* Add this to your CSS */
+.ReactModal__Overlay {
+  /* opacity: 0; */
+  transition: opacity 300ms;
+  backdrop-filter: blur(4px); /* Adjust the blur amount as needed */
+  z-index: 1000;
+}
+
+.ReactModal__Content {
+  max-height: 100vh; /* Adjust the value as needed */
+  overflow-y: auto;
+  margin-bottom: 20px;
+}

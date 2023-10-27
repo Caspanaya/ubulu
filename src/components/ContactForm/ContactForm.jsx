@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./ContactForm.css";
+import { FaTimes } from "react-icons/fa";
 // import axios from "axios"
-const ContactForm = () => {
+const ContactForm = ({ closeModal }) => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [name, setName] = useState("");
@@ -44,6 +45,9 @@ const ContactForm = () => {
 
   return (
     <div className="contact-form-container">
+      <FaTimes onClick={closeModal} />
+      <br />
+      <br />
       <form onSubmit={""}>
         <div className="form-group">
           <input
@@ -113,6 +117,7 @@ const ContactForm = () => {
                 backgroundColor: "",
               }}
             >
+              <option>Select</option>
               <option>Backend Engineer</option>
               <option>Frontend Engineer</option>
               <option> Web Developer </option>
@@ -122,7 +127,9 @@ const ContactForm = () => {
           </div>
         </div>
 
-        <button type="submit">Submit</button>
+        <button onClick={closeModal} type="submit">
+          Submit
+        </button>
       </form>
     </div>
   );
