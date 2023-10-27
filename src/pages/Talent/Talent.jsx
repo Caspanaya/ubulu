@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../ci/styles.module.css";
 import { startup } from "../../assets";
-import ContactForm from "../../components/ContactForm/ContactForm";
+import Community from "../../components/CommunityForm/Community";
 import { LandingNav } from "../../components/Nav";
 import { Footer } from "../../components/Footer";
 const Talent = () => {
@@ -48,7 +48,7 @@ const Talent = () => {
           <br />
         </div>
         <div>
-          <ContactForm />
+          <Community />
         </div>
         <br />
         <br />
