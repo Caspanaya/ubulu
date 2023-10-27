@@ -459,14 +459,14 @@ const Startup = () => {
                   isOpen={modalIsOpen}
                   onRequestClose={closeModal}
                   contentLabel="Example Modal"
-                  className={{
-                    base: "ReactModal__Content",
-                    afterOpen: "ReactModal__Content_after-open",
-                  }}
-                  overlayClassName={{
-                    base: "ReactModal__Overlay",
-                    afterOpen: "ReactModal__Overlay_after-open",
-                  }}
+                  // className={{
+                  //   base: "ReactModal__Content",
+                  //   afterOpen: "ReactModal__Content_after-open",
+                  // }}
+                  // overlayClassName={{
+                  //   base: "ReactModal__Overlay",
+                  //   afterOpen: "ReactModal__Overlay_after-open",
+                  // }}
                 >
                   <ContactForm closeModal={closeModal} />
                 </Modal>
