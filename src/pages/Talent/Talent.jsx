@@ -19,14 +19,11 @@ const Talent = () => {
               <div className={styles.content}>
                 {/* <h1>Ubulu Africa</h1> */}
 
-                <h2> Empowering Talent Excellence</h2>
+                <h2> Join the Ubulu Africa community</h2>
                 <p>
-                  Ubulu Africa has played a pivotal role in cultivating social
-                  and digital skills through our esteemed Talent Pool Program.
-                  Additionally, we provide our talented individuals with
-                  invaluable networking opportunities that are integral to their
-                  professional growth. Our commitment to fostering the
-                  advancement of our talents is unwavering and deliberate.
+                  Whether you're a corporation looking for innovation, a startup
+                  looking for a boost, or a VC looking to meet great startups,
+                  we're the right place for you.
                 </p>
               </div>
             </div>
@@ -40,7 +37,7 @@ const Talent = () => {
           <center>
             {" "}
             <h2 style={{ fontSize: "45px", fontWeight: "700" }}>
-              Want to Join Our Talent Pool?
+              Want to Join Our Community?
             </h2>
             <p>Fill the Form , and you’ll be the first to know!</p>
           </center>
