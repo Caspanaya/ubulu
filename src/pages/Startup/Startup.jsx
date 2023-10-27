@@ -44,7 +44,9 @@ const Startup = () => {
                   step of the way until you make a scale-up.
                 </p>
                 <div>
-                  <button className="talentbtn">Build with us</button>
+                  <Link to="/talent">
+                    <button className="talentbtn">Build with us</button>
+                  </Link>
                 </div>
               </div>
             </div>
