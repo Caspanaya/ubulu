@@ -76,7 +76,7 @@ const ContactForm = ({ closeModal }) => {
             required
           />
         </div>
-        <div className="form-group">
+        {/* <div className="form-group">
           <input
             type="text"
             id="subject"
@@ -88,7 +88,7 @@ const ContactForm = ({ closeModal }) => {
             }}
             required
           />
-        </div>
+        </div> */}
         <div className="form-group">
           <input
             type="url"

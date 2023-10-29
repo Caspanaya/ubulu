@@ -39,7 +39,15 @@ const Talent = () => {
             <h2 style={{ fontSize: "45px", fontWeight: "700" }}>
               Want to Join Our Community?
             </h2>
-            <p>Fill the Form , and you’ll be the first to know!</p>
+            <p>
+              At Ubulu Africa, we empower exceptional individuals and
+              organizations to foster meaningful synergies and make a
+              significant impact on advancing the Sustainable Development Goals
+              (SDGs) through technology. Ubulu Africa is dedicated to driving
+              innovation through dynamic alliances and collaborations, which
+              encompass startups, corporate partners, and industry-university
+              engagements.
+            </p>
           </center>
           <br />
           <br />
