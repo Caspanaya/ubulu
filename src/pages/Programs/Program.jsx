@@ -129,12 +129,7 @@ const Program = () => {
               </div>
               <div className="col-lg-12">
                 <div className="video-div">
-                  <ReactPlayer
-                    url={coporate}
-                    width="100%"
-                    height="80vh"
-                    playing={true}
-                  />
+                  <ReactPlayer url={coporate} width="100%" height="80vh" />
                 </div>
                 <br />
                 <br />
@@ -171,12 +166,7 @@ const Program = () => {
                 <br />
                 <br />
                 <div className="video-div">
-                  <ReactPlayer
-                    url={building}
-                    width="90vw"
-                    height="80vh"
-                    playing={true}
-                  />
+                  <ReactPlayer url={building} width="90vw" height="80vh" />
                 </div>
                 <br />
                 <br />
@@ -213,12 +203,7 @@ const Program = () => {
                 <br />
                 <br />
                 <div className="video-div">
-                  <ReactPlayer
-                    url={collaboration}
-                    width="90vw"
-                    height="80vh"
-                    playing={true}
-                  />
+                  <ReactPlayer url={collaboration} width="90vw" height="80vh" />
                 </div>
                 <br />
                 <br />
