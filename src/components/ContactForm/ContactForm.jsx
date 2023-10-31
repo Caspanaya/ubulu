@@ -76,19 +76,19 @@ const ContactForm = ({ closeModal }) => {
             required
           />
         </div>
-        {/* <div className="form-group">
+        <div className="form-group">
           <input
             type="text"
             id="subject"
             name="subject"
-            placeholder="Subject"
+            placeholder="Phone number"
             value={subject}
             onChange={(e) => {
               setSubject(e.target.value);
             }}
             required
           />
-        </div> */}
+        </div>
         <div className="form-group">
           <input
             type="url"
@@ -106,7 +106,7 @@ const ContactForm = ({ closeModal }) => {
         <div className="form-group">
           <div>
             <label htmlFor="jobInterest" style={{ color: "1b1b1b" }}>
-              What type of jobs you want?
+              What skill do you have?
             </label>
 
             <select
@@ -123,7 +123,29 @@ const ContactForm = ({ closeModal }) => {
               <option> Web Developer </option>
               <option>Marketing</option>
               <option>UI/UX designer</option>
+              <option>Research & Development</option>
+              <option>Software developer or engineer</option>
+              <option>QA Engineer </option>
+              <option>Media Outreach Coordinator </option>
+              <option>Customer success & Support Associate</option>
+              <option>Product Marketing </option>
+              <option>Copywriter</option>
+              <option>Sales</option>
+              <option>other</option>
             </select>
+          </div>
+          <br />
+          <div className="form-group">
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Message"
+              value={message}
+              onChange={(e) => {
+                setMessage(e.target.value);
+              }}
+              required
+            />
           </div>
         </div>
 

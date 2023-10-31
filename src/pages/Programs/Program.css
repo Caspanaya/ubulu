@@ -1,0 +1,6 @@
+.video-div {
+  height: 100%;
+  width: 90vw;
+  overflow: hidden;
+  border-radius: 10px;
+}
