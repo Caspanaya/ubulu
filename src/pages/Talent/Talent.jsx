@@ -21,16 +21,9 @@ const Talent = () => {
 
                 <h2> Join the Ubulu Africa community</h2>
                 <p>
-                  Ubulu Africa stands as a beacon of unity, bringing together an
-                  extraordinary tapestry of African startups, global
-                  corporations, innovative social enterprises, and visionary
-                  investors. We invite you to become part of Africa's most
-                  expansive tech community, where you'll have the opportunity to
-                  engage and gain wisdom from a diverse assembly of visionaries,
-                  trailblazers, and independent professionals. Our dynamic
-                  environment offers adaptable workspaces and an array of
-                  advantages that propel the advancement of your startup or
-                  scale-up, contributing to Africa's transformative growth.
+                  Whether you're a corporation looking for innovation, a startup
+                  looking for a boost, or a VC looking to meet great startups,
+                  we're the right place for you.
                 </p>
               </div>
             </div>
