@@ -4,6 +4,7 @@ import styles from "../ci/styles.module.css";
 import { LandingNav } from "../../components/Nav";
 import { Footer } from "../../components/Footer";
 import { startup } from "../../assets";
+import { Link } from "react-router-dom";
 import Modal from "react-modal";
 import ContactForm from "../../components/ContactForm/ContactForm";
 const WhatWeOffer = () => {
@@ -93,6 +94,11 @@ const WhatWeOffer = () => {
                   framework is the bedrock upon which we build new ventures and
                   drive businesses towards unmatched success.
                 </p>
+                <div>
+                  <Link to="/talent">
+                    <button className="talentbtn">Build with us</button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
