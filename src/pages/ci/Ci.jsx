@@ -2,9 +2,19 @@ import React from "react";
 import { LandingNav } from "../../components/Nav";
 import styles from "./styles.module.css";
 import { startup } from "../../assets";
+import { Link } from "react-router-dom";
 import { Footer } from "../../components/Footer";
 import Options from "../../components/Options/Options";
 const Ci = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const openModal = () => {
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
   const ctaText =
     "Join the Ubulu Africa community and be part of our mission to help organizations realize growth, become and remain the most relevant organization they can be, and even surpass that. Our team of hands-on entrepreneurs collaborates with industry leaders to harness their corporate influence to create successful ventures and generate new revenue streams.";
   return (
@@ -28,6 +38,12 @@ const Ci = () => {
                   influence to create successful ventures and generate new
                   revenue streams.
                 </p>
+
+                <div>
+                  <Link to="/talent">
+                    <button className="talentbtn">Build with us</button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

@@ -194,10 +194,11 @@ const LandingNav = () => {
       !isMobile
         ? [
             { text: "Home", path: "/" },
-            { text: "About us", path: "/about" },
+            { text: "About", path: "/about" },
             { text: "Programs", path: "/program" },
-            { text: "Build with us", path: "/talent" },
-            { text: "Faq", path: "/talent" },
+            { text: "Contact Us", path: "/talent" },
+            { text: "Services", path: "/talent" },
+            { text: "Join Our Ecosystem", path: "/talent" },
           ]
         : [
             { text: "Home", path: "/" },

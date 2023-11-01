@@ -11,7 +11,7 @@ const Talent = () => {
       <main className={styles.bodyapp}>
         <div className={styles.hero} id="home">
           <img
-            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698324391/ubulutalent_obbuhb.png"
+            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698854118/programs_1_z0ax6e.png"
             alt="Hero-img"
           />
           <div className={styles.wrapper}>

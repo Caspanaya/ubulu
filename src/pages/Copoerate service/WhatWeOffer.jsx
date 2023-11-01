@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../ci/styles.module.css";
 // import styles from "./offer.module.css";
 import { LandingNav } from "../../components/Nav";
 import { Footer } from "../../components/Footer";
 import { startup } from "../../assets";
+import Modal from "react-modal";
+import ContactForm from "../../components/ContactForm/ContactForm";
 const WhatWeOffer = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const openModal = () => {
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
   const cardData = [
     {
       title: "Growth ambition and goals",
@@ -212,6 +223,52 @@ const WhatWeOffer = () => {
             ))}
           </div>
         </section>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className="ctajoin">
+          <div className="container">
+            <br />
+            <br />
+            <center>
+              <h2 className="text-white">Work With Us, Become a Co-Founder</h2>
+
+              <p className="text-white">
+                We are inquisitive, driven by efficiency, and deeply passionate
+                about startups. We’re constantly on the lookout for our next
+                <br />
+                hires. If you are passionate about building new ventures, new
+                business models, products, and leaving your mark on the
+                <br />
+                industry, it is time to continue writing your entrepreneurial
+                story with Ubulu Africa.
+              </p>
+              <br />
+              <div>
+                <button onClick={openModal} className="talentbtn ">
+                  Join Our Talent Pool
+                </button>
+                <br />
+                <Modal
+                  isOpen={modalIsOpen}
+                  onRequestClose={closeModal}
+                  contentLabel="Example Modal"
+                  // className={{
+                  //   base: "ReactModal__Content",
+                  //   afterOpen: "ReactModal__Content_after-open",
+                  // }}
+                  // overlayClassName={{
+                  //   base: "ReactModal__Overlay",
+                  //   afterOpen: "ReactModal__Overlay_after-open",
+                  // }}
+                >
+                  <ContactForm closeModal={closeModal} />
+                </Modal>
+              </div>
+            </center>
+          </div>
+        </div>
         <br />
         <br />
       </main>

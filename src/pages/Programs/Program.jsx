@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../ci/styles.module.css";
 import { LandingNav } from "../../components/Nav";
 import { Footer } from "../../components/Footer";
 import ReactPlayer from "react-player";
 import Title from "../../components/Title";
+import Modal from "react-modal";
+import ContactForm from "../../components/ContactForm/ContactForm";
 import { ReactComponent as Mail } from "../../assets/Mail-Icon.svg";
 import { ReactComponent as Twitter } from "../../assets/Twitter-Icon.svg";
 import { ReactComponent as Linkedin } from "../../assets/LinkedIn-Icon.svg";
@@ -11,6 +13,15 @@ import { ReactComponent as Instagram } from "../../assets/Instagram-Icon.svg";
 import { ReactComponent as SendMail } from "../../assets/Send-Mail-Icon.svg";
 import { Link } from "react-router-dom";
 const Program = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const openModal = () => {
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
   const youtubeLink = "https://www.youtube.com/watch?v=XW7B-sCD2rg";
   const coporate = "https://youtu.be/4pyb_Bg4JdA";
   const building = "https://youtu.be/VCDAzz7pShQ";
@@ -211,9 +222,56 @@ const Program = () => {
             </div>
           </div>
         </section>
+        {/* <br />
         <br />
         <br />
+        <br />
+        <div className="ctajoin">
+          <div className="container">
+            <br />
+            <br />
+            <center>
+              <h2 className="text-white">Work With Us, Become a Co-Founder</h2>
 
+              <p className="text-white">
+                We are inquisitive, driven by efficiency, and deeply passionate
+                about startups. We’re constantly on the lookout for our next
+                <br />
+                hires. If you are passionate about building new ventures, new
+                business models, products, and leaving your mark on the
+                <br />
+                industry, it is time to continue writing your entrepreneurial
+                story with Ubulu Africa.
+              </p>
+              <br />
+              <div>
+                <button onClick={openModal} className="talentbtn ">
+                  Join Our Talent Pool
+                </button>
+                <br />
+                <Modal
+                  isOpen={modalIsOpen}
+                  onRequestClose={closeModal}
+                  contentLabel="Example Modal"
+                  // className={{
+                  //   base: "ReactModal__Content",
+                  //   afterOpen: "ReactModal__Content_after-open",
+                  // }}
+                  // overlayClassName={{
+                  //   base: "ReactModal__Overlay",
+                  //   afterOpen: "ReactModal__Overlay_after-open",
+                  // }}
+                >
+                  <ContactForm closeModal={closeModal} />
+                </Modal>
+              </div>
+            </center>
+          </div>
+        </div> */}
+        <br />
+        <br />
+        <br />
+        <br />
         <section className="">
           <div className={styles.contact_section} id="contact-us">
             <div className={styles.wrapper}>
