@@ -47,6 +47,11 @@ const Program = () => {
                   framework is the bedrock upon which we build new ventures and
                   drive businesses towards unmatched success.
                 </p>
+                <div>
+                  <Link to="/talent">
+                    <button className="talentbtn">Build with us</button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

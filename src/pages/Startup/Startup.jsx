@@ -43,6 +43,7 @@ const Startup = () => {
                   we shall work for you, and we shall be by your side at every
                   step of the way until you make a scale-up.
                 </p>
+                <br />
                 <div>
                   <Link to="/talent">
                     <button className="talentbtn">Build with us</button>
