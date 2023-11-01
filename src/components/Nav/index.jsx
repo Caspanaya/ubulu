@@ -197,6 +197,7 @@ const LandingNav = () => {
             { text: "About us", path: "/about" },
             { text: "Programs", path: "/program" },
             { text: "Build with us", path: "/talent" },
+            { text: "Faq", path: "/talent" },
           ]
         : [
             { text: "Home", path: "/" },
