@@ -22,7 +22,7 @@ const LandingNav = () => {
         ? [
             { text: "Home", path: "/" },
             { text: "About", path: "/about" },
-            { text: "Services", path: "/program" },
+            { text: "Services", path: "" },
             { text: "Programs", path: "/program" },
             { text: "Contact Us", path: "/contact" },
             { button: "Join Our Community", path: "/talent" },

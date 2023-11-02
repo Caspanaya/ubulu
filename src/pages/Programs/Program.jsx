@@ -104,30 +104,40 @@ const Program = () => {
         <br />
         <br />
         <br />
+        <div className="container">
+          <h2 style={{ fontSize: "50px", fontWeight: "600" }}>
+            Corporate Innovation Unleashed{" "}
+          </h2>
+          <br />
+          <p>
+            At Ubulu Africa, we host a monthly panel webinar series on corporate
+            innovation and venture building, featuring prominent guests
+            including the Chief Innovation Officer/Head of Innovation at a
+            corporate organization, a Venture Builder and Startup Ecosystem
+            Expert, a Startup Founder/Scale-up Entrepreneur/Serial Entrepreneur,
+            and a Corporate Innovation Manager/Consultant. Together, they engage
+            in discussions about corporate innovation in Nigeria-Africa, the
+            opportunities it presents for corporations, the startup ecosystem
+            and beyond, and everything in-between
+          </p>
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <br />
         <section>
           <div className="container">
             <div className="row">
               <br />
               <br />
-              <div className="col-lg-12">
-                <h2 style={{ font: "30px", fontWeight: "600" }}>
-                  Corporate Innovation Unleashed{" "}
-                </h2>
-                <br />
-                <p>
-                  At Ubulu Africa, we host a monthly panel webinar series on
-                  corporate innovation and venture building, featuring prominent
-                  guests including the Chief Innovation Officer/Head of
-                  Innovation at a corporate organization, a Venture Builder and
-                  Startup Ecosystem Expert, a Startup Founder/Scale-up
-                  Entrepreneur/Serial Entrepreneur, and a Corporate Innovation
-                  Manager/Consultant. Together, they engage in discussions about
-                  corporate innovation in Nigeria-Africa, the opportunities it
-                  presents for corporations, the startup ecosystem and beyond,
-                  and everything in-between
-                </p>
-                <br />
-
+              <br />
+              <div className="col-lg-6">
+                <div className="video-div">
+                  <ReactPlayer url={coporate} width="100%" height="80vh" />
+                </div>
+              </div>
+              <div className="col-lg-6">
                 <h2 style={{ font: "30px", fontWeight: "600" }}>
                   Introduction to Corporate Innovation and Venture Building
                 </h2>
@@ -140,13 +150,6 @@ const Program = () => {
                   organizations to venture beyond their comfort zones and
                   embrace innovation as a catalyst for sustainable growth.
                 </p>
-                <br />
-                <br />
-              </div>
-              <div className="col-lg-12">
-                <div className="video-div">
-                  <ReactPlayer url={coporate} width="100%" height="80vh" />
-                </div>
                 <br />
                 <br />
               </div>
@@ -182,7 +185,7 @@ const Program = () => {
                 <br />
                 <br />
                 <div className="video-div">
-                  <ReactPlayer url={building} width="90vw" height="80vh" />
+                  <ReactPlayer url={building} width="90vw" height="100%" />
                 </div>
                 <br />
                 <br />
