@@ -33,3 +33,54 @@
   background-color: none;
   background: none;
 }
+.startup_image {
+  width: 500px;
+  height: 300px;
+}
+.ubulu_circle {
+  width: 510px;
+  height: 500px;
+}
+#Desktop_display {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .startup_image {
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin: auto;
+  }
+  .ubulu_circle {
+    width: 255px;
+    height: 250px;
+    display: block;
+    margin: auto;
+  }
+  .textleft h2 {
+    text-align: center;
+    text-align-last: center;
+  }
+  .textleft p {
+    text-align: center;
+  }
+  .fs-4 {
+    margin-left: none;
+  }
+  .text-center h2 {
+    text-align: center;
+    text-align-last: center;
+  }
+  #mobile_display {
+    display: none;
+  }
+  #Desktop_display {
+    display: block;
+  }
+  #space {
+    margin-top: 45px;
+  }
+  .ctajoin {
+    height: 432px;
+  }
+}

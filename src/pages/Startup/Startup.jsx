@@ -71,14 +71,14 @@ const Startup = () => {
         <section>
           <div className="container">
             <div className="row">
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-sm-12">
                 <img
-                  width={500}
-                  height={300}
+                  alt="image"
+                  className="startup_image "
                   src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698061017/Desktop_-_15_zhwqtj.png"
                 />
               </div>
-              <div className="col-lg-6">
+              <div id="space" className="col-lg-6 col-sm-12 text-center">
                 <h2>Explore New Horizons</h2>
                 <br />
                 <p>
@@ -99,7 +99,13 @@ const Startup = () => {
         <section>
           <div className="container">
             <div className="row">
-              <div className="col-lg-6">
+              <div id="Desktop_display" className="col-lg-6 col-sm-12 ">
+                <img
+                  className="startup_image"
+                  src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698064593/Desktop_-_15_1_vua2zi.png"
+                />
+              </div>
+              <div id="space" className="col-lg-6 col-sm-12 text-center">
                 <h2>Build with Precision</h2>
                 <br />
                 <p>
@@ -110,10 +116,10 @@ const Startup = () => {
                   greater speed and agility.
                 </p>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-sm-12">
                 <img
-                  width={500}
-                  height={300}
+                  id="mobile_display"
+                  className="startup_image"
                   src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698064593/Desktop_-_15_1_vua2zi.png"
                 />
               </div>
@@ -127,14 +133,13 @@ const Startup = () => {
         <section>
           <div className="container">
             <div className="row">
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-sm-12">
                 <img
-                  width={500}
-                  height={300}
+                  className="startup_image "
                   src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698143211/Desktop_-_15_3_effd6m.png"
                 />
               </div>
-              <div className="col-lg-6">
+              <div id="space" className="col-lg-6 col-sm-12 text-center">
                 <h2>Scale for Success</h2>
                 <br />
                 <p>
@@ -169,10 +174,10 @@ const Startup = () => {
         <section>
           <div className="container">
             <div className="row">
-              <div className="col-lg-6">
-                <img width={510} height={500} src={ubulucircle} />
+              <div className="col-lg-6 col-sm-12">
+                <img className="ubulu_circle" src={ubulucircle} alt="image" />
               </div>
-              <div className="col-lg-6 textleft">
+              <div id="space" className="col-lg-6 textleft">
                 <h2>We Drive the Process Forward</h2>
 
                 <p>
@@ -213,7 +218,10 @@ const Startup = () => {
         <section>
           <div className="container">
             <div className="row">
-              <div className="col-lg-6 ">
+              <div id="Desktop_display" className="col-lg-6 col-sm-12 ubuSpace">
+                <img className="ubulu_circle " alt="image" src={ubulucircle} />
+              </div>
+              <div id="space" className="col-lg-6 col-sm-12 text-center">
                 <h2>Entrepreneurship and Intrapreneurship</h2>
 
                 <p>
@@ -255,8 +263,8 @@ const Startup = () => {
                   developing your product.
                 </p>
               </div>
-              <div className="col-lg-6 ubuSpace">
-                <img className="" width={510} height={500} src={ubulucircle} />
+              <div id="mobile_display" className="col-lg-6 col-sm-12 ubuSpace">
+                <img className="ubulu_circle " alt="image" src={ubulucircle} />
               </div>
             </div>
           </div>
