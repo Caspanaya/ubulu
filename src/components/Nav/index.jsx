@@ -24,7 +24,7 @@ const LandingNav = () => {
             { text: "About", path: "/about" },
             { text: "Service", path: "/program" },
             { text: "Programs", path: "/talent" },
-            { text: "Contact Us", path: "/talent" },
+            { text: "Contact Us", path: "/contact" },
             { button: "Join Our Ecosystem", path: "/talent" },
           ]
         : [

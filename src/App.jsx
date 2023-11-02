@@ -7,6 +7,7 @@ import University from "./pages/university/University";
 import Startup from "./pages/Startup/Startup";
 import Talent from "./pages/Talent/Talent";
 import Program from "./pages/Programs/Program";
+import Contact from "./pages/Contact/Contact";
 const App = () => {
   return (
     <Router>
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/startup" element={<Startup />} />
         <Route path="/talent" element={<Talent />} />
         <Route path="/program" element={<Program />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );
