@@ -49,7 +49,7 @@ const Program = () => {
                 </p>
                 <div>
                   <Link to="/talent">
-                    <button className="talentbtn">Build with us</button>
+                    <button className="talentbtn">Join Us</button>
                   </Link>
                 </div>
               </div>
@@ -88,12 +88,7 @@ const Program = () => {
                 <br />
                 <br />
                 <div className="video-div">
-                  <ReactPlayer
-                    url={youtubeLink}
-                    width="90vw"
-                    height="80vh"
-                    playing={true}
-                  />
+                  <ReactPlayer url={youtubeLink} width="90vw" height="80vh" />
                 </div>
                 <br />
                 <br />
