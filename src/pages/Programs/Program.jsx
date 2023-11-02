@@ -42,10 +42,13 @@ const Program = () => {
 
                 <h2>Programs</h2>
                 <p>
-                  At Ubulu Africa, we don't just talk about growth, innovation,
-                  and go-to-market strategies; we make them happen. Our proven
-                  framework is the bedrock upon which we build new ventures and
-                  drive businesses towards unmatched success.
+                  At Ubulu Africa, we are committed to driving innovation and
+                  transformation across the African continent. Our programs are
+                  designed to be catalysts for change, igniting the potential of
+                  businesses, startups, and organizations to thrive in a
+                  dynamic, ever-evolving landscape. Ubulu Africa designs and
+                  implements business strategies, innovation strategies and go
+                  to market strategies.
                 </p>
                 <div>
                   <Link to="/talent">
@@ -59,12 +62,16 @@ const Program = () => {
         <br />
         <br />
         <br />
+        <div className="container">
+          {" "}
+          <h2 style={{ fontSize: "50px", fontWeight: "600" }}>Pitch2Win </h2>
+        </div>
+        <br />
+        <br />
         <section>
           <div className="container">
             <div className="row">
-              <div className="col-lg-12">
-                <h2 style={{ font: "30px", fontWeight: "600" }}>Pitch2Win </h2>
-                <br />
+              <div className="col-lg-6">
                 <p>
                   Pitch2Win is a startup pitching program and competition event
                   organized to support the Tech Ecosystem by providing grants to
@@ -84,11 +91,9 @@ const Program = () => {
               </div>
               <br />
               <br />
-              <div className="col-lg-12">
-                <br />
-                <br />
+              <div className="col-lg-6">
                 <div className="video-div">
-                  <ReactPlayer url={youtubeLink} width="90vw" height="80vh" />
+                  <ReactPlayer url={youtubeLink} width="100%" height="80vh" />
                 </div>
                 <br />
                 <br />
