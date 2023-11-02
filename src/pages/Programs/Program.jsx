@@ -159,10 +159,13 @@ const Program = () => {
         <br />
         <br />
         <br />
+        <br />
+        <br />
+        <br />
         <section>
           <div className="container">
             <div className="row">
-              <div className="col-lg-12">
+              <div className="col-lg-6">
                 <h2 style={{ font: "30px", fontWeight: "600" }}>
                   Building an Innovation Ecosystem - Collaborating with Startups{" "}
                 </h2>
@@ -181,11 +184,9 @@ const Program = () => {
               </div>
               <br />
               <br />
-              <div className="col-lg-12">
-                <br />
-                <br />
+              <div className="col-lg-6">
                 <div className="video-div">
-                  <ReactPlayer url={building} width="90vw" height="100%" />
+                  <ReactPlayer url={building} width="100%" height="80vh" />
                 </div>
                 <br />
                 <br />
@@ -199,7 +200,14 @@ const Program = () => {
         <section>
           <div className="container">
             <div className="row">
-              <div className="col-lg-12">
+              <div className="col-lg-6">
+                <div className="video-div">
+                  <ReactPlayer url={collaboration} width="100%" height="80vh" />
+                </div>
+                <br />
+                <br />
+              </div>
+              <div className="col-lg-6">
                 <h2 style={{ font: "30px", fontWeight: "600" }}>
                   Corporate-Startup Collaboration - Structuring Successful
                   Partnerships
@@ -218,15 +226,6 @@ const Program = () => {
               </div>
               <br />
               <br />
-              <div className="col-lg-12">
-                <br />
-                <br />
-                <div className="video-div">
-                  <ReactPlayer url={collaboration} width="90vw" height="80vh" />
-                </div>
-                <br />
-                <br />
-              </div>
             </div>
           </div>
         </section>

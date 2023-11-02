@@ -21,7 +21,7 @@ const LandingNav = () => {
       !isMobile
         ? [
             { text: "Home", path: "/" },
-            { text: "About", path: "/about" },
+            { text: "About", path: "/" },
             { text: "Services", path: "" },
             { text: "Programs", path: "/program" },
             { text: "Contact Us", path: "/contact" },
