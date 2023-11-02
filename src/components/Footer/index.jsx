@@ -24,7 +24,7 @@ const Footer = () => {
             {/* <a href="#home">Privacy</a> */}
             {/* <a href="#about-us">Programs</a> */}
             {/* <a href="#our-services">Services</a> */}
-            <a href="#contact-us">Privacy</a>
+            <a href="/privacy">Privacy</a>
             <a href="#contact-us">Join Our Ecosystem</a>
           </nav>
         </div>

@@ -137,7 +137,7 @@ const Community = ({ closeModal }) => {
               <option>Investor / VC </option>
               <option> Professional (Corporate) </option>
               <option>Academia (Student, Lecturer, etc)</option>
-              <option>Other </option>
+              {/* <option>Other </option> */}
             </select>
           </div>
         </div>
@@ -171,7 +171,7 @@ const Community = ({ closeModal }) => {
               <option>Fundraising</option>
               <option>Office Space</option>
               <option>Recruitment Support</option>
-              <option> Other</option>
+              {/* <option> Other</option> */}
             </select>
           </div>
         </div>
