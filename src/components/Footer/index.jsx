@@ -13,10 +13,18 @@ const Footer = () => {
           <img src={ubuluLogo} alt="" className={styles.logo} />
 
           <nav>
-            <a href="#home">Privacy</a>
-            <a href="#about-us">Programs</a>
-            <a href="#our-services">Services</a>
-            <a href="#contact-us">Contact Us</a>
+            <ul className="o_list">
+              <li>
+                <a href="#home">Contact Us</a>
+                <a href="#about-us">About us</a>
+                <a href="#about-us">Programs</a>
+                <a href="#about-us">Services</a>
+              </li>
+            </ul>
+            {/* <a href="#home">Privacy</a> */}
+            {/* <a href="#about-us">Programs</a> */}
+            {/* <a href="#our-services">Services</a> */}
+            <a href="#contact-us">Privacy</a>
             <a href="#contact-us">Join Our Ecosystem</a>
           </nav>
         </div>
