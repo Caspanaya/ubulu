@@ -16,7 +16,7 @@ const Contact = () => {
       <main className={styles.bodyapp}>
         <div className={styles.hero} id="home">
           <img
-            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698928797/volodymyr-hryshchenko-V5vqWC9gyEU-unsplash_n08a2o.jpg"
+            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698952441/programs_3_co9ltf.png"
             alt="Hero-img"
           />
           <div className={styles.wrapper}>
