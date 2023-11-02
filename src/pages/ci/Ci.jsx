@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { LandingNav } from "../../components/Nav";
 import styles from "./styles.module.css";
 import { startup } from "../../assets";
@@ -41,7 +41,7 @@ const Ci = () => {
 
                 <div>
                   <Link to="/talent">
-                    <button className="talentbtn">Build with us</button>
+                    <button className="talentbtn">Join us</button>
                   </Link>
                 </div>
               </div>

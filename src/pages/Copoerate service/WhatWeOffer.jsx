@@ -96,7 +96,7 @@ const WhatWeOffer = () => {
                 </p>
                 <div>
                   <Link to="/talent">
-                    <button className="talentbtn">Build with us</button>
+                    <button className="talentbtn">Join us</button>
                   </Link>
                 </div>
               </div>

@@ -117,7 +117,7 @@ const Community = ({ closeModal }) => {
         </div>
         <div className="form-group">
           <div>
-            <label htmlFor="jobInterest" style={{ color: "1b1b1b" }}>
+            <label htmlFor="jobInterest" style={{ color: "#ffff" }}>
               What are you applying as?
             </label>
 
@@ -132,6 +132,7 @@ const Community = ({ closeModal }) => {
               }}
             >
               <option>Select</option>
+              <option> Innovator </option>
               <option> Founder </option>
               <option>Investor / VC </option>
               <option> Professional (Corporate) </option>
@@ -142,7 +143,7 @@ const Community = ({ closeModal }) => {
         </div>
         <div className="form-group">
           <div>
-            <label htmlFor="jobInterest" style={{ color: "1b1b1b" }}>
+            <label htmlFor="jobInterest" style={{ color: "#ffff" }}>
               Why would you like to join the Ubulu Africa community ?
             </label>
 
@@ -156,6 +157,7 @@ const Community = ({ closeModal }) => {
               }}
             >
               <option>Select</option>
+              <option>Corporate Innovation</option>
               <option>Corporate Innovation</option>
               <option>Investments</option>
               <option>Networking</option>
@@ -175,7 +177,7 @@ const Community = ({ closeModal }) => {
         </div>
         <div className="form-group">
           <div>
-            <label htmlFor="jobInterest" style={{ color: "1b1b1b" }}>
+            <label htmlFor="jobInterest" style={{ color: "#fff" }}>
               How did you hear about us?
             </label>
 

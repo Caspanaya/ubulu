@@ -29,6 +29,38 @@
   font-weight: bold;
   text-decoration: none;
 }
+/* Add these styles for the dropdown */
+.serviceDropdown {
+  position: absolute;
+  top: 52%;
+  left: 370px;
+
+  display: none;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  min-width: 160px;
+}
+
+/* Style the individual service links within the dropdown */
+.serviceDropdown a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for the service links */
+.serviceDropdown a:hover {
+  background-color: #f5f5f5;
+}
+
+/* Show the dropdown when hovering over the parent item */
+.nav_link__item:hover .serviceDropdown {
+  display: block;
+}
 
 .wrapper.mobile {
   top: 0px;
@@ -98,11 +130,8 @@
   text-decoration: none;
   color: var(--ulu-color-primary-shade-5);
   font-weight: 700;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 16px;
-}
-.nav_link__item a:contains("Join Our Ecosystem") {
-  color: #ff0000; /* Replace with your desired color value */
 }
 
 .nav_link__item.active a {

@@ -46,7 +46,7 @@ const Startup = () => {
                 <br />
                 <div>
                   <Link to="/talent">
-                    <button className="talentbtn">Build with us</button>
+                    <button className="talentbtn">Join Us</button>
                   </Link>
                 </div>
               </div>

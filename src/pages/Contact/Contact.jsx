@@ -24,16 +24,14 @@ const Contact = () => {
               <div className={styles.content}>
                 {/* <h1>Ubulu Africa</h1> */}
 
-                <h2>Contact Our Experts </h2>
+                <h2>Let's talk </h2>
                 <p>
-                  At Ubulu Africa, we don't just talk about growth, innovation,
-                  and go-to-market strategies; we make them happen. Our proven
-                  framework is the bedrock upon which we build new ventures and
-                  drive businesses towards unmatched success.
+                  Ready to learn how we can jump start your new ideas or enhance
+                  and grow your existing digital products?
                 </p>
                 <div>
                   <Link to="/talent">
-                    <button className="talentbtn">Build with us</button>
+                    <button className="talentbtn">Join Us</button>
                   </Link>
                 </div>
               </div>

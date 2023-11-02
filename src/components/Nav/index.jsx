@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import styles from "./styles.module.css";
 import { CloseIcon, HamburgerMenu } from "../../assets";
@@ -7,11 +6,12 @@ import Logo from "../../assets/TitleLogo.png";
 import { ReactComponent as Twitter } from "../../assets/Twitter-Icon.svg";
 import { ReactComponent as Linkedin } from "../../assets/LinkedIn-Icon.svg";
 import { ReactComponent as Instagram } from "../../assets/Instagram-Icon.svg";
-import { NavLink } from "react-router-dom"; // Import NavLink
-
+import { NavLink } from "react-router-dom";
+import "./Nav.css";
 const LandingNav = () => {
   const [showWhiteNav, setShowWhiteNav] = useState(false);
   const [mobileIsLaunched, setMobileIsLaunched] = useState(false);
+  const [showServiceDropdown, setShowServiceDropdown] = useState(false); // Added state to control dropdown visibility
 
   const { width: windowWidth } = useWindowSize();
 
@@ -22,10 +22,10 @@ const LandingNav = () => {
         ? [
             { text: "Home", path: "/" },
             { text: "About", path: "/about" },
-            { text: "Service", path: "/program" },
-            { text: "Programs", path: "/talent" },
+            { text: "Services", path: "/program" },
+            { text: "Programs", path: "/program" },
             { text: "Contact Us", path: "/contact" },
-            { button: "Join Our Ecosystem", path: "/talent" },
+            { button: "Join Our Community", path: "/talent" },
           ]
         : [
             { text: "Home", path: "/" },
@@ -38,6 +38,11 @@ const LandingNav = () => {
 
   const handleLinkClick = () => {
     setMobileIsLaunched(false);
+  };
+
+  // Function to toggle the service dropdown visibility
+  const toggleServiceDropdown = (show) => {
+    setShowServiceDropdown(show);
   };
 
   useEffect(() => {
@@ -74,8 +79,15 @@ const LandingNav = () => {
             className={`${styles.nav_links}  ${isMobile ? styles.mobile : ""}`}
           >
             {NAV_ITEMS.map((item, idx) => (
-              <li className={`${styles.nav_link__item}`} key={idx}>
-                {item.button ? ( // Check if it's a button
+              <li
+                className={`${styles.nav_link__item}`}
+                key={idx}
+                onMouseEnter={() =>
+                  toggleServiceDropdown(item.text === "Services")
+                }
+                onMouseLeave={() => toggleServiceDropdown(false)}
+              >
+                {item.button ? (
                   <button className={styles.joinButton}>
                     <NavLink to={item.path} onClick={handleLinkClick}>
                       {item.button}
@@ -89,6 +101,16 @@ const LandingNav = () => {
                   >
                     {idx === 0 ? <img src={Logo} alt="logo" /> : item.text}
                   </NavLink>
+                )}
+                {item.text === "Services" && showServiceDropdown && (
+                  <div className={styles.serviceDropdown}>
+                    {/* Add your service links or content here */}
+                    <NavLink to="/startup">Startup Boost</NavLink>
+                    <NavLink to="/innovation">Our Programs</NavLink>
+                    <NavLink to="/university">
+                      University-industry Collaboration
+                    </NavLink>
+                  </div>
                 )}
               </li>
             ))}
