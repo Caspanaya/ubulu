@@ -32,7 +32,7 @@ const Program = () => {
       <main className={styles.bodyapp}>
         <div className={styles.hero} id="home">
           <img
-            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698784947/tianyi-ma-WiONHd_zYI4-unsplash_pexjd9.jpg"
+            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698972133/programs_4_w611a0.png"
             alt="Hero-img"
           />
           <div className={styles.wrapper}>
