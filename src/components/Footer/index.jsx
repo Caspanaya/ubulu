@@ -4,7 +4,7 @@ import { ReactComponent as Twitter } from "../../assets/Twitter-Icon.svg";
 import { ReactComponent as Linkedin } from "../../assets/LinkedIn-Icon.svg";
 import { ReactComponent as Instagram } from "../../assets/Instagram-Icon.svg";
 import { ubuluLogo } from "../../assets";
-
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className={styles.footer}>
@@ -24,7 +24,10 @@ const Footer = () => {
             {/* <a href="#home">Privacy</a> */}
             {/* <a href="#about-us">Programs</a> */}
             {/* <a href="#our-services">Services</a> */}
-            <a href="/privacy">Privacy</a>
+            <Link to="/privacy">
+              <a>Privacy</a>
+            </Link>
+
             <a href="#contact-us">Join Our Ecosystem</a>
           </nav>
         </div>
