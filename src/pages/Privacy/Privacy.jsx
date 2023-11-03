@@ -18,15 +18,15 @@ const Privacy = () => {
               <div className={styles.content}>
                 {/* <h1>Ubulu Africa</h1> */}
 
-                <h2>Programs</h2>
+                <h2>Privacy Notice / Privacy Policy</h2>
                 <p>
-                  At Ubulu Africa, we are committed to driving innovation and
+                  {/* At Ubulu Africa, we are committed to driving innovation and
                   transformation across the African continent. Our programs are
                   designed to be catalysts for change, igniting the potential of
                   businesses, startups, and organizations to thrive in a
                   dynamic, ever-evolving landscape. Ubulu Africa designs and
                   implements business strategies, innovation strategies and go
-                  to market strategies.
+                  to market strategies. */}
                 </p>
                 {/* <div>
                   <Link to="/talent">
@@ -41,13 +41,13 @@ const Privacy = () => {
         <br />
         <br />
         <br />
-        <center>
+        {/* <center>
           <div className="container">
             <h2 style={{ color: "#242436" }}>
               Privacy Notice / Privacy Policy
             </h2>
           </div>
-        </center>
+        </center> */}
         <br />
         <br />
         <br />
