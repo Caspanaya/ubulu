@@ -7,40 +7,30 @@ const Community = ({ closeModal }) => {
   const [message, setMessage] = useState("");
   const [name, setName] = useState("");
   const [subject, setSubject] = useState("");
+  const [consent, setConsent] = useState(false);
 
-  //   const handleSubmit = async (e) => {
-  //     e.preventDefault();
-  //     const formData = {
-  //       name,
-  //       email,
-  //       subject,
-  //       message,
-  //     };
-  //     try {
-  //       const response = await axios.post(
-  //         "https://swapxpress.onrender.com/api/v1/contact/create",
-  //         formData
-  //       );
+  const handleConsentChange = () => {
+    setConsent(!consent);
+  };
 
-  //       if (response.status === 200) {
-  //         toast.success("Your response has been submitted", {
-  //           position: "top-right",
-  //           autoClose: 3000,
-  //         });
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!consent) {
+      // Check if the user has given consent
+      alert("Please agree to the consent statement.");
+      return;
+    }
 
-  //         // Clear form fields
-  //         setName("");
-  //         setEmail("");
-  //         setSubject("");
-  //         setMessage("");
-  //       } else {
-  //         console.log(response.statusText);
-  //         alert("An error occurred. Please try again later.");
-  //       }
-  //     } catch (error) {
-  //       console.error(error);
-  //       alert("An error occurred. Please try again later.");
-  //     }
+    // Rest of your form submission logic
+    // ...
+
+    // After successful submission, clear the form fields and consent state
+    setName("");
+    setEmail("");
+    setSubject("");
+    setMessage("");
+    setConsent(false);
+  };
   //   };
 
   return (
@@ -211,6 +201,26 @@ const Community = ({ closeModal }) => {
             }}
             required
           />
+        </div>
+        <div className="form-group ">
+          <div className="row">
+            <label className="col-lg-2">
+              <input
+                type="checkbox"
+                checked={consent}
+                onChange={handleConsentChange}
+              />
+            </label>
+            <p
+              className="col-lg-10"
+              style={{ fontSize: "10px", color: "#fff" }}
+            >
+              {" "}
+              By submitting this form, you agree to allow us to store your
+              information and contact you as part of our future program
+              initiatives.
+            </p>
+          </div>
         </div>
         <button onClick={closeModal} type="submit">
           Submit
