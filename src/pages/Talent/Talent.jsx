@@ -11,7 +11,7 @@ const Talent = () => {
       <main className={styles.bodyapp}>
         <div className={styles.hero} id="home">
           <img
-            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698854118/programs_1_z0ax6e.png"
+            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698974247/natalie-pedigo-wJK9eTiEZHY-unsplash_cnnnsc.jpg"
             alt="Hero-img"
           />
           <div className={styles.wrapper}>
@@ -24,14 +24,7 @@ const Talent = () => {
                   Ubulu Africa stands as a beacon of unity, bringing together an
                   extraordinary tapestry of African startups, global
                   corporations, universities, innovative social enterprises, and
-                  visionary investors. We invite you to become part of Africa's
-                  most expansive tech community, where you'll have the
-                  opportunity to engage and gain wisdom from a diverse assembly
-                  of visionaries, trailblazers, and independent professionals.
-                  Our dynamic environment offers adaptable workspaces and an
-                  array of advantages that propel the advancement of your
-                  startup or scale-up, contributing to Africa's transformative
-                  growth.
+                  visionary investors.
                 </p>
               </div>
             </div>
