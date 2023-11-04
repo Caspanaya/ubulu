@@ -7,11 +7,27 @@ import { ReactComponent as Twitter } from "../../assets/Twitter-Icon.svg";
 import { ReactComponent as Linkedin } from "../../assets/LinkedIn-Icon.svg";
 import { ReactComponent as Instagram } from "../../assets/Instagram-Icon.svg";
 import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Nav.css";
 const LandingNav = () => {
   const [showWhiteNav, setShowWhiteNav] = useState(false);
   const [mobileIsLaunched, setMobileIsLaunched] = useState(false);
   const [showServiceDropdown, setShowServiceDropdown] = useState(false); // Added state to control dropdown visibility
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isDropdownHovered, setIsDropdownHovered] = useState(false);
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+    setIsDropdownHovered(true);
+
+    setTimeout(() => {
+      setIsDropdownOpen(false);
+    }, 7000);
+  };
+
+  const closeDropdown = () => {
+    // setIsDropdownOpen(false);
+    // setIsDropdownHovered(false);
+  };
 
   const { width: windowWidth } = useWindowSize();
 
@@ -105,8 +121,25 @@ const LandingNav = () => {
                 {item.text === "Services" && showServiceDropdown && (
                   <div className={styles.serviceDropdown}>
                     {/* Add your service links or content here */}
-                    <NavLink to="/startup">Startup Boost</NavLink>
-                    <NavLink to="/innovation">Our Programs</NavLink>
+                    <NavLink to="/startup">Startup(venture studio)</NavLink>
+                    <NavLink
+                      className=""
+                      to="/innovation"
+                      onMouseEnter={toggleDropdown}
+                      onMouseLeave={closeDropdown}
+                    >
+                      Corporate Innovation
+                    </NavLink>
+                    {isDropdownOpen && (
+                      <div>
+                        <Link to="/program">
+                          <a>Our Programs</a>
+                        </Link>
+                        <Link to="/what-we-offer">
+                          <a>What We Offer</a>
+                        </Link>
+                      </div>
+                    )}
                     <NavLink to="/university">
                       University-industry Collaboration
                     </NavLink>

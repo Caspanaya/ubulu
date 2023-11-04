@@ -15,18 +15,23 @@ const Footer = () => {
           <nav>
             <ul className="o_list">
               <li>
-                <a href="#home">Contact Us</a>
-                <a href="#about-us">About us</a>
-                <a href="#about-us">Programs</a>
-                <a href="#about-us">Services</a>
+                <Link to="/contact">
+                  <a>Contact Us</a>
+                </Link>
+                <Link to="/">
+                  <a>About</a>
+                </Link>
+                <Link to="/innovation">
+                  <a>Services</a>
+                </Link>
+                <Link to="/program">
+                  <a>Programs</a>
+                </Link>
               </li>
             </ul>
             {/* <a href="#home">Privacy</a> */}
             {/* <a href="#about-us">Programs</a> */}
             {/* <a href="#our-services">Services</a> */}
-            <Link to="/privacy">
-              <a>Privacy</a>
-            </Link>
 
             <a href="#contact-us">Join Our Ecosystem</a>
           </nav>
@@ -37,6 +42,9 @@ const Footer = () => {
             <p className={styles.copy}>
               © {new Date().getFullYear()} All rights reserved
             </p>
+            <Link to="/privacy">
+              <a>Privacy</a>
+            </Link>
           </div>
           <div className={styles.social_links__container}>
             <a

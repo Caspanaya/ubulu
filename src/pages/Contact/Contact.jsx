@@ -29,11 +29,6 @@ const Contact = () => {
                   Ready to learn how we can jump start your new ideas or enhance
                   and grow your existing digital products?
                 </p>
-                <div>
-                  <Link to="/talent">
-                    <button className="talentbtn">Join Us</button>
-                  </Link>
-                </div>
               </div>
             </div>
           </div>

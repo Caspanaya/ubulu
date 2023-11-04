@@ -119,10 +119,7 @@ function Home() {
       {/* Services Section */}
       <div className={styles.services_section} id="our-services">
         <div className={styles.wrapper}>
-          <Title
-            title="Our Services"
-            subtitle="Ubulu Africa Innovation Building Blocks"
-          />
+          <Title title="" subtitle="Ubulu Africa Innovation Building Blocks" />
           <ServicesSection />
         </div>
       </div>

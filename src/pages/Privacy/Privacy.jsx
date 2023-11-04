@@ -18,7 +18,7 @@ const Privacy = () => {
               <div className={styles.content}>
                 {/* <h1>Ubulu Africa</h1> */}
 
-                <h2>Privacy Notice / Privacy Policy</h2>
+                <h2>Privacy Policy</h2>
                 <p>
                   {/* At Ubulu Africa, we are committed to driving innovation and
                   transformation across the African continent. Our programs are
