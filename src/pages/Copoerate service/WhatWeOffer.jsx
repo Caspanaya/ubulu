@@ -79,7 +79,7 @@ const WhatWeOffer = () => {
       <main className={styles.bodyapp}>
         <div className={styles.hero} id="home">
           <img
-            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1697541084/fixit_lpcj3w.jpg"
+            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699142632/jackson-david-8qudl9pDZJ0-unsplash_shj7um.jpg"
             alt="Hero-img"
           />
           <div className={styles.wrapper}>
