@@ -15,7 +15,7 @@ import { Footer } from "../../components/Footer";
 import { ScrollButton } from "../../components/ScrolltoTopBtn";
 import { LandingNav } from "../../components/Nav";
 import { Link } from "react-router-dom";
-
+import CarouselWithVideos from "../../components/Carousel/CarouselWithVideos";
 function Home() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const toggleDropdown = () => {
@@ -123,7 +123,10 @@ function Home() {
           <ServicesSection />
         </div>
       </div>
-
+      {/* carousel */}
+      <div>
+        <CarouselWithVideos />
+      </div>
       {/* Partners Section */}
       <div className={styles.partners_section}>
         <div className={styles.video__bg_overlay}></div>
