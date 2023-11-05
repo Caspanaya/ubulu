@@ -10,7 +10,7 @@ const Privacy = () => {
       <main className={styles.bodyapp}>
         <div className={styles.hero} id="home">
           <img
-            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698784947/tianyi-ma-WiONHd_zYI4-unsplash_pexjd9.jpg"
+            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699143221/fly-d-mT7lXZPjk7U-unsplash_k07bra.jpg"
             alt="Hero-img"
           />
           <div className={styles.wrapper}>
@@ -20,13 +20,10 @@ const Privacy = () => {
 
                 <h2>Privacy Policy</h2>
                 <p>
-                  {/* At Ubulu Africa, we are committed to driving innovation and
-                  transformation across the African continent. Our programs are
-                  designed to be catalysts for change, igniting the potential of
-                  businesses, startups, and organizations to thrive in a
-                  dynamic, ever-evolving landscape. Ubulu Africa designs and
-                  implements business strategies, innovation strategies and go
-                  to market strategies. */}
+                  At Ubulu Africa, your data privacy and security are of
+                  paramount importance to us. We are deeply committed to
+                  safeguarding your personal information and ensuring that it
+                  remains confidential and protected.
                 </p>
                 {/* <div>
                   <Link to="/talent">
