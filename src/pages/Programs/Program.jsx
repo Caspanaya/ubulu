@@ -12,7 +12,24 @@ import { ReactComponent as Linkedin } from "../../assets/LinkedIn-Icon.svg";
 import { ReactComponent as Instagram } from "../../assets/Instagram-Icon.svg";
 import { ReactComponent as SendMail } from "../../assets/Send-Mail-Icon.svg";
 import { Link } from "react-router-dom";
+
 const Program = () => {
+  const [readMore, setReadMore] = useState(false);
+  const [readBuild, setReadBuild] = useState(false);
+  const [readInnovate, setReadInnovate] = useState(false);
+  const [readStart, setReadStart] = useState(false);
+  const info =
+    "With approximately 600 applications from across Africa, selected startup innovators and founders were granted the invaluable opportunity to present their business ideas before a distinguished panel of local, home-based, and international investors. This platform afforded them the chance to secure funding of up to $10,000, free from equity commitments, and to gain access to mentorship support from renowned industry experts. Pitch2Win is more than an event; it's a dynamic bridge connecting visionary founders with potential investors, paving the way for growth, collaboration, and promising investment opportunities.";
+
+  const buildings =
+    " In this edition, our esteemed panelists illuminate thetransformative potential of forging alliances withstartups to cultivate dynamic innovation ecosystems. Our discussion centers on the profound benefits, strategicconsiderations, and solutions for seamlessly integratingstartups into the corporate fabric. As organizationscontinue to grapple with the demands of a rapidly evolvingbusiness landscape, understanding the power ofcollaboration with startups has never been more critical.";
+
+  const Innovations =
+    "In this inaugural panel webinar, our esteemed experts delve into the vital aspects of Corporate Innovation and Venture Building within the context of the dynamic business landscape of Nigeria-Africa. Discover why it is imperative for organizations to venture beyond their comfort zones and embrace innovation as a catalyst for sustainable growth.";
+
+  const Startup =
+    "In today's rapidly evolving business landscape, innovation is the key to success. Many organizations recognize the value of innovation but often find themselves limited by their internal capabilities. At Ubulu Africa, we firmly believe that to truly thrive in innovative growth, businesses need to break free from their comfort zones. They must venture outside their organizational walls and embrace strategic collaborations with startups.";
+
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const openModal = () => {
@@ -22,10 +39,12 @@ const Program = () => {
   const closeModal = () => {
     setModalIsOpen(false);
   };
+
   const youtubeLink = "https://www.youtube.com/watch?v=XW7B-sCD2rg";
-  const coporate = "https://youtu.be/4pyb_Bg4JdA";
+  const corporate = "https://youtu.be/4pyb_Bg4JdA";
   const building = "https://youtu.be/VCDAzz7pShQ";
   const collaboration = "https://youtu.be/jlXUzvHSoEY";
+
   return (
     <>
       <LandingNav />
@@ -38,8 +57,6 @@ const Program = () => {
           <div className={styles.wrapper}>
             <div className={styles.hero_content}>
               <div className={styles.content}>
-                {/* <h1>Ubulu Africa</h1> */}
-
                 <h2>Programs</h2>
                 <p>
                   At Ubulu Africa, we are committed to driving innovation and
@@ -47,9 +64,10 @@ const Program = () => {
                   designed to be catalysts for change, igniting the potential of
                   businesses, startups, and organizations to thrive in a
                   dynamic, ever-evolving landscape. Ubulu Africa designs and
-                  implements business strategies, innovation strategies and go
-                  to market strategies.
+                  implements business strategies, innovation strategies, and
+                  go-to-market strategies.
                 </p>
+
                 <div>
                   <Link to="/talent">
                     <button className="talentbtn">Join Us</button>
@@ -63,37 +81,36 @@ const Program = () => {
         <br />
         <br />
         <div className="container">
-          {" "}
-          <h2 style={{ fontSize: "50px", fontWeight: "600" }}>Pitch2Win </h2>
+          <h2 style={{ fontSize: "50px", fontWeight: "600" }}>Pitch2Win</h2>
         </div>
         <br />
-        <br />
+
         <section>
           <div className="container">
             <div className="row">
               <div className="col-lg-6">
+                <div style={{ backgroundColor: "#F7F8F8", width: "100%" }}>
+                  <h1 style={{ fontSize: "30px", color: "#242436" }}>
+                    Innovation, Networking, Opportunities
+                  </h1>
+                </div>
                 <p>
                   Pitch2Win is a startup pitching program and competition event
                   organized to support the Tech Ecosystem by providing grants to
                   young and promising startup founders, enabling them to raise
-                  funds and grow their businesses. With approximately 600
-                  applications from across Africa, selected startup innovators
-                  and founders were granted the invaluable opportunity to
-                  present their business ideas before a distinguished panel of
-                  local, home-based, and international investors. This platform
-                  afforded them the chance to secure funding of up to $10,000,
-                  free from equity commitments, and to gain access to mentorship
-                  support from renowned industry experts. Pitch2Win is more than
-                  an event; it's a dynamic bridge connecting visionary founders
-                  with potential investors, paving the way for growth,
-                  collaboration, and promising investment opportunities.
+                  funds and grow their businesses.{" "}
+                  <p>
+                    {readMore ? info : `${info.substring(0, 200)}...`}
+                    <button onClick={() => setReadMore(!readMore)}>
+                      {readMore ? "show less" : "  read more"}
+                    </button>
+                  </p>
                 </p>
               </div>
-              <br />
-              <br />
+
               <div className="col-lg-6">
                 <div className="video-div">
-                  <ReactPlayer url={youtubeLink} width="100%" height="80vh" />
+                  <ReactPlayer url={youtubeLink} width="100%" height="40vh" />
                 </div>
                 <br />
                 <br />
@@ -106,7 +123,7 @@ const Program = () => {
         <br />
         <div className="container">
           <h2 style={{ fontSize: "50px", fontWeight: "600" }}>
-            Corporate Innovation Unleashed{" "}
+            Corporate Innovation Unleashed
           </h2>
           <br />
           <p>
@@ -118,7 +135,7 @@ const Program = () => {
             and a Corporate Innovation Manager/Consultant. Together, they engage
             in discussions about corporate innovation in Nigeria-Africa, the
             opportunities it presents for corporations, the startup ecosystem
-            and beyond, and everything in-between
+            and beyond, and everything in-between.
           </p>
         </div>
 
@@ -129,153 +146,89 @@ const Program = () => {
         <section>
           <div className="container">
             <div className="row">
-              <br />
-              <br />
-              <br />
-              <div className="col-lg-6">
+              <div className="col-lg-4">
                 <div className="video-div">
-                  <ReactPlayer url={coporate} width="100%" height="80vh" />
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <h2 style={{ font: "30px", fontWeight: "600" }}>
-                  Introduction to Corporate Innovation and Venture Building
-                </h2>
-                <br />
-                <p>
-                  In this inaugural panel webinar, our esteemed experts delve
-                  into the vital aspects of Corporate Innovation and Venture
-                  Building within the context of the dynamic business landscape
-                  of Nigeria-Africa. Discover why it is imperative for
-                  organizations to venture beyond their comfort zones and
-                  embrace innovation as a catalyst for sustainable growth.
-                </p>
-                <br />
-                <br />
-              </div>
-            </div>
-          </div>
-        </section>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <section>
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6">
-                <h2 style={{ font: "30px", fontWeight: "600" }}>
-                  Building an Innovation Ecosystem - Collaborating with Startups{" "}
-                </h2>
-                <br />
-                <p>
-                  In this edition, our esteemed panelists illuminate the
-                  transformative potential of forging alliances with startups to
-                  cultivate dynamic innovation ecosystems. Our discussion
-                  centers on the profound benefits, strategic considerations,
-                  and solutions for seamlessly integrating startups into the
-                  corporate fabric. As organizations continue to grapple with
-                  the demands of a rapidly evolving business landscape,
-                  understanding the power of collaboration with startups has
-                  never been more critical.
-                </p>
-              </div>
-              <br />
-              <br />
-              <div className="col-lg-6">
-                <div className="video-div">
-                  <ReactPlayer url={building} width="100%" height="80vh" />
-                </div>
-                <br />
-                <br />
-              </div>
-            </div>
-          </div>
-        </section>
-        <br />
-        <br />
-        <br />
-        <section>
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="video-div">
-                  <ReactPlayer url={collaboration} width="100%" height="80vh" />
-                </div>
-                <br />
-                <br />
-              </div>
-              <div className="col-lg-6">
-                <h2 style={{ font: "30px", fontWeight: "600" }}>
-                  Corporate-Startup Collaboration - Structuring Successful
-                  Partnerships
-                </h2>
-                <br />
-                <p>
-                  In today's rapidly evolving business landscape, innovation is
-                  the key to success. Many organizations recognize the value of
-                  innovation but often find themselves limited by their internal
-                  capabilities. At Ubulu Africa, we firmly believe that to truly
-                  thrive in innovative growth, businesses need to break free
-                  from their comfort zones. They must venture outside their
-                  organizational walls and embrace strategic collaborations with
-                  startups.
-                </p>
-              </div>
-              <br />
-              <br />
-            </div>
-          </div>
-        </section>
-        {/* <br />
-        <br />
-        <br />
-        <br />
-        <div className="ctajoin">
-          <div className="container">
-            <br />
-            <br />
-            <center>
-              <h2 className="text-white">Work With Us, Become a Co-Founder</h2>
+                  <ReactPlayer url={corporate} width="100%" height="40vh" />
+                  <br />
 
-              <p className="text-white">
-                We are inquisitive, driven by efficiency, and deeply passionate
-                about startups. We’re constantly on the lookout for our next
-                <br />
-                hires. If you are passionate about building new ventures, new
-                business models, products, and leaving your mark on the
-                <br />
-                industry, it is time to continue writing your entrepreneurial
-                story with Ubulu Africa.
-              </p>
-              <br />
-              <div>
-                <button onClick={openModal} className="talentbtn ">
-                  Join Our Talent Pool
-                </button>
-                <br />
-                <Modal
-                  isOpen={modalIsOpen}
-                  onRequestClose={closeModal}
-                  contentLabel="Example Modal"
-                  // className={{
-                  //   base: "ReactModal__Content",
-                  //   afterOpen: "ReactModal__Content_after-open",
-                  // }}
-                  // overlayClassName={{
-                  //   base: "ReactModal__Overlay",
-                  //   afterOpen: "ReactModal__Overlay_after-open",
-                  // }}
-                >
-                  <ContactForm closeModal={closeModal} />
-                </Modal>
+                  <div className="">
+                    <h2 style={{ fontSize: "24px", fontWeight: "600" }}>
+                      Introduction to Corporate Innovation and Venture Building
+                    </h2>
+                    <br />
+
+                    <p>
+                      <p>
+                        {readBuild
+                          ? buildings
+                          : `${buildings.substring(0, 200)}...`}
+                        <button onClick={() => setReadBuild(!readBuild)}>
+                          {readBuild ? "show less" : "  read more"}
+                        </button>
+                      </p>
+                    </p>
+                    <br />
+                    <br />
+                  </div>
+                </div>
               </div>
-            </center>
+              <div className="col-lg-4">
+                <div className="video-div">
+                  <ReactPlayer url={building} width="100%" height="40vh" />
+                  <br />
+                  <div className="">
+                    <h2 style={{ fontSize: "24px", fontWeight: "600" }}>
+                      Building an Innovation Ecosystem - Collaborating with
+                      Startups
+                    </h2>
+                    <br />
+
+                    <p>
+                      <p>
+                        {readInnovate
+                          ? Innovations
+                          : `${Innovations.substring(0, 200)}...`}
+                        <button onClick={() => setReadInnovate(!readInnovate)}>
+                          {readInnovate ? "show less" : "  read more"}
+                        </button>
+                      </p>
+                    </p>
+                    <br />
+                    <br />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="video-div">
+                  <ReactPlayer url={collaboration} width="100%" height="40vh" />
+                  <br />
+
+                  <div className="">
+                    <h2 style={{ fontSize: "24px", fontWeight: "600" }}>
+                      Corporate-Startup Collaboration - Structuring Successful
+                      Partnerships
+                    </h2>
+                    <br />
+
+                    <p>
+                      <p>
+                        {readStart
+                          ? Startup
+                          : `${Startup.substring(0, 200)}...`}
+                        <button onClick={() => setReadStart(!readStart)}>
+                          {readStart ? "show less" : "  read more"}
+                        </button>
+                      </p>
+                    </p>
+                    <br />
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div> */}
-        <br />
+        </section>
+
         <br />
         <br />
         <br />

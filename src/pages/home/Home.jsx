@@ -125,7 +125,12 @@ function Home() {
       </div>
       {/* carousel */}
       <div>
-        <CarouselWithVideos />
+        <div className={styles.services_section} id="our-services">
+          <div className={styles.wrapper}>
+            <Title title="Programs" subtitle="" />
+            <CarouselWithVideos />
+          </div>
+        </div>
       </div>
       {/* Partners Section */}
       <div className={styles.partners_section}>
