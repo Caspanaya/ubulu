@@ -132,7 +132,7 @@ const LandingNav = () => {
                     </NavLink>
                     {isDropdownOpen && (
                       <div>
-                        <Link to="/program">
+                        <Link to="/innovation">
                           <a>Our Programs</a>
                         </Link>
                         <Link to="/what-we-offer">
