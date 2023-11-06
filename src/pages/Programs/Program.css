@@ -4,3 +4,6 @@
   overflow: hidden;
   border-radius: 10px;
 }
+.pad {
+  padding: 0;
+}

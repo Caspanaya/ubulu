@@ -12,7 +12,7 @@ import { ReactComponent as Linkedin } from "../../assets/LinkedIn-Icon.svg";
 import { ReactComponent as Instagram } from "../../assets/Instagram-Icon.svg";
 import { ReactComponent as SendMail } from "../../assets/Send-Mail-Icon.svg";
 import { Link } from "react-router-dom";
-
+import "./Program.css";
 const Program = () => {
   const [readMore, setReadMore] = useState(false);
   const [readBuild, setReadBuild] = useState(false);
@@ -215,7 +215,10 @@ const Program = () => {
                         {readStart
                           ? Startup
                           : `${Startup.substring(0, 200)}...`}
-                        <button onClick={() => setReadStart(!readStart)}>
+                        <button
+                          className="pad"
+                          onClick={() => setReadStart(!readStart)}
+                        >
                           {readStart ? "show less" : "  read more"}
                         </button>
                       </p>
