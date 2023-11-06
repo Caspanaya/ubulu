@@ -10,6 +10,7 @@ import { ReactComponent as SendMail } from "../../assets/Send-Mail-Icon.svg";
 import { Footer } from "../../components/Footer";
 import { Link } from "react-router-dom";
 import Mind from "../../assets/mind.svg";
+import Project from "../../assets/ProjectU.svg";
 import Research from "../../assets/research.svg";
 import "./Uni.css";
 // import PsychologyIcon from "@mui/icons-material/Psychology";
@@ -86,7 +87,7 @@ const University = () => {
                 <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                   <div className="col p-4 d-flex flex-column position-static">
                     <h3 className="mb-0">Identifying Synergies</h3>
-
+                    <br />
                     <div className="mb-1 text-body-secondary"> </div>
                     <p className="card-text mb-auto">
                       We analyze your specific needs and objectives to identify
@@ -153,7 +154,7 @@ const University = () => {
               <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                 <div className="col p-4 d-flex flex-column position-static">
                   <h3 className="mb-0">Customized Research Initiatives</h3>
-
+                  <br />
                   <div className="mb-1 text-body-secondary"> </div>
                   <p className="card-text mb-auto">
                     We match industry-specific challenges with academic
@@ -227,7 +228,7 @@ const University = () => {
               <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                 <div className="col p-4 d-flex flex-column position-static">
                   <h3 className="mb-0">Intellectual Property Management </h3>
-
+                  <br />
                   <div className="mb-1 text-body-secondary"> </div>
                   <p className="card-text mb-auto">
                     Our experts navigate intellectual property complexities,
@@ -291,17 +292,8 @@ const University = () => {
         <br />
         <br />
         <div className="container">
-          {/* <h2 className={style.unihead}>
-            Our University-Industry Collaboration Services
-          </h2> */}
           <h1>Research Project Management</h1>
-          {/* <p>
-            We facilitate strategic alliances between your organization and
-            leading universities. By identifying the right academic partners, we
-            lay the foundation for productive, long-term collaborations. These
-            partnerships can include research projects, knowledge sharing, and
-            joint initiatives to tackle digital innovation challenges.
-          </p> */}
+
           <br />
           <br />
           <div className="row mb-2">
@@ -309,7 +301,7 @@ const University = () => {
               <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                 <div className="col p-4 d-flex flex-column position-static">
                   <h3 className="mb-0">Customized Research Initiatives</h3>
-
+                  <br />
                   <div className="mb-1 text-body-secondary"> </div>
                   <p className="card-text mb-auto">
                     We match industry-specific challenges with academic
@@ -331,44 +323,22 @@ const University = () => {
             <div className="col-md-6">
               <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                 <div className="col p-4 d-flex flex-column position-static">
-                  {/* <strong className="d-inline-block mb-2 text-success-emphasis">
-                    Design
-                  </strong> */}
                   <h3 className="mb-0">Project Oversight</h3>
                   <br />
-                  {/* <div className="mb-1 text-body-secondary">Nov 11</div> */}
+
                   <p className="mb-auto">
                     We manage the entire research process, ensuring timelines,
                     deliverables, and budgets are met while providing
                     transparency throughout.
                   </p>
-                  {/* <a
-                    href="#"
-                    className="icon-link gap-1 icon-link-hover stretched-link"
-                  >
-                    Continue reading
-                    <svg className="bi">
-                      <use xlinkHref="#chevron-right"></use>
-                    </svg>
-                  </a> */}
                 </div>
                 <div className="col-auto d-none d-lg-block">
-                  <svg
-                    className="bd-placeholder-img"
-                    width="200"
-                    height="250"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c"></rect>
-                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                      Thumbnail
-                    </text>
-                  </svg>
+                  <img
+                    className="idea_svg"
+                    src={Project}
+                    width={160}
+                    height={125}
+                  />
                 </div>
               </div>
             </div>
