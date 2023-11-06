@@ -10,6 +10,7 @@ import { ReactComponent as SendMail } from "../../assets/Send-Mail-Icon.svg";
 import { Footer } from "../../components/Footer";
 import { Link } from "react-router-dom";
 import Mind from "../../assets/mind.svg";
+import Research from "../../assets/research.svg";
 import "./Uni.css";
 // import PsychologyIcon from "@mui/icons-material/Psychology";
 import Title from "../../components/Title";
@@ -269,22 +270,19 @@ const University = () => {
                   </a> */}
                 </div>
                 <div className="col-auto d-none d-lg-block">
-                  <svg
-                    className="bd-placeholder-img"
-                    width="200"
-                    height="250"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c"></rect>
-                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                      Thumbnail
-                    </text>
-                  </svg>
+                  <div className="fix_svg">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="160"
+                      height="125"
+                      fill="currentColor"
+                      className="bi bi-file-bar-graph"
+                      viewBox="0 0 16 16"
+                    >
+                      <path d="M4.5 12a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-1zm3 0a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1zm3 0a.5.5 0 0 1-.5-.5v-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-.5.5h-1z" />
+                      <path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                    </svg>
+                  </div>
                 </div>
               </div>
             </div>
@@ -310,9 +308,6 @@ const University = () => {
             <div className="col-md-6">
               <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                 <div className="col p-4 d-flex flex-column position-static">
-                  {/* <strong className="d-inline-block mb-2 text-primary-emphasis">
-                    World
-                  </strong> */}
                   <h3 className="mb-0">Customized Research Initiatives</h3>
 
                   <div className="mb-1 text-body-secondary"> </div>
@@ -322,33 +317,14 @@ const University = () => {
                     These projects drive digital innovation by addressing
                     industry needs with cutting-edge research.
                   </p>
-                  {/* <a
-                    href="#"
-                    className="icon-link gap-1 icon-link-hover stretched-link"
-                  >
-                    Continue reading
-                    <svg className="bi">
-                      <use xlinkHref="#chevron-right"></use>
-                    </svg>
-                  </a> */}
                 </div>
                 <div className="col-auto d-none d-lg-block">
-                  <svg
-                    className="bd-placeholder-img"
-                    width="200"
-                    height="250"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c"></rect>
-                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                      Thumbnail
-                    </text>
-                  </svg>
+                  <img
+                    className="fix_svg"
+                    src={Research}
+                    width={160}
+                    height={125}
+                  />
                 </div>
               </div>
             </div>

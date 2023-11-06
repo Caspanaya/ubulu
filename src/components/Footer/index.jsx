@@ -15,25 +15,27 @@ const Footer = () => {
           <nav>
             <ul className="o_list">
               <li>
-                <Link to="/contact">
-                  <a>Contact Us</a>
-                </Link>
                 <Link to="/">
                   <a>About</a>
                 </Link>
+
                 <Link to="/innovation">
                   <a>Services</a>
                 </Link>
                 <Link to="/program">
                   <a>Programs</a>
                 </Link>
+                <Link to="/contact">
+                  <a>Contact Us</a>
+                </Link>
               </li>
             </ul>
             {/* <a href="#home">Privacy</a> */}
             {/* <a href="#about-us">Programs</a> */}
             {/* <a href="#our-services">Services</a> */}
-
-            <a href="#contact-us">Join Our Ecosystem</a>
+            <Link to="/talent">
+              <a>Join Our Community</a>
+            </Link>
           </nav>
         </div>
         <hr />

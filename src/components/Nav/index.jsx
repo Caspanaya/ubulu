@@ -19,14 +19,17 @@ const LandingNav = () => {
     setIsDropdownOpen(!isDropdownOpen);
     setIsDropdownHovered(true);
 
-    setTimeout(() => {
-      setIsDropdownOpen(false);
-    }, 7000);
+    // setTimeout(() => {
+    //   setIsDropdownOpen(false);
+    // }, 1000);
   };
 
   const closeDropdown = () => {
+    setTimeout(() => {
+      setIsDropdownOpen(false);
+    }, 1000);
     // setIsDropdownOpen(false);
-    // setIsDropdownHovered(false);
+    setIsDropdownHovered(false);
   };
 
   const { width: windowWidth } = useWindowSize();
@@ -121,7 +124,9 @@ const LandingNav = () => {
                 {item.text === "Services" && showServiceDropdown && (
                   <div className={styles.serviceDropdown}>
                     {/* Add your service links or content here */}
-                    <NavLink to="/startup">Startup(venture studio)</NavLink>
+                    <NavLink to="/startup">
+                      Startup Boost(Venture Studio)
+                    </NavLink>
                     <NavLink
                       className=""
                       to="/innovation"
@@ -141,7 +146,7 @@ const LandingNav = () => {
                       </div>
                     )}
                     <NavLink to="/university">
-                      University-industry Collaboration
+                      University-Industry Collaboration
                     </NavLink>
                   </div>
                 )}
