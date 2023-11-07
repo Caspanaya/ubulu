@@ -10,8 +10,12 @@ import { ReactComponent as SendMail } from "../../assets/Send-Mail-Icon.svg";
 import { Footer } from "../../components/Footer";
 import { Link } from "react-router-dom";
 import Mind from "../../assets/mind.svg";
+import Share from "../../assets/share.svg";
 import Project from "../../assets/ProjectU.svg";
+import Network from "../../assets/Networking.svg";
 import Research from "../../assets/research.svg";
+import Office from "../../assets/office.svg";
+import Recuitement from "../../assets/recuitement.svg";
 import "./Uni.css";
 // import PsychologyIcon from "@mui/icons-material/Psychology";
 import Title from "../../components/Title";
@@ -363,11 +367,8 @@ const University = () => {
             <div className="col-md-6">
               <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                 <div className="col p-4 d-flex flex-column position-static">
-                  {/* <strong className="d-inline-block mb-2 text-primary-emphasis">
-                    World
-                  </strong> */}
                   <h3 className="mb-0">Knowledge Sharing </h3>
-
+                  <br />
                   <div className="mb-1 text-body-secondary"> </div>
                   <p className="card-text mb-auto">
                     We organize workshops, seminars, webinars, and events that
@@ -376,45 +377,23 @@ const University = () => {
                     emerging trends in digital innovation between universities
                     and industries.
                   </p>
-                  {/* <a
-                    href="#"
-                    className="icon-link gap-1 icon-link-hover stretched-link"
-                  >
-                    Continue reading
-                    <svg className="bi">
-                      <use xlinkHref="#chevron-right"></use>
-                    </svg>
-                  </a> */}
                 </div>
                 <div className="col-auto d-none d-lg-block">
-                  <svg
-                    className="bd-placeholder-img"
-                    width="200"
-                    height="250"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c"></rect>
-                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                      Thumbnail
-                    </text>
-                  </svg>
+                  <img
+                    className="fix_svg"
+                    src={Share}
+                    width={160}
+                    height={125}
+                  />
                 </div>
               </div>
             </div>
             <div className="col-md-6">
               <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                 <div className="col p-4 d-flex flex-column position-static">
-                  {/* <strong className="d-inline-block mb-2 text-success-emphasis">
-                    Design
-                  </strong> */}
                   <h3 className="mb-0">Networking Opportunities</h3>
                   <br />
-                  {/* <div className="mb-1 text-body-secondary">Nov 11</div> */}
+
                   <p className="mb-auto">
                     Connect with thought leaders, researchers, and industry
                     peers to nurture a culture of innovation within your
@@ -423,33 +402,14 @@ const University = () => {
                     network of like-minded organizations, researchers, and
                     innovators.
                   </p>
-                  {/* <a
-                    href="#"
-                    className="icon-link gap-1 icon-link-hover stretched-link"
-                  >
-                    Continue reading
-                    <svg className="bi">
-                      <use xlinkHref="#chevron-right"></use>
-                    </svg>
-                  </a> */}
                 </div>
                 <div className="col-auto d-none d-lg-block">
-                  <svg
-                    className="bd-placeholder-img"
-                    width="200"
-                    height="250"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c"></rect>
-                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                      Thumbnail
-                    </text>
-                  </svg>
+                  <img
+                    className="fix_svg"
+                    src={Network}
+                    width={160}
+                    height={125}
+                  />
                 </div>
               </div>
             </div>
@@ -458,9 +418,6 @@ const University = () => {
         <br />
         <br />
         <div className="container">
-          {/* <h2 className={style.unihead}>
-            Our University-Industry Collaboration Services
-          </h2> */}
           <h1>Talent Pipeline Development</h1>
           <p>
             Access to a pool of bright, young minds is invaluable. Our Student
@@ -474,87 +431,43 @@ const University = () => {
             <div className="col-md-6">
               <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                 <div className="col p-4 d-flex flex-column position-static">
-                  {/* <strong className="d-inline-block mb-2 text-primary-emphasis">
-                    World
-                  </strong> */}
                   <h3 className="mb-0">Recruitment Assistance </h3>
-
+                  <br />
                   <div className="mb-1 text-body-secondary"> </div>
                   <p className="card-text mb-auto">
                     We assist in identifying and recruiting top-tier talent from
                     academia to complement your digital innovation teams.
                   </p>
-                  {/* <a
-                    href="#"
-                    className="icon-link gap-1 icon-link-hover stretched-link"
-                  >
-                    Continue reading
-                    <svg className="bi">
-                      <use xlinkHref="#chevron-right"></use>
-                    </svg>
-                  </a> */}
                 </div>
                 <div className="col-auto d-none d-lg-block">
-                  <svg
-                    className="bd-placeholder-img"
-                    width="200"
-                    height="250"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c"></rect>
-                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                      Thumbnail
-                    </text>
-                  </svg>
+                  <img
+                    className="idea_svg"
+                    src={Recuitement}
+                    width={160}
+                    height={125}
+                  />
                 </div>
               </div>
             </div>
             <div className="col-md-6">
               <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                 <div className="col p-4 d-flex flex-column position-static">
-                  {/* <strong className="d-inline-block mb-2 text-success-emphasis">
-                    Design
-                  </strong> */}
                   <h3 className="mb-0">Internship and Co-op Programs</h3>
                   <br />
-                  {/* <div className="mb-1 text-body-secondary">Nov 11</div> */}
+
                   <p className="mb-auto">
                     We establish programs that allow students to gain real-world
                     experience while contributing to your digital innovation
                     initiatives.
                   </p>
-                  {/* <a
-                    href="#"
-                    className="icon-link gap-1 icon-link-hover stretched-link"
-                  >
-                    Continue reading
-                    <svg className="bi">
-                      <use xlinkHref="#chevron-right"></use>
-                    </svg>
-                  </a> */}
                 </div>
                 <div className="col-auto d-none d-lg-block">
-                  <svg
-                    className="bd-placeholder-img"
-                    width="200"
-                    height="250"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c"></rect>
-                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                      Thumbnail
-                    </text>
-                  </svg>
+                  <img
+                    className="fix_svg"
+                    src={Office}
+                    width={160}
+                    height={125}
+                  />
                 </div>
               </div>
             </div>
@@ -590,15 +503,6 @@ const University = () => {
                     impact and effectiveness of university-industry
                     collaborations.
                   </p>
-                  {/* <a
-                    href="#"
-                    className="icon-link gap-1 icon-link-hover stretched-link"
-                  >
-                    Continue reading
-                    <svg className="bi">
-                      <use xlinkHref="#chevron-right"></use>
-                    </svg>
-                  </a> */}
                 </div>
                 <div className="col-auto d-none d-lg-block">
                   <svg

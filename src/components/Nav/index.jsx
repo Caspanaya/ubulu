@@ -30,6 +30,8 @@ const LandingNav = () => {
     // }, 1000);
   };
 
+  const showSevice = () => {};
+
   const closeDropdown = () => {
     setTimeout(() => {
       setIsDropdownOpen(false);
