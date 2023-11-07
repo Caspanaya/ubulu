@@ -27,7 +27,7 @@ const LandingNav = () => {
   const closeDropdown = () => {
     setTimeout(() => {
       setIsDropdownOpen(false);
-    }, 1000);
+    }, 3000);
     // setIsDropdownOpen(false);
     setIsDropdownHovered(false);
   };
