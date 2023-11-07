@@ -8,8 +8,14 @@ import { ReactComponent as Linkedin } from "../../assets/LinkedIn-Icon.svg";
 import { ReactComponent as Instagram } from "../../assets/Instagram-Icon.svg";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import "./Nav.css";
 const LandingNav = () => {
+  const location = useLocation();
+  const isLinkActive = (path) => {
+    return location.pathname === path;
+  };
+
   const [showWhiteNav, setShowWhiteNav] = useState(false);
   const [mobileIsLaunched, setMobileIsLaunched] = useState(false);
   const [showServiceDropdown, setShowServiceDropdown] = useState(false); // Added state to control dropdown visibility
@@ -39,12 +45,12 @@ const LandingNav = () => {
     () =>
       !isMobile
         ? [
-            { text: "Home", path: "/" },
+            { text: "Home", path: "" },
             { text: "About", path: "/" },
             { text: "Services", path: "" },
             { text: "Programs", path: "/program" },
             { text: "Contact Us", path: "/contact" },
-            { button: "Join Our Community", path: "/talent" },
+            { text: "Join Our Community", path: "/talent" },
           ]
         : [
             { text: "Home", path: "/" },
@@ -114,8 +120,9 @@ const LandingNav = () => {
                   </button>
                 ) : (
                   <NavLink
+                    id="active-link"
                     to={item.path}
-                    activeClassName={styles.active}
+                    className={isLinkActive(item.path) ? styles.active : ""}
                     onClick={handleLinkClick}
                   >
                     {idx === 0 ? <img src={Logo} alt="logo" /> : item.text}

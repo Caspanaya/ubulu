@@ -56,7 +56,7 @@
 
 /* Hover effect for the service links */
 .serviceDropdown a:hover {
-  background-color: #f5f5f5;
+  background-color: #1b1b1b;
 }
 
 /* Show the dropdown when hovering over the parent item */
@@ -91,6 +91,9 @@
 
 .wrapper.white .socials path {
   fill: #38383a;
+}
+a.active {
+  border-bottom: 3px solid #2e2e2e; /* Customize the underline style */
 }
 
 .nav_links {
@@ -137,11 +140,7 @@
   line-height: 16px;
 }
 
-.nav_link__item.active a {
-  color: #fcfcfc;
-}
-
-.nav_link__item.active a::before {
+/* .nav_link__item.active a::before {
   content: "";
   position: absolute;
   transform: translateX(-50%);
@@ -150,15 +149,7 @@
   height: 12px;
   background-color: #fcfcfc;
   border-radius: 100%;
-}
-
-.wrapper.white .nav_link__item.active a {
-  color: #242436;
-}
-
-.wrapper.white .nav_link__item.active a::before {
-  background-color: #242436;
-}
+} */
 
 /* Footer nav links */
 .footer_links {
@@ -237,11 +228,6 @@
   line-height: 32px;
   color: #777e91;
   text-decoration: none;
-}
-
-.mobile_nav_link__item.active a {
-  color: #23262f;
-  position: relative;
 }
 
 .mobile_nav_link__item.active a::before {
