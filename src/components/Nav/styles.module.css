@@ -93,6 +93,7 @@
   fill: #38383a;
 }
 a.active {
+  margin-top: 2px;
   border-bottom: 3px solid #2e2e2e; /* Customize the underline style */
 }
 
