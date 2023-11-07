@@ -124,14 +124,14 @@ function Home() {
         </div>
       </div>
       {/* carousel */}
-      <div>
+      {/* <div>
         <div className={styles.services_section} id="our-services">
           <div className={styles.wrapper}>
             <Title title="Programs" subtitle="" />
             <CarouselWithVideos />
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Partners Section */}
       <div className={styles.partners_section}>
         <div className={styles.video__bg_overlay}></div>
