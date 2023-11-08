@@ -136,7 +136,7 @@ const LandingNav = () => {
                     <NavLink to="/startup">Startup Boost</NavLink>
                     <NavLink
                       className=""
-                      to="/corporateinnovation"
+                      to="/corporate-innovation"
                       // onMouseEnter={toggleDropdown}
                       // onMouseLeave={closeDropdown}
                     >
