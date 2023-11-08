@@ -24,10 +24,10 @@ const Contact = () => {
               <div className={styles.content}>
                 {/* <h1>Ubulu Africa</h1> */}
 
-                <h2>Let's talk </h2>
+                <h2>Ready to Chat? </h2>
                 <p>
-                  Ready to learn how we can jump start your new ideas or enhance
-                  and grow your existing digital products?
+                  Start a conversation to learn how we can jump start your new
+                  ideas or enhance and grow your existing digital products.
                 </p>
               </div>
             </div>
@@ -36,7 +36,7 @@ const Contact = () => {
 
         <div className={styles.contact_section} id="contact-us">
           <div className={styles.wrapper}>
-            <Title title="Let’s connect" subtitle="Contact us" />
+            <Title title="" subtitle="Contact us" />
             <div className={styles.contact_content}>
               <div className={styles.social}>
                 <Link className={styles.links} to="/sociallinks" />

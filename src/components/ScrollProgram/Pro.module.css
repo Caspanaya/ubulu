@@ -1,0 +1,19 @@
+/* Base button styles */
+.Program {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db; /* Default background color */
+  color: #ffffff; /* Default text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s; /* Smooth transition for scaling and color changes */
+}
+
+/* Hover effect: Scale and change text/background color */
+.Program:hover {
+  transform: scale(1.1); /* Scale the button on hover */
+  background-color: #1b1b1b; /* New background color on hover */
+  color: #ffffff; /* New text color on hover */
+}

@@ -12,6 +12,7 @@ import { ReactComponent as Linkedin } from "../../assets/LinkedIn-Icon.svg";
 import { ReactComponent as Instagram } from "../../assets/Instagram-Icon.svg";
 import { ReactComponent as SendMail } from "../../assets/Send-Mail-Icon.svg";
 import { Link } from "react-router-dom";
+import ScrollProgram from "../../components/ScrollProgram/ScrollProgram";
 import "./Program.css";
 const Program = () => {
   const [readMore, setReadMore] = useState(false);
@@ -80,44 +81,71 @@ const Program = () => {
         <br />
         <br />
         <br />
-        <div className="container">
-          <h2 style={{ fontSize: "50px", fontWeight: "600" }}>Pitch2Win</h2>
-        </div>
         <br />
+        <br />
+        <center>
+          <div>
+            <ScrollProgram />
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+        </center>
 
+        <br />
+        <br />
+        <br />
+        <br />
+        <div id="section1"></div>
         <section>
           <div className="container">
-            <div className="row">
-              <div className="col-lg-6">
-                <div style={{ backgroundColor: "#F7F8F8", width: "100%" }}>
-                  <h1 style={{ fontSize: "30px", color: "#242436" }}>
-                    Innovation, Networking, Opportunities
-                  </h1>
-                </div>
-                <p>
-                  Pitch2Win is a startup pitching program and competition event
-                  organized to support the Tech Ecosystem by providing grants to
-                  young and promising startup founders, enabling them to raise
-                  funds and grow their businesses.{" "}
-                  <p>
-                    {readMore ? info : `${info.substring(0, 200)}...`}
-                    <button onClick={() => setReadMore(!readMore)}>
-                      {readMore ? "show less" : "  read more"}
-                    </button>
-                  </p>
-                </p>
-              </div>
+            <h2 style={{ fontSize: "50px", fontWeight: "600" }}>Pitch2Win</h2>
+          </div>
+          <br />
 
-              <div className="col-lg-6">
-                <div className="video-div">
-                  <ReactPlayer url={youtubeLink} width="100%" height="40vh" />
+          <section>
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-6">
+                  <div style={{ backgroundColor: "#F7F8F8", width: "100%" }}>
+                    <h1 style={{ fontSize: "30px", color: "#242436" }}>
+                      Innovation, Networking, Opportunities
+                    </h1>
+                  </div>
+                  <p>
+                    Pitch2Win is a startup pitching program and competition
+                    event organized to support the Tech Ecosystem by providing
+                    grants to young and promising startup founders, enabling
+                    them to raise funds and grow their businesses.{" "}
+                    <p>
+                      {readMore ? info : `${info.substring(0, 200)}...`}
+                      <button
+                        className="pad"
+                        onClick={() => setReadMore(!readMore)}
+                      >
+                        {readMore ? "show less" : "  read more"}
+                      </button>
+                    </p>
+                  </p>
                 </div>
-                <br />
-                <br />
+
+                <div className="col-lg-6">
+                  <div className="video-div">
+                    <ReactPlayer url={youtubeLink} width="100%" height="40vh" />
+                  </div>
+                  <br />
+                  <br />
+                </div>
               </div>
             </div>
-          </div>
+          </section>
         </section>
+        <br />
+        <br />
+        <br />
+        <div id="section2"></div>
+        <br />
         <br />
         <br />
         <br />
@@ -151,7 +179,7 @@ const Program = () => {
                   <ReactPlayer url={corporate} width="100%" height="40vh" />
                   <br />
 
-                  <div className="">
+                  <div id="section1" className="">
                     <h2 style={{ fontSize: "24px", fontWeight: "600" }}>
                       Introduction to Corporate Innovation and Venture Building
                     </h2>
@@ -162,7 +190,10 @@ const Program = () => {
                         {readBuild
                           ? buildings
                           : `${buildings.substring(0, 200)}...`}
-                        <button onClick={() => setReadBuild(!readBuild)}>
+                        <button
+                          className="pad"
+                          onClick={() => setReadBuild(!readBuild)}
+                        >
                           {readBuild ? "show less" : "  read more"}
                         </button>
                       </p>
@@ -188,7 +219,10 @@ const Program = () => {
                         {readInnovate
                           ? Innovations
                           : `${Innovations.substring(0, 200)}...`}
-                        <button onClick={() => setReadInnovate(!readInnovate)}>
+                        <button
+                          className="pad"
+                          onClick={() => setReadInnovate(!readInnovate)}
+                        >
                           {readInnovate ? "show less" : "  read more"}
                         </button>
                       </p>

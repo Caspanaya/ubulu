@@ -133,18 +133,16 @@ const LandingNav = () => {
                 {item.text === "Services" && showServiceDropdown && (
                   <div className={styles.serviceDropdown}>
                     {/* Add your service links or content here */}
-                    <NavLink to="/startup">
-                      Startup Boost(Venture Studio)
-                    </NavLink>
+                    <NavLink to="/startup">Startup Boost</NavLink>
                     <NavLink
                       className=""
-                      to="/innovation"
-                      onMouseEnter={toggleDropdown}
-                      onMouseLeave={closeDropdown}
+                      to="/corporateinnovation"
+                      // onMouseEnter={toggleDropdown}
+                      // onMouseLeave={closeDropdown}
                     >
                       Corporate Innovation
                     </NavLink>
-                    {isDropdownOpen && (
+                    {/* {isDropdownOpen && (
                       <div>
                         <Link to="/innovation">
                           <a>Our Programs</a>
@@ -153,7 +151,7 @@ const LandingNav = () => {
                           <a>What We Offer</a>
                         </Link>
                       </div>
-                    )}
+                    )} */}
                     <NavLink to="/university">
                       University-Industry Collaboration
                     </NavLink>
