@@ -72,7 +72,7 @@ const Corporateinnovation = () => {
           <div className={styles.wrapper}>
             <div className={styles.hero_content}>
               <div className={styles.content}>
-                <h2> We Ignite Innovation in Corporations</h2>
+                <h2> Experience Our Expertise</h2>
                 <p>
                   It is our mission to help organizations realize growth, become
                   and remain the most relevant organization they can be, and
