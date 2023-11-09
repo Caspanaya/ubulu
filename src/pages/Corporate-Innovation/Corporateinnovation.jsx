@@ -74,7 +74,7 @@ const Corporateinnovation = () => {
               <div className={styles.content}>
                 <h2> Experience Our Expertise</h2>
                 <p>
-                  Our mission is to drive organizational growth and enhance
+                  Ubulu Africa aims to drive organizational growth and enhance
                   their relevance. We partner with industry leaders to create
                   successful ventures.
                 </p>
