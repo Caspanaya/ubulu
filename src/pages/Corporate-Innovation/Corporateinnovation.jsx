@@ -23,7 +23,10 @@ const Corporateinnovation = () => {
       <main className={styles.App}>
         {/* Hero Section */}
         <div className={styles.hero} id="home">
-          <img src={startup} alt="Hero-img" />
+          <img
+            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699229735/docusign-AKKhZqyLeJ4-unsplash_khesbr.jpg"
+            alt="Hero-img"
+          />
           <div className={styles.wrapper}>
             <div className={styles.hero_content}>
               <div className={styles.content}>
