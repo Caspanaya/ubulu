@@ -32,6 +32,7 @@ const Corporateinnovation = () => {
       text: "Our mission is to empower organizations to achieve growth, maximize their relevance, and surpass their potential. We collaborate with industry leaders, combining entrepreneurial expertise with corporate influence to create successful ventures and generate new revenue streams.",
       img: "https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699223453/paolo-margari-KVYPpbpji4E-unsplash_sjkeqi.jpg",
       button: "Learn more",
+      path: "/corporate",
     },
     {
       title: "University-Industry Collaboration ",
