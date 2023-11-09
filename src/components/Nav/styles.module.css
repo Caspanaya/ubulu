@@ -94,7 +94,7 @@
 }
 a.active {
   margin-top: 2px;
-  border-bottom: 3px solid #2e2e2e; /* Customize the underline style */
+  border-bottom: 3px solid #cccac8; /* Customize the underline style */
 }
 
 .nav_links {
