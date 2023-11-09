@@ -9,3 +9,8 @@
   width: 100%;
   border-radius: 8px;
 }
+.card-body span {
+  cursor: pointer;
+  color: black;
+  font-weight: 600;
+}
