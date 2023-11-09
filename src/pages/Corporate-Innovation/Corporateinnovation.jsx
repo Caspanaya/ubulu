@@ -74,12 +74,9 @@ const Corporateinnovation = () => {
               <div className={styles.content}>
                 <h2> Experience Our Expertise</h2>
                 <p>
-                  It is our mission to help organizations realize growth, become
-                  and remain the most relevant organization they can be, and
-                  even surpass that. Our team of hands-on entrepreneurs
-                  collaborates with industry leaders to harness their corporate
-                  influence to create successful ventures and generate new
-                  revenue streams.
+                  Our mission is to drive organizational growth and enhance
+                  their relevance. We partner with industry leaders to create
+                  successful ventures.
                 </p>
 
                 <div>
