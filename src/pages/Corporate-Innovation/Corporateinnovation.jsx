@@ -30,13 +30,13 @@ const Corporateinnovation = () => {
     {
       title: "Corporate innovation ",
       text: "Our mission is to empower organizations to achieve growth, maximize their relevance, and surpass their potential. We collaborate with industry leaders, combining entrepreneurial expertise with corporate influence to create successful ventures and generate new revenue streams.",
-      img: "https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699229735/docusign-AKKhZqyLeJ4-unsplash_khesbr.jpg",
+      img: "https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699223453/paolo-margari-KVYPpbpji4E-unsplash_sjkeqi.jpg",
       button: "Learn more",
     },
     {
       title: "University-Industry Collaboration ",
       text: "At Ubulu Africa, we don't just discuss growth, innovation, and go-to-market strategies; we turn them into reality. Our well-established framework serves as the foundation for creating new ventures and propelling businesses to unparalleled success.",
-      img: "https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699229933/paico-oficial-ZDYN7azwO6c-unsplash_fqskz4.jpg",
+      img: "https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699228173/cytonn-photography-n95VMLxqM2I-unsplash_fke0zy.jpg",
       button: "Learn more",
       path: "/university",
     },
