@@ -1,0 +1,10 @@
+.card-body h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.card-body p {
+  font-size: 15px;
+}
+.card-body button {
+  width: 100%;
+}

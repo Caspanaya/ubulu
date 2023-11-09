@@ -14,12 +14,12 @@
 .hero {
   position: relative;
   width: 100%;
-  min-height: 960px;
+  min-height: 710px;
   background-color: #111316;
   display: flex;
   justify-content: center;
-  padding: 64px 120px 146px 120px;
-  padding-bottom: 266px;
+  /* padding: 64px 120px 146px 120px; */
+  /* padding-bottom: 266px; */
 }
 
 .hero > img {
@@ -166,6 +166,7 @@
   flex-direction: column;
   gap: 8px;
   margin-right: 20px;
+  padding-left: 85px;
   margin-top: 250px;
   margin-bottom: 150px;
 }
