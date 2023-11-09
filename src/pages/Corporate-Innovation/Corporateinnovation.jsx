@@ -93,22 +93,18 @@ const Corporateinnovation = () => {
 
         <section style={{ backgroundColor: "#F7F8F8" }}>
           <br />
-          {/* <br />
-          <br /> */}
-          {/* <center>
+          <br />
+
+          <center>
             <div className="container">
-              <h2 style={{ color: "#242436" }}>Our Services</h2>
+              <h2 style={{ color: "#242436" }}>Ubulu Africa's Solutions</h2>
             </div>
-          </center> */}
-
+          </center>
           <br />
           <br />
-
           <div>
             <div className="container">
-              <div className="row">
-                <br />
-              </div>
+              <div className="row"></div>
             </div>
           </div>
           <br />
