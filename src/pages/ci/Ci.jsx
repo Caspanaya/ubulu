@@ -23,7 +23,10 @@ const Ci = () => {
       <main className={styles.App}>
         {/* Hero Section */}
         <div className={styles.hero} id="home">
-          <img src={startup} alt="Hero-img" />
+          <img
+            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699604777/charles-forerunner-3fPXt37X6UQ-unsplash_ajosll.jpg"
+            alt="Hero-img"
+          />
           <div className={styles.wrapper}>
             <div className={styles.hero_content}>
               <div className={styles.content}>
@@ -78,11 +81,7 @@ const Ci = () => {
                 results-driven session brimming with practical insights curated
                 exclusively for your industry. Ubulu Africa's leadership team
                 will guide you through an intensive 2-hour session, complete
-                with an interactive Q&A. We'll also bring in experts from our
-                worldwide network of entrepreneurs and mentors for an in-depth
-                exploration of the Nigeria-African Startup Ecosystem and the
-                dynamic landscape of VC trends. Join us to supercharge your path
-                to success!
+                with an interactive Q&A.
               </p>
             </div>
           </div>
