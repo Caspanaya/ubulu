@@ -31,14 +31,14 @@ const Program = () => {
       text: "Ubulu Africa, is dedicated to making a profound impact through its Digital for Development Programs. Our mission is to foster growth, innovation, and positive change by providing cutting-edge solutions that harness the full potential of digital technology.",
       img: "https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699228573/ramon-salinero-vEE00Hx5d0Q-unsplash_boz3h8.jpg",
       button: "Learn more",
-      path: "/development-programs",
+      path: "",
     },
     {
       title: "Advisory & Consulting Services",
       text: "At Ubulu Africa, we offer tailored Advisory & Consulting Services that drive innovation and bring clarity to complex business challenges. Our team of seasoned experts collaborates closely with your organization to provide strategic insights and actionable solutions. ",
       img: "https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699228956/patrick-perkins-ETRPjvb0KM0-unsplash_1_goswwg.jpg",
       button: "Learn more",
-      path: "/university",
+      path: "/development-programs",
     },
 
     // Add more card data objects as needed
