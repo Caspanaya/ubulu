@@ -9,6 +9,7 @@ const Pitch = () => {
   const info =
     "Pitch2Win is a dynamic startup pitching program and competition that empowers promising founders across Africa. With over 600 applicants, selected innovators had the unique opportunity to present their ideas to a panel of investors. Winners could secure up to $10,000 in funding without giving away equity, plus valuable mentorship from industry experts. It's more than an event; Pitch2Win is a bridge connecting visionary founders with investors, fostering growth, collaboration, and exciting investment prospects.";
   const [readMore, setReadMore] = useState(false);
+  const [nogMore, setNogMore] = useState(false);
   const youtubeLink = "https://www.youtube.com/watch?v=XW7B-sCD2rg";
   const nogtech = "https://www.youtube.com/watch?v=GlxgJnVkKJQ";
   const nog =
@@ -98,12 +99,9 @@ const Pitch = () => {
             <div className="row">
               <div className="col-lg-6">
                 <p>
-                  {readMore ? nog : `${nog.substring(0, 200)}...`}
-                  <button
-                    className="pad"
-                    onClick={() => setReadMore(!readMore)}
-                  >
-                    {readMore ? "show less" : "  read more"}
+                  {nogMore ? nog : `${nog.substring(0, 200)}...`}
+                  <button className="pad" onClick={() => setNogMore(!nogMore)}>
+                    {nogMore ? "show less" : "  read more"}
                   </button>
                 </p>
               </div>
