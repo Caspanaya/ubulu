@@ -67,9 +67,7 @@ const Ci = () => {
         <div>
           <div className="container">
             <div className="row">
-              <h2 style={{ color: "#242436" }}>
-                Executive Insights That Transform
-              </h2>
+              <h2 style={{ color: "#242436" }}>Executive Insights</h2>
               <br />
               <br />
               <br />

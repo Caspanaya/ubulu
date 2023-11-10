@@ -195,7 +195,7 @@ const Startup = () => {
                   guidance during those critical initial stages of building your
                   business. We enhance your skill-set when you need it most and
                   share your vision, drawing from the expertise of our other
-                  teams. Let's drive your venture forward together!
+                  teams.
                 </p>
                 <br />
                 <h2>A New, Disruptive Business Model</h2>
