@@ -160,35 +160,9 @@ const Ci = () => {
 
               <br />
               <br />
-              <h2 style={{ color: "#363624", fontSize: "1.3rem" }}>
-                Here's how it works:{" "}
-              </h2>
 
               <br />
               <br />
-              <p style={{ color: "#9E9E9E" }}>
-                Corporate partners present us with three critical challenges or
-                objectives. Our expert team leverages our extensive global
-                startup network to curate a meticulously vetted shortlist of
-                startups. These startups offer groundbreaking platforms,
-                products, or services with the potential to directly address
-                your specific issues.
-              </p>
-              <br />
-              <br />
-              <h2 style={{ color: "#363624", fontSize: "1.3rem" }}>
-                But that's just the beginning:{" "}
-              </h2>
-
-              <br />
-              <br />
-              <p style={{ color: "#9E9E9E" }}>
-                Finalist candidates have the opportunity to pitch their
-                innovative solutions directly to your corporate management. You
-                have the power to select 1-3 winners to embark on collaborative
-                pilot projects. It's time to transform your business through
-                innovation – the future is here.
-              </p>
             </div>
           </div>
           <br />

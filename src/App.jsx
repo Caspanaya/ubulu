@@ -10,6 +10,8 @@ import Talent from "./pages/Talent/Talent";
 import Program from "./pages/Programs/Program";
 import Contact from "./pages/Contact/Contact";
 import Privacy from "./pages/Privacy/Privacy";
+import Webinar from "./pages/Webinar/Webinar";
+import Pitch from "./pages/Pitch/Pitch";
 import Corporateinnovation from "./pages/Corporate-Innovation/Corporateinnovation";
 const App = () => {
   return (
@@ -25,6 +27,8 @@ const App = () => {
         <Route path="/program" element={<Program />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/accelerator-programs" element={<Pitch />} />
+        <Route path="/development-programs" element={<Webinar />} />
       </Routes>
     </Router>
   );

@@ -28,7 +28,7 @@ const Corporateinnovation = () => {
       path: "/startup",
     },
     {
-      title: "Corporate innovation ",
+      title: "Corporate Innovation ",
       text: "Our mission is to empower organizations to achieve growth, maximize their relevance, and surpass their potential. We collaborate with industry leaders, combining entrepreneurial expertise with corporate influence to create successful ventures and generate new revenue streams.",
       img: "https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699223453/paolo-margari-KVYPpbpji4E-unsplash_sjkeqi.jpg",
       button: "Learn more",
@@ -44,7 +44,6 @@ const Corporateinnovation = () => {
 
     // Add more card data objects as needed
   ];
-  // Create an array of state values for each card
   const [readMoreStates, setReadMoreStates] = useState(
     growData.map(() => false)
   );
@@ -57,6 +56,8 @@ const Corporateinnovation = () => {
     // Update the state array
     setReadMoreStates(newReadMoreStates);
   };
+  // Create an array of state values for each card
+
   const ctaText =
     "Join the Ubulu Africa community and be part of our mission to help organizations realize growth, become and remain the most relevant organization they can be, and even surpass that. Our team of hands-on entrepreneurs collaborates with industry leaders to harness their corporate influence to create successful ventures and generate new revenue streams.";
   return (

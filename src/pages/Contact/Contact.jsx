@@ -26,8 +26,9 @@ const Contact = () => {
 
                 <h2>Get In Touch</h2>
                 <p>
-                  Let's start a conversation that innovates work for you and
-                  your organisation
+                  Let's start a conversation that innovates work for you &{" "}
+                  <br />
+                  your organisation.
                 </p>
               </div>
             </div>

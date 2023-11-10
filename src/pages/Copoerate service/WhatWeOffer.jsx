@@ -38,7 +38,6 @@ const WhatWeOffer = () => {
       text: "We work with you to define the engines of your growth, such as new market segments, innovative propositions, novel market channels, and potential acquisitions. Additionally, we address internal growth enablers like competencies, systems, and processes.",
       img: "https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699228456/kaleidico-26MJGnCM0Wc-unsplash_qpz8jq.jpg", // Add the URL for the image for this card
     },
-    // Add more card data objects as needed
   ];
   const innData = [
     {
@@ -56,8 +55,6 @@ const WhatWeOffer = () => {
       text: "In today's landscape, strategy and execution are inseparable. The urgency brought about by digital disruptions emphasizes the importance of effective execution.Do you have the skills and competencies to deliver on your strategy?",
       img: "https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699228956/patrick-perkins-ETRPjvb0KM0-unsplash_1_goswwg.jpg", // Add the URL for the image for this card
     },
-
-    // Add more card data objects as needed
   ];
   const growData = [
     {
