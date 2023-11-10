@@ -50,7 +50,7 @@ const Pitch = () => {
         <br />
         <section>
           <div className="container">
-            <h2 style={{ fontSize: "50px", fontWeight: "600" }}>Pitch2Win</h2>
+            <h2 style={{ fontSize: "40px", fontWeight: "600" }}>Pitch2Win</h2>
           </div>
           <br />
         </section>
@@ -90,7 +90,7 @@ const Pitch = () => {
 
         <section>
           <div className="container">
-            <h2 style={{ fontSize: "50px", fontWeight: "600" }}>NOGTECH</h2>
+            <h2 style={{ fontSize: "40px", fontWeight: "600" }}>NOGTECH</h2>
           </div>
           <br />
         </section>
