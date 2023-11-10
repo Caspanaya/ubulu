@@ -98,6 +98,11 @@ const Pitch = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-6">
+                <div style={{ backgroundColor: "#F7F8F8", width: "100%" }}>
+                  <h1 style={{ fontSize: "30px", color: "#242436" }}>
+                    Technology , Innovation, Collaboration
+                  </h1>
+                </div>
                 <p>
                   {nogMore ? nog : `${nog.substring(0, 200)}...`}
                   <button className="pad" onClick={() => setNogMore(!nogMore)}>
