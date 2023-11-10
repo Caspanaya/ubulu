@@ -24,7 +24,7 @@ const Webinar = () => {
       <main className={styles.App}>
         <div className={styles.hero} id="home">
           <img
-            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699229735/docusign-AKKhZqyLeJ4-unsplash_khesbr.jpg"
+            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699230079/nasa-Q1p7bh3SHj8-unsplash_izzikl.jpg"
             alt="Hero-img"
           />
           <div className={styles.wrapper}>
