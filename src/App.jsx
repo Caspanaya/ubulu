@@ -12,10 +12,12 @@ import Contact from "./pages/Contact/Contact";
 import Privacy from "./pages/Privacy/Privacy";
 import Webinar from "./pages/Webinar/Webinar";
 import Pitch from "./pages/Pitch/Pitch";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Corporateinnovation from "./pages/Corporate-Innovation/Corporateinnovation";
 const App = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/corporate-innovation" element={<Corporateinnovation />} />
