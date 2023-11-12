@@ -21,7 +21,7 @@ const Corporateinnovation = () => {
   };
   const growData = [
     {
-      title: "StartUp Boost",
+      title: "Startup Boost",
       text: "Ubulu Africa specialize in co-founding and nurturing innovative technology-driven startups. We shall invest in you, we shall work for you, and we shall be by your side at every step of the way until you make a scale-up.",
       img: "https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699229169/microsoft-365-TLiWhlDEJwA-unsplash_qdznje.jpg",
       button: "Learn more",
