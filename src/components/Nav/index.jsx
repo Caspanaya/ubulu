@@ -56,9 +56,11 @@ const LandingNav = () => {
           ]
         : [
             { text: "Home", path: "/" },
-            { text: "About us", path: "/about" },
+            { text: "About", path: "/about" },
+            { text: "Services", path: "/corporate-innovation" },
             { text: "Programs", path: "/programs" },
             { text: "Contact Us", path: "/contact" },
+            { text: "Join Our Community", path: "/talent" },
           ],
     [isMobile]
   );
