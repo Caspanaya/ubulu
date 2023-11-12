@@ -24,7 +24,7 @@ const Ci = () => {
         {/* Hero Section */}
         <div className={styles.hero} id="home">
           <img
-            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699604777/charles-forerunner-3fPXt37X6UQ-unsplash_ajosll.jpg"
+            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699800523/programs_7_b134co.png"
             alt="Hero-img"
           />
           <div className={styles.wrapper}>
