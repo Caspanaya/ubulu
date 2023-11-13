@@ -105,7 +105,7 @@ const ContactForm = ({ closeModal }) => {
 
         <div className="form-group">
           <div>
-            <label htmlFor="jobInterest" style={{ color: "1b1b1b" }}>
+            <label htmlFor="jobInterest" style={{ color: "#ffff" }}>
               What skill do you have?
             </label>
 
@@ -115,6 +115,7 @@ const ContactForm = ({ closeModal }) => {
                 padding: "5px",
                 fontSize: "14px",
                 backgroundColor: "",
+                width: "100%",
               }}
             >
               <option>Select</option>

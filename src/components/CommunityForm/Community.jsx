@@ -186,7 +186,7 @@ const Community = ({ closeModal }) => {
               <option>Instagram</option>
               <option>X (formerly Twitter) </option>
               <option>Ubulu Africa member / ambassador </option>
-              <option>Other (Type your answer)</option>
+              {/* <option>Other (Type your answer)</option> */}
             </select>
           </div>
         </div>
