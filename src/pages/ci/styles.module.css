@@ -620,6 +620,9 @@
     min-width: 860px;
     left: -50%;
     transform: rotate(270deg);
+    /* min-width: 488px;
+    height: fit-content;
+    left: -50%; */
   }
 
   .hero,

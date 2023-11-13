@@ -61,7 +61,7 @@ const Program = () => {
       <main className={styles.bodyapp}>
         <div className={styles.hero} id="home">
           <img
-            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699570240/osman-rana-G7VN8NadjO0-unsplash_k7p1wm.jpg"
+            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699890594/AdobeStock_25654828_Preview-transformed_tlcf2d.jpg"
             alt="Hero-img"
           />
           <div className={styles.wrapper}>
@@ -69,11 +69,10 @@ const Program = () => {
               <div className={styles.content}>
                 <h2>Programs</h2>
                 <p>
-                  Our programs are designed to be catalysts for change, igniting
-                  the potential of businesses, startups, and organizations to
-                  thrive in a dynamic, ever-evolving landscape. Ubulu Africa
-                  designs and implements business strategies, innovation
-                  strategies, and go-to-market strategies.
+                  Igniting growth for businesses and organizations through{" "}
+                  <br />
+                  strategic design and implementation, fostering innovation and
+                  navigating dynamic landscapes
                 </p>
 
                 <div>
