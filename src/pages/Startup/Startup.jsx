@@ -83,16 +83,22 @@ const Startup = () => {
                   src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698061017/Desktop_-_15_zhwqtj.png"
                 />
               </div>
+              <br />
               <div id="space" className="col-lg-6 col-sm-12 text-center">
-                <h2>Explore New Horizons</h2>
                 <br />
-                <p>
-                  At Ubulu Africa, we join forces with entrepreneurs to delve
-                  into thrilling new business opportunities. We validate
-                  assumptions, test potential solutions, and design robust
-                  business models to underpin the launch of new and innovative
-                  enterprises.{" "}
-                </p>
+                <br />
+                <center>
+                  <h2>Explore New Horizons</h2>
+                  <br />
+                  <p>
+                    At Ubulu Africa, we join forces with entrepreneurs to delve
+                    into thrilling new business opportunities. We validate
+                    assumptions, test potential solutions, and design robust
+                    business models to underpin the launch of new and innovative
+                    enterprises.{" "}
+                  </p>
+                </center>
+                <br />
               </div>
             </div>
           </div>
@@ -111,15 +117,19 @@ const Startup = () => {
                 />
               </div>
               <div id="space" className="col-lg-6 col-sm-12 text-center">
-                <h2>Build with Precision</h2>
                 <br />
-                <p>
-                  We seamlessly integrate dedicated resources, fast-tracking
-                  your journey to achieving product-market fit. Our strategic
-                  approach to design sets you apart across brand, product, and
-                  experience, propelling founders to reach their goals with
-                  greater speed and agility.
-                </p>
+                <br />
+                <center>
+                  <h2>Build with Precision</h2>
+                  <br />
+                  <p>
+                    We seamlessly integrate dedicated resources, fast-tracking
+                    your journey to achieving product-market fit. Our strategic
+                    approach to design sets you apart across brand, product, and
+                    experience, propelling founders to reach their goals with
+                    greater speed and agility.
+                  </p>
+                </center>
               </div>
               <div className="col-lg-6 col-sm-12">
                 <img
@@ -144,15 +154,20 @@ const Startup = () => {
                   src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698143211/Desktop_-_15_3_effd6m.png"
                 />
               </div>
-              <div id="space" className="col-lg-6 col-sm-12 text-center">
-                <h2>Scale for Success</h2>
+              <div id="space" className="col-lg-6 col-sm-12 ">
                 <br />
-                <p>
-                  Our unwavering support, platform services, and carefully
-                  designed programs are dedicated to assisting founders in
-                  expanding their teams, growing their businesses, and securing
-                  vital capital at pivotal stages of the company lifecycle.
-                </p>
+                <br />
+                <center>
+                  <h2>Scale for Success</h2>
+                  <br />
+                  <p>
+                    Our unwavering support, platform services, and carefully
+                    designed programs are dedicated to assisting founders in
+                    expanding their teams, growing their businesses, and
+                    securing vital capital at pivotal stages of the company
+                    lifecycle.
+                  </p>
+                </center>
               </div>
             </div>
           </div>
@@ -274,6 +289,8 @@ const Startup = () => {
             </div>
           </div>
         </section>
+        <br />
+        <br />
         <br />
         <br />
         <center>
