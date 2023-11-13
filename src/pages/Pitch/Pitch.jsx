@@ -13,7 +13,7 @@ const Pitch = () => {
   const youtubeLink = "https://www.youtube.com/watch?v=XW7B-sCD2rg";
   const nogtech = "https://www.youtube.com/watch?v=GlxgJnVkKJQ";
   const nog =
-    "The NOGTECH Hackathon drives local collaboration in the oil and gas tech revolution, fostering innovative solutions for industry challenges. It offers seed funding, mentorship, and incubation to selected ideas, creating employment opportunities and addressing pressing issues in the sector.";
+    "The NOGTECH Hackathon is a program that drives local collaboration in the oil and gas tech revolution, fostering innovative solutions for industry challenges. It offers seed funding, mentorship, and incubation to selected ideas, creating employment opportunities and addressing pressing issues in the sector.";
   return (
     <>
       <LandingNav />
@@ -50,7 +50,7 @@ const Pitch = () => {
         <br />
         <section>
           <div className="container">
-            <h2 style={{ fontSize: "40px", fontWeight: "600" }}>Pitch2Win</h2>
+            <h2 style={{ fontSize: "40px", fontWeight: "600" }}>PITCH2WIN</h2>
           </div>
           <br />
         </section>
