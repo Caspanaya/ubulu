@@ -241,7 +241,7 @@ const Startup = () => {
               <div id="Desktop_display" className="col-lg-6 col-sm-12 ubuSpace">
                 <img className="ubulu_circle " alt="image" src={ubulucircle} />
               </div>
-              <div id="space" className="col-lg-6 col-sm-12 text-center">
+              <div id="space" className="col-lg-6 col-sm-12">
                 <h2>Entrepreneurship and Intrapreneurship</h2>
 
                 <p>
