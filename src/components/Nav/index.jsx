@@ -49,16 +49,15 @@ const LandingNav = () => {
         ? [
             { text: "Home", path: "" },
             { text: "About", path: "/" },
-            { text: "Services", path: "/corporate-innovation" },
+            { text: "Services", path: "/service" },
             { text: "Programs", path: "/program" },
             { text: "Contact Us", path: "/contact" },
             { text: "Join Our Community", path: "/talent" },
           ]
         : [
-            { text: "Home", path: "/" },
-            { text: "About", path: "/about" },
+            { text: "About", path: "/" },
             { text: "Services", path: "/corporate-innovation" },
-            { text: "Programs", path: "/programs" },
+            { text: "Programs", path: "/program" },
             { text: "Contact Us", path: "/contact" },
             { text: "Join Our Community", path: "/talent" },
           ],

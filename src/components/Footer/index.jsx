@@ -19,7 +19,7 @@ const Footer = () => {
                   <a>About</a>
                 </Link>
 
-                <Link to="/innovation">
+                <Link to="/service">
                   <a>Services</a>
                 </Link>
                 <Link to="/program">
