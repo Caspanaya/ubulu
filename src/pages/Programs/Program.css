@@ -7,3 +7,10 @@
 .pad {
   padding: 0;
 }
+
+.img_pro {
+  width: 360px;
+  height: 225px;
+}
+@media (max-width: 375px) {
+}

@@ -71,8 +71,8 @@ const Program = () => {
                 <p>
                   Igniting growth for businesses and organizations through{" "}
                   <br />
-                  strategic design and implementation, fostering innovation and
-                  navigating dynamic landscapes
+                  strategic design and implementation, fostering innovation{" "}
+                  <br /> and navigating dynamic landscapes
                 </p>
 
                 <div>
@@ -93,12 +93,7 @@ const Program = () => {
             {proData.map((card, index) => (
               <div className="col" key={index}>
                 <div className="card shadow-sm">
-                  <img
-                    width={360}
-                    height={225}
-                    src={card.img}
-                    alt={card.title}
-                  />
+                  <img className="img_pro" src={card.img} alt={card.title} />
                   <div className="card-body">
                     <h1>{card.title}</h1>
                     <p>
