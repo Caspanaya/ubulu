@@ -38,8 +38,8 @@ const Webinar = () => {
                 </p>
 
                 <div>
-                  <Link to="/talent">
-                    <button className="talentbtn">Join us</button>
+                  <Link to="/community">
+                    <button className="talentbtn">Join Us</button>
                   </Link>
                 </div>
               </div>

@@ -64,7 +64,7 @@ const University = () => {
                   drive businesses towards unmatched success.
                 </p>
                 <div>
-                  <Link to="/talent">
+                  <Link to="/community">
                     <button className="talentbtn">Join Us</button>
                   </Link>
                 </div>
