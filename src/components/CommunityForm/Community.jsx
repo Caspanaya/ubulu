@@ -204,7 +204,7 @@ const Community = ({ closeModal }) => {
         </div>
         <div className="form-group ">
           <div className="row">
-            <label className="col-lg-2 col-sm-2">
+            <label className="col-lg-2 col-2">
               <input
                 type="checkbox"
                 checked={consent}
@@ -212,7 +212,7 @@ const Community = ({ closeModal }) => {
               />
             </label>
             <p
-              className="col-lg-10 col-sm-2"
+              className="col-lg-10 col-10"
               style={{ fontSize: "10px", color: "#fff" }}
             >
               {" "}
