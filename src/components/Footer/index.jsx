@@ -33,7 +33,7 @@ const Footer = () => {
             {/* <a href="#home">Privacy</a> */}
             {/* <a href="#about-us">Programs</a> */}
             {/* <a href="#our-services">Services</a> */}
-            <Link to="/talent">
+            <Link to="/community">
               <a>Join Our Community</a>
             </Link>
           </nav>

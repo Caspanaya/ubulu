@@ -52,7 +52,7 @@ const LandingNav = () => {
             { text: "Services", path: "/service" },
             { text: "Programs", path: "/program" },
             { text: "Contact Us", path: "/contact" },
-            { text: "Join Our Community", path: "/talent" },
+            { text: "Join Our Community", path: "/community" },
           ]
         : [
             { text: "About", path: "/" },

@@ -14,3 +14,17 @@
   color: black;
   font-weight: 600;
 }
+.img_pro {
+  width: 360px;
+  height: 225px;
+}
+@media (max-width: 375px) {
+  .img_pro {
+    width: 100%;
+  }
+}
+@media (max-width: 475px) {
+  .img_pro {
+    width: 100%;
+  }
+}

@@ -113,12 +113,7 @@ const Corporateinnovation = () => {
               {growData.map((card, index) => (
                 <div className="col" key={index}>
                   <div className="card shadow-sm">
-                    <img
-                      width={360}
-                      height={225}
-                      src={card.img}
-                      alt={card.title}
-                    />
+                    <img className="img_pro " src={card.img} alt={card.title} />
                     <div className="card-body">
                       <h1>{card.title}</h1>
                       <p>

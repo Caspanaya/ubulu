@@ -61,7 +61,7 @@ const Program = () => {
       <main className={styles.bodyapp}>
         <div className={styles.hero} id="home">
           <img
-            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699890594/AdobeStock_25654828_Preview-transformed_tlcf2d.jpg"
+            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699953926/AdobeStock_222682858_Preview-transformed_qizygv.jpg"
             alt="Hero-img"
           />
           <div className={styles.wrapper}>
@@ -69,10 +69,9 @@ const Program = () => {
               <div className={styles.content}>
                 <h2>Programs</h2>
                 <p>
-                  Igniting growth for businesses and organizations through{" "}
-                  <br />
-                  strategic design and implementation, fostering innovation{" "}
-                  <br /> and navigating dynamic landscapes
+                  Igniting growth for businesses and organizations through
+                  strategic design and implementation, fostering innovation and
+                  navigating dynamic landscapes
                 </p>
 
                 <div>
