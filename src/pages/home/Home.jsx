@@ -41,7 +41,7 @@ function Home() {
               <h2>Making Innovation Work</h2>
               <p>Centre of Excellence for end-to-end innovation activities</p>
               <div className={styles.hero_buttons}>
-                <Link to="/startup ">
+                <Link to="/startup-boost ">
                   <button className="outlined"> Startup Boost</button>
                 </Link>
                 <div
@@ -49,7 +49,7 @@ function Home() {
                   onMouseEnter={toggleDropdown}
                   onMouseLeave={closeDropdown}
                 >
-                  <Link to="/corporate">
+                  <Link to="/corporate-innovation">
                     <button className="dropdown-button">
                       Corporate Innovation{" "}
                     </button>
