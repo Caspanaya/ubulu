@@ -20,17 +20,17 @@ const App = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/service" element={<Corporateinnovation />} />
-        <Route path="/corporate" element={<Ci />} />
+        <Route path="/services" element={<Corporateinnovation />} />
+        <Route path="/corporate-innovation" element={<Ci />} />
         <Route path="/what-we-offer" element={<WhatWeOffer />} />
         <Route path="/university" element={<University />} />
-        <Route path="/startup" element={<Startup />} />
+        <Route path="/startup-boost" element={<Startup />} />
         <Route path="/community" element={<Talent />} />
-        <Route path="/program" element={<Program />} />
+        <Route path="/programs" element={<Program />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/accelerator-programs" element={<Pitch />} />
-        <Route path="/development-programs" element={<Webinar />} />
+        <Route path="/consulting-services" element={<Webinar />} />
       </Routes>
     </Router>
   );

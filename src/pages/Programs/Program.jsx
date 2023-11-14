@@ -38,7 +38,7 @@ const Program = () => {
       text: "At Ubulu Africa, we offer tailored Advisory & Consulting Services that drive innovation and bring clarity to complex business challenges. Our team of seasoned experts collaborates closely with your organization to provide strategic insights and actionable solutions. ",
       img: "https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699228956/patrick-perkins-ETRPjvb0KM0-unsplash_1_goswwg.jpg",
       button: "Learn more",
-      path: "/development-programs",
+      path: "/consulting-services",
     },
 
     // Add more card data objects as needed

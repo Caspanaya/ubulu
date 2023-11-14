@@ -49,17 +49,17 @@ const LandingNav = () => {
         ? [
             { text: "Home", path: "" },
             { text: "About", path: "/" },
-            { text: "Services", path: "/service" },
-            { text: "Programs", path: "/program" },
+            { text: "Services", path: "/services" },
+            { text: "Programs", path: "/programs" },
             { text: "Contact Us", path: "/contact" },
             { text: "Join Our Community", path: "/community" },
           ]
         : [
             { text: "About", path: "/" },
-            { text: "Services", path: "/corporate-innovation" },
-            { text: "Programs", path: "/program" },
+            { text: "Services", path: "/services" },
+            { text: "Programs", path: "/programs" },
             { text: "Contact Us", path: "/contact" },
-            { text: "Join Our Community", path: "/talent" },
+            { text: "Join Our Community", path: "/community" },
           ],
     [isMobile]
   );
