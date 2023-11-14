@@ -127,7 +127,7 @@ const Community = ({ closeModal }) => {
               <option>Investor / VC </option>
               <option> Professional (Corporate) </option>
               <option>Academia (Student, Lecturer, etc)</option>
-              {/* <option>Other </option> */}
+              <option>Other </option>
             </select>
           </div>
         </div>
@@ -161,7 +161,7 @@ const Community = ({ closeModal }) => {
               <option>Fundraising</option>
               <option>Office Space</option>
               <option>Recruitment Support</option>
-              {/* <option> Other</option> */}
+              <option> Other</option>
             </select>
           </div>
         </div>
@@ -186,7 +186,7 @@ const Community = ({ closeModal }) => {
               <option>Instagram</option>
               <option>X (formerly Twitter) </option>
               <option>Ubulu Africa member / ambassador </option>
-              {/* <option>Other (Type your answer)</option> */}
+              <option>Other </option>
             </select>
           </div>
         </div>
