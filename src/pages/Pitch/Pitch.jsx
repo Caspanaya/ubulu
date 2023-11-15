@@ -7,7 +7,7 @@ import { LandingNav } from "../../components/Nav";
 import { Footer } from "../../components/Footer";
 const Pitch = () => {
   const info =
-    "Pitch2Win stands as a dynamic startup pitching program and competition dedicated to empowering promising founders throughout Africa. Selected innovators gain an exclusive chance to showcase their ideas before a discerning panel of investors.Pitch2Win serves as a continuous bridge, linking visionary founders with potential investors, facilitating growth, collaboration, and promising investment opportunities. Winners stand to secure funding of up to $10,000 without sacrificing equity, coupled with invaluable mentorship from industry experts.";
+    "Pitch2Win stands as a dynamic startup pitching program and competition dedicated to empowering promising founders throughout Africa. Selected innovators gain an exclusive chance to showcase their ideas before a discerning panel of investors. Pitch2Win serves as a continuous bridge, linking visionary founders with potential investors, facilitating growth, collaboration, and promising investment opportunities. Winners stand to secure funding of up to $10,000 without sacrificing equity, coupled with invaluable mentorship from industry experts.";
   const [readMore, setReadMore] = useState(false);
   const [nogMore, setNogMore] = useState(false);
   const youtubeLink = "https://www.youtube.com/watch?v=XW7B-sCD2rg";
