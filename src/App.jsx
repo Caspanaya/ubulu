@@ -3,7 +3,7 @@ import Home from "./pages/home/Home";
 
 import React from "react";
 import Ci from "./pages/ci/Ci";
-import WhatWeOffer from "./pages/Copoerate service/WhatWeOffer";
+
 import University from "./pages/university/University";
 import Startup from "./pages/Startup/Startup";
 import Talent from "./pages/Talent/Talent";
@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Corporateinnovation />} />
         <Route path="/corporate-innovation" element={<Ci />} />
-        <Route path="/what-we-offer" element={<WhatWeOffer />} />
+        <Route path="*" element={<Home />} />
         <Route path="/university" element={<University />} />
         <Route path="/startup-boost" element={<Startup />} />
         <Route path="/community" element={<Talent />} />
