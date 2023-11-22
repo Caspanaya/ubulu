@@ -75,9 +75,9 @@ const Program = () => {
                 </p>
 
                 <div>
-                  <Link to="/community">
+                  {/* <Link to="/community">
                     <button className="talentbtn">Join Us</button>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

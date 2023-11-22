@@ -30,9 +30,7 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-            {/* <a href="#home">Privacy</a> */}
-            {/* <a href="#about-us">Programs</a> */}
-            {/* <a href="#our-services">Services</a> */}
+
             <Link to="/community">
               <a>Join Our Community</a>
             </Link>
@@ -44,8 +42,8 @@ const Footer = () => {
             <p className={styles.copy}>
               © {new Date().getFullYear()} All rights reserved
             </p>
-            <Link to="/privacy">
-              <a>Privacy</a>
+            <Link to="/privacy-policy">
+              <a>Privacy Policy</a>
             </Link>
           </div>
           <div className={styles.social_links__container}>
