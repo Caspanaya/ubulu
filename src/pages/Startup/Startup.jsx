@@ -324,15 +324,20 @@ const Startup = () => {
                 <img src={Design} width={50} height={50} />
                 <p className="fw-normal">
                   <br />
-                  Brand & <br />
-                  Product Design
+                  <strong>
+                    {" "}
+                    Brand & <br />
+                    Product Design
+                  </strong>
                 </p>
               </div>
               <div className="col-lg-4">
                 <img src={Communication} height={50} width={50} />
                 <p className="fw-normal">
                   <br />
-                  Marketing <br /> & Communication
+                  <strong>
+                    Marketing <br /> & Communication
+                  </strong>
                 </p>
               </div>
               <div className="col-lg-4">
@@ -348,7 +353,7 @@ const Startup = () => {
                 </svg>
                 <p className="fw-normal">
                   <br />
-                  Product-Market-Fit
+                  <strong>Product-Market-Fit</strong>
                 </p>
               </div>
             </div>
@@ -362,21 +367,21 @@ const Startup = () => {
                 <img src={Capital} height={50} width={50} />
                 <p className="fw-normal">
                   <br />
-                  Capital
+                  <strong>Capital</strong>
                 </p>
               </div>
               <div className="col-lg-4">
                 <img height={50} width={50} src={Finance} />
                 <p className="fw-normal">
                   <br />
-                  Finance
+                  <strong>Finance</strong>
                 </p>
               </div>
               <div className="col-lg-4">
                 <img height={50} width={50} src={Legal} />
                 <p className="fw-normal">
                   <br />
-                  Legal
+                  <strong>Legal</strong>
                 </p>
               </div>
             </div>
@@ -399,7 +404,9 @@ const Startup = () => {
                 </svg>
                 <p className="fw-normal">
                   <br />
-                  Go-to-Market <br /> & Sales
+                  <strong>
+                    Go-to-Market <br /> & Sales
+                  </strong>
                 </p>
               </div>
               <div className="col-lg-4">
@@ -415,7 +422,7 @@ const Startup = () => {
                 </svg>
                 <p className="fw-normal">
                   <br />
-                  HR & Talent
+                  <strong>HR & Talent</strong>
                 </p>
               </div>
             </div>
