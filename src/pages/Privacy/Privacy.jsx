@@ -16,8 +16,6 @@ const Privacy = () => {
           <div className={styles.wrapper}>
             <div className={styles.hero_content}>
               <div className={styles.content}>
-                {/* <h1>Ubulu Africa</h1> */}
-
                 <h2>Privacy Policy</h2>
                 <p>
                   At Ubulu Africa, your data privacy and security are of
@@ -25,26 +23,12 @@ const Privacy = () => {
                   safeguarding your personal information and ensuring that it
                   remains confidential and protected.
                 </p>
-                {/* <div>
-                  <Link to="/talent">
-                    <button className="talentbtn">Join Us</button>
-                  </Link>
-                </div> */}
               </div>
             </div>
           </div>
         </div>
         <br />
         <br />
-        <br />
-        <br />
-        {/* <center>
-          <div className="container">
-            <h2 style={{ color: "#242436" }}>
-              Privacy Notice / Privacy Policy
-            </h2>
-          </div>
-        </center> */}
         <br />
         <br />
         <br />
@@ -193,7 +177,7 @@ const Privacy = () => {
         <br />
         <br />
         <br />
-        <br />
+
         <div style={{ backgroundColor: "#F7F8F8" }}>
           <br />
           <br />
@@ -243,10 +227,20 @@ const Privacy = () => {
               consent to its use or disclosure as outlined herein, please notify
               Ubulu Africa at admin@ubulu.africa.
             </p>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+
+            <br />
+            <br />
+            <br />
             <h2 style={{ color: "#242436" }}>Security</h2>
             <br />
             <br />
             <br />
+
             <p style={{ color: "#9E9E9E" }}>
               Unfortunately, no data transmission over the Internet can be
               considered 100% secure. However, your Ubulu Africa Information is
@@ -254,6 +248,29 @@ const Privacy = () => {
               apps and websites, as identified on the site, Ubulu Africa uses
               industry-standard SSL-encryption to protect data transmissions.
             </p>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div style={{ backgroundColor: "#F7F8F8" }}>
+          <br />
+          <br />
+          <div className="container">
+            <div className="row">
+              <h2 style={{ color: "#242436" }}>
+                Changes to this Privacy Policy
+              </h2>
+              <br />
+              <br />
+              <br />
+              <p style={{ color: "#9E9E9E" }}>
+                Ubulu Africa may, at any time, without notice to you and in its
+                sole discretion, amend this policy from time to time. Please
+                review this policy periodically. Your continued use of Ubulu
+                Africa websites after any such amendments signifies your
+                acceptance thereof.
+              </p>
+            </div>
           </div>
         </div>
       </main>
