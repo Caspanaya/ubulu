@@ -23,6 +23,12 @@ const Startup = () => {
   const closeModal = () => {
     setModalIsOpen(false);
   };
+
+  const talentUrl = () => {
+    const url = "https://forms.gle/ijb1eQ6vsuzhtTM99";
+
+    window.open(url, "_blank");
+  };
   return (
     <>
       <LandingNav />
@@ -436,7 +442,7 @@ const Startup = () => {
               </p>
               <br />
               <div>
-                <button onClick={openModal} className="talentbtn ">
+                <button onClick={talentUrl} className="talentbtn ">
                   Join Our Talent Pool
                 </button>
                 <br />
