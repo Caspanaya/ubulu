@@ -44,8 +44,8 @@ const Footer = () => {
             <p className={styles.copy}>
               © {new Date().getFullYear()} All rights reserved
             </p>
-            <Link to="/privacy">
-              <a>Privacy</a>
+            <Link to="/privacy-policy">
+              <a>Privacy policy</a>
             </Link>
           </div>
           <div className={styles.social_links__container}>
