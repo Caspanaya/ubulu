@@ -619,6 +619,7 @@
   .hero > img {
     min-width: 860px;
     left: -50%;
+    filter: blur(30px);
     /* transform: rotate(270deg); */
     /* min-width: 488px;
     height: fit-content;
@@ -631,13 +632,10 @@
   }
 
   .hero {
-    min-height: 812px;
     overflow: hidden;
-    padding-bottom: 180px;
   }
 
   .hero_content {
-    margin-top: 270px;
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -648,7 +646,7 @@
   }
 
   .content {
-    margin-right: 0px;
+    margin-right: 25px;
   }
 
   .content h1 {
