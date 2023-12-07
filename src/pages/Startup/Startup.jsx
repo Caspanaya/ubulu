@@ -11,7 +11,10 @@ import Design from "../../assets/design.svg";
 import { Footer } from "../../components/Footer";
 import { Link } from "react-router-dom";
 import Modal from "react-modal";
+import { Card, Container, Row, Col } from "react-bootstrap";
+
 import ContactForm from "../../components/ContactForm/ContactForm";
+import CarouselWithImages from "../../components/Carousel/CarouselWithImages";
 Modal.setAppElement("#root");
 const Startup = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -66,8 +69,6 @@ const Startup = () => {
         </div>
         <br />
         <br />
-        <br />
-        <br />
         <div className="container">
           <h2 style={{ fontSize: "45px", fontWeight: "700" }}>We're All-In</h2>
           <p style={{ fontSize: "1.2rem" }}>
@@ -77,226 +78,124 @@ const Startup = () => {
         </div>
         <br />
         <br />
-        <br />
-        <br />
-        <section>
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6 col-sm-12">
-                <img
-                  alt="image"
-                  className="startup_image "
-                  src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698061017/Desktop_-_15_zhwqtj.png"
-                />
-              </div>
-              <br />
-              <div id="space" className="col-lg-6 col-sm-12 text-center">
+
+        <Container>
+          <Row>
+            <Col md={4}>
+              <Card className="shadow" style={{ borderRadius: "20px" }}>
                 <br />
+
                 <br />
                 <center>
-                  <h2>Explore New Horizons</h2>
-                  <br />
-                  <p>
-                    At Ubulu Africa, we join forces with entrepreneurs to delve
-                    into thrilling new business opportunities. We validate
-                    assumptions, test potential solutions, and design robust
-                    business models to underpin the launch of new and innovative
-                    enterprises.{" "}
-                  </p>
+                  <div>
+                    <img
+                      style={{ borderRadius: "20px" }}
+                      width={280}
+                      height={200}
+                      src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698061017/Desktop_-_15_zhwqtj.png"
+                    />
+                  </div>
                 </center>
-                <br />
-              </div>
-            </div>
-          </div>
-        </section>
-        <br />
-        <br />
-        <br />
-        <br />
-        <section>
-          <div className="container">
-            <div className="row">
-              <div id="Desktop_display" className="col-lg-6 col-sm-12 ">
-                <img
-                  className="startup_image"
-                  src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698064593/Desktop_-_15_1_vua2zi.png"
-                />
-              </div>
-              <div id="space" className="col-lg-6 col-sm-12 text-center">
-                <br />
+
                 <br />
                 <center>
-                  <h2>Build with Precision</h2>
-                  <br />
-                  <p>
-                    We seamlessly integrate dedicated resources, fast-tracking
-                    your journey to achieving product-market fit. Our strategic
-                    approach to design sets you apart across brand, product, and
-                    experience, propelling founders to reach their goals with
-                    greater speed and agility.
-                  </p>
+                  <Card.Body>
+                    <Card.Title>Scale for Success</Card.Title>
+                    <Card.Text>
+                      Our unwavering support, platform services, and carefully
+                      designed programs are dedicated to assisting founders in
+                      expanding their teams, growing their businesses, and
+                      securing vital capital at pivotal stages of the company
+                      lifecycle.
+                    </Card.Text>
+                  </Card.Body>
                 </center>
-              </div>
-              <div className="col-lg-6 col-sm-12">
-                <img
-                  id="mobile_display"
-                  className="startup_image"
-                  src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698064593/Desktop_-_15_1_vua2zi.png"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-        <br />
-        <br />
-        <br />
-        <br />
-        <section>
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6 col-sm-12">
-                <img
-                  className="startup_image "
-                  src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698143211/Desktop_-_15_3_effd6m.png"
-                />
-              </div>
-              <div id="space" className="col-lg-6 col-sm-12 ">
+              </Card>
+            </Col>
+            <Col md={4}>
+              <Card className="shadow" style={{ borderRadius: "20px" }}>
                 <br />
+
                 <br />
                 <center>
-                  <h2>Scale for Success</h2>
-                  <br />
-                  <p>
-                    Our unwavering support, platform services, and carefully
-                    designed programs are dedicated to assisting founders in
-                    expanding their teams, growing their businesses, and
-                    securing vital capital at pivotal stages of the company
-                    lifecycle.
-                  </p>
+                  <div>
+                    <img
+                      style={{ borderRadius: "20px" }}
+                      width={280}
+                      height={200}
+                      src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698064593/Desktop_-_15_1_vua2zi.png"
+                    />
+                  </div>
                 </center>
-              </div>
-            </div>
-          </div>
-        </section>
+
+                <br />
+                <center>
+                  <Card.Body>
+                    <Card.Title>Build with Precision</Card.Title>
+                    <Card.Text>
+                      We seamlessly integrate dedicated resources, fast-tracking
+                      your journey to achieving product-market fit. Our
+                      strategic approach to design sets you apart across brand,
+                      product, and experience, propelling founders to reach
+                      their goals with greater speed and agility.
+                    </Card.Text>
+                  </Card.Body>
+                </center>
+              </Card>
+            </Col>
+            <Col md={4}>
+              <Card className="shadow" style={{ borderRadius: "20px" }}>
+                <br />
+
+                <br />
+                <center>
+                  <div>
+                    <img
+                      style={{ borderRadius: "20px" }}
+                      width={280}
+                      height={200}
+                      src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698143211/Desktop_-_15_3_effd6m.png"
+                    />
+                  </div>
+                </center>
+
+                <br />
+                <center>
+                  <Card.Body>
+                    <Card.Title>Explore New Horizons</Card.Title>
+                    <Card.Text>
+                      At Ubulu Africa, we join forces with entrepreneurs to
+                      delve into thrilling new business opportunities. We
+                      validate assumptions, test potential solutions, and design
+                      robust business models to underpin the launch of new and
+                      innovative enterprises.
+                    </Card.Text>
+                  </Card.Body>
+                </center>
+              </Card>
+            </Col>
+          </Row>
+        </Container>
         <br />
+        <br />
+        <br />
+
+        <br />
+        <center>
+          <div className="container">
+            <h2 style={{ fontSize: "45px", fontWeight: "700" }}>
+              How Ubulu Africa Venture Building Works
+            </h2>
+          </div>
+        </center>
         <br />
         <br />
         <br />
         <div className="container">
-          <h2 style={{ fontSize: "45px", fontWeight: "700" }}>
-            How Ubulu Africa Venture Building Works
-          </h2>
-          <p style={{ fontSize: "1.2rem" }}>
-            At Ubulu Africa, we believe in the people behind great ideas. We're
-            the leading venture studio and technology provider for accelerating
-            the world's digital transformation. We build new companies or scale
-            existing ones using platform capabilities.
-          </p>
+          <CarouselWithImages />
         </div>
         <br />
-        <br />
-        <br />
-        <br />
-        <section>
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6 col-sm-12">
-                <img className="ubulu_circle" src={ubulucircle} alt="image" />
-              </div>
-              <div id="space" className="col-lg-6 textleft">
-                <h2>We Drive the Process Forward</h2>
 
-                <p>
-                  We possess a deep understanding of building solutions, and we
-                  know precisely when the right time is to initiate one. Mindful
-                  of realistic timeframes, we actively drive the process to
-                  significantly enhance your chances of success.
-                </p>
-                <br />
-                <h2>Our In-House Venture Building Team</h2>
-
-                <p>
-                  We're fully invested in your success, which is why we've
-                  assembled our own team of experienced experts to provide
-                  guidance during those critical initial stages of building your
-                  business. We enhance your skill-set when you need it most and
-                  share your vision, drawing from the expertise of our other
-                  teams.
-                </p>
-                <br />
-                <h2>A New, Disruptive Business Model</h2>
-
-                <p>
-                  Let's co-create a groundbreaking business, either as one of
-                  our business units or as a spin-off company that you'll lead
-                  to success. We're dedicated to consumerizing the enterprise by
-                  delivering an easy-to-use, affordable, and automated product
-                  that consistently delivers value.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <br />
-        <br />
-        <br />
-        <br />
-        <section>
-          <div className="container">
-            <div className="row">
-              <div id="Desktop_display" className="col-lg-6 col-sm-12 ubuSpace">
-                <img className="ubulu_circle " alt="image" src={ubulucircle} />
-              </div>
-              <div id="space" className="col-lg-6 col-sm-12">
-                <h2>Entrepreneurship and Intrapreneurship</h2>
-
-                <p>
-                  Whether you have conceptualized ideas or need to birth them
-                  from your vision and prototypes, we possess the versatility to
-                  construct the ideal team. We can either tap into our in-house
-                  HR resources or craft one from the ground up to fulfill your
-                  unique needs.
-                </p>
-                <br />
-                <h2>We Are Your Co-Founders</h2>
-
-                <p>
-                  In the world of business, a visionary entrepreneur requires a
-                  tech-savvy co-founder, and vice versa. We step into the role
-                  of your co-founders, steering you through the journey with
-                  unwavering inspiration and empowerment. With us, you're never
-                  alone.
-                </p>
-                <br />
-                <h2>Seed and Growth Capital</h2>
-
-                <p>
-                  While consolidating your business model, you won't need to
-                  juggle multiple investors. We significantly reduce the noise
-                  and overhead associated with seeking funding. We'll finance
-                  your efforts as you create value for customers and develop a
-                  business around it, all while adhering to our capital
-                  efficiency framework.
-                </p>
-                <br />
-                <h2>From Idea to Execution</h2>
-
-                <p>
-                  Building a company is a formidable challenge. There are
-                  various aspects of the business that will demand your
-                  attention. We can manage most of that complexity for you while
-                  you maintain control, allowing you to concentrate on
-                  developing your product.
-                </p>
-              </div>
-              <div id="mobile_display" className="col-lg-6 col-sm-12 ubuSpace">
-                <img className="ubulu_circle " alt="image" src={ubulucircle} />
-              </div>
-            </div>
-          </div>
-        </section>
-        <br />
-        <br />
         <br />
         <br />
         <center>

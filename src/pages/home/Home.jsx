@@ -15,7 +15,7 @@ import { Footer } from "../../components/Footer";
 import { ScrollButton } from "../../components/ScrolltoTopBtn";
 import { LandingNav } from "../../components/Nav";
 import { Link } from "react-router-dom";
-import CarouselWithVideos from "../../components/Carousel/CarouselWithVideos";
+
 function Home() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const toggleDropdown = () => {

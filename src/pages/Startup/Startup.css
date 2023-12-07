@@ -41,6 +41,14 @@
   width: 510px;
   height: 500px;
 }
+.card-body p {
+  max-width: 265px;
+  font-size: 15px;
+}
+.ubulu_c {
+  width: 560px;
+  height: 550px;
+}
 #Desktop_display {
   display: none;
 }
