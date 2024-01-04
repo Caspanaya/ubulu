@@ -112,14 +112,14 @@ const LandingNav = () => {
               <Twitter className={styles.socials} />
             </a>
             <a
-              href="https://www.linkedin.com/company/ubulu-africa"
+              href="https://www.linkedin.com/company/ubuluafrica"
               target="_blank"
               rel="noreferrer"
             >
               <Linkedin className={styles.socials} />
             </a>
             <a
-              href="https://www.instagram.com/Ubulu_africa/"
+              href="https://www.instagram.com/ubuluafrica/"
               target="_blank"
               rel="noreferrer"
             >
