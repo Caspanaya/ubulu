@@ -175,13 +175,13 @@ function Home() {
                   <Twitter className={styles.iconlinks} />
                 </Link>
                 <Link
-                  to="https://www.linkedin.com/company/ubulu-africa"
+                  to="https://www.linkedin.com/company/ubuluafrica"
                   target="_blank"
                 >
                   <Linkedin />
                 </Link>
                 <Link
-                  to="https://www.instagram.com/Ubulu_africa"
+                  to="https://www.instagram.com/ubuluafrica"
                   target="_blank"
                 >
                   <Instagram />
